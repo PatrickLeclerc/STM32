@@ -1,0 +1,3 @@
+/home/patrickleclerc/proj/STM32/F446re/build/CMakeFiles/F446re.elf.dir
+/home/patrickleclerc/proj/STM32/F446re/build/CMakeFiles/edit_cache.dir
+/home/patrickleclerc/proj/STM32/F446re/build/CMakeFiles/rebuild_cache.dir
