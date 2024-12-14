@@ -11,7 +11,7 @@ The output was:
 
 Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
 
-The C compiler identification is GNU, found in "/home/patrickleclerc/proj/STM32/F303k8/build/CMakeFiles/3.22.1/CompilerIdC/a.out"
+The C compiler identification is GNU, found in "/home/patrickleclerc/proj/git/STM32/F303k8/build/CMakeFiles/3.22.1/CompilerIdC/a.out"
 
 Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
 Compiler: /usr/bin/arm-none-eabi-g++ 
@@ -24,7 +24,7 @@ The output was:
 
 Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
 
-The CXX compiler identification is GNU, found in "/home/patrickleclerc/proj/STM32/F303k8/build/CMakeFiles/3.22.1/CompilerIdCXX/a.out"
+The CXX compiler identification is GNU, found in "/home/patrickleclerc/proj/git/STM32/F303k8/build/CMakeFiles/3.22.1/CompilerIdCXX/a.out"
 
 Checking whether the ASM compiler is GNU using "--version" matched "(GNU assembler)|(GCC)|(Free Software Foundation)":
 arm-none-eabi-gcc (15:10.3-2021.07-4) 10.3.1 20210621 (release)
@@ -33,13 +33,13 @@ This is free software; see the source for copying conditions.  There is NO
 warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
 
 Detecting C compiler ABI info compiled with the following output:
-Change Dir: /home/patrickleclerc/proj/STM32/F303k8/build/CMakeFiles/CMakeTmp
+Change Dir: /home/patrickleclerc/proj/git/STM32/F303k8/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_a7894/fast && gmake[2]: Entering directory '/home/patrickleclerc/proj/STM32/F303k8/build/CMakeFiles/CMakeTmp'
-/usr/bin/gmake  -f CMakeFiles/cmTC_a7894.dir/build.make CMakeFiles/cmTC_a7894.dir/build
-gmake[3]: Entering directory '/home/patrickleclerc/proj/STM32/F303k8/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_a7894.dir/CMakeCCompilerABI.c.obj
-/usr/bin/arm-none-eabi-gcc   -Wall -fdata-sections -ffunction-sections --specs=nosys.specs    -v -o CMakeFiles/cmTC_a7894.dir/CMakeCCompilerABI.c.obj -c /usr/share/cmake-3.22/Modules/CMakeCCompilerABI.c
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_8eefc/fast && gmake[2]: Entering directory '/home/patrickleclerc/proj/git/STM32/F303k8/build/CMakeFiles/CMakeTmp'
+/usr/bin/gmake  -f CMakeFiles/cmTC_8eefc.dir/build.make CMakeFiles/cmTC_8eefc.dir/build
+gmake[3]: Entering directory '/home/patrickleclerc/proj/git/STM32/F303k8/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_8eefc.dir/CMakeCCompilerABI.c.obj
+/usr/bin/arm-none-eabi-gcc   -Wall -fdata-sections -ffunction-sections --specs=nosys.specs    -v -o CMakeFiles/cmTC_8eefc.dir/CMakeCCompilerABI.c.obj -c /usr/share/cmake-3.22/Modules/CMakeCCompilerABI.c
 Using built-in specs.
 Reading specs from /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/nosys.specs
 rename spec link_gcc_c_sequence to nosys_link_gcc_c_sequence
@@ -49,8 +49,8 @@ Configured with: ../configure --build=x86_64-linux-gnu --prefix=/usr --includedi
 Thread model: single
 Supported LTO compression algorithms: zlib
 gcc version 10.3.1 20210621 (release) (15:10.3-2021.07-4) 
-COLLECT_GCC_OPTIONS='-Wall' '-fdata-sections' '-ffunction-sections' '-specs=nosys.specs' '-v' '-o' 'CMakeFiles/cmTC_a7894.dir/CMakeCCompilerABI.c.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t'
- /usr/lib/gcc/arm-none-eabi/10.3.1/cc1 -quiet -v -D__USES_INITFINI__ /usr/share/cmake-3.22/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mcpu=arm7tdmi -mfloat-abi=soft -marm -mlibarch=armv4t -march=armv4t -auxbase-strip CMakeFiles/cmTC_a7894.dir/CMakeCCompilerABI.c.obj -Wall -version -fdata-sections -ffunction-sections -o /tmp/cc8Puqqy.s
+COLLECT_GCC_OPTIONS='-Wall' '-fdata-sections' '-ffunction-sections' '-specs=nosys.specs' '-v' '-o' 'CMakeFiles/cmTC_8eefc.dir/CMakeCCompilerABI.c.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t'
+ /usr/lib/gcc/arm-none-eabi/10.3.1/cc1 -quiet -v -D__USES_INITFINI__ /usr/share/cmake-3.22/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mcpu=arm7tdmi -mfloat-abi=soft -marm -mlibarch=armv4t -march=armv4t -auxbase-strip CMakeFiles/cmTC_8eefc.dir/CMakeCCompilerABI.c.obj -Wall -version -fdata-sections -ffunction-sections -o /tmp/ccch9xEC.s
 GNU C17 (15:10.3-2021.07-4) version 10.3.1 20210621 (release) (arm-none-eabi)
 	compiled by GNU C version 11.2.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version isl-0.24-GMP
 
@@ -67,15 +67,15 @@ GNU C17 (15:10.3-2021.07-4) version 10.3.1 20210621 (release) (arm-none-eabi)
 
 GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
 Compiler executable checksum: 4cf7574ae54eb0935abb4a8c56f8bcfe
-COLLECT_GCC_OPTIONS='-Wall' '-fdata-sections' '-ffunction-sections' '-specs=nosys.specs' '-v' '-o' 'CMakeFiles/cmTC_a7894.dir/CMakeCCompilerABI.c.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t'
- /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/bin/as -v -march=armv4t -mfloat-abi=soft -meabi=5 -o CMakeFiles/cmTC_a7894.dir/CMakeCCompilerABI.c.obj /tmp/cc8Puqqy.s
+COLLECT_GCC_OPTIONS='-Wall' '-fdata-sections' '-ffunction-sections' '-specs=nosys.specs' '-v' '-o' 'CMakeFiles/cmTC_8eefc.dir/CMakeCCompilerABI.c.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t'
+ /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/bin/as -v -march=armv4t -mfloat-abi=soft -meabi=5 -o CMakeFiles/cmTC_8eefc.dir/CMakeCCompilerABI.c.obj /tmp/ccch9xEC.s
 GNU assembler version 2.38 (arm-none-eabi) using BFD version (2.38-3ubuntu1+15build1) 2.38
 COMPILER_PATH=/usr/lib/gcc/arm-none-eabi/10.3.1/:/usr/lib/gcc/arm-none-eabi/10.3.1/:/usr/lib/gcc/arm-none-eabi/:/usr/lib/gcc/arm-none-eabi/10.3.1/:/usr/lib/gcc/arm-none-eabi/:/usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/bin/
 LIBRARY_PATH=/usr/lib/gcc/arm-none-eabi/10.3.1/:/usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/
-COLLECT_GCC_OPTIONS='-Wall' '-fdata-sections' '-ffunction-sections' '-specs=nosys.specs' '-v' '-o' 'CMakeFiles/cmTC_a7894.dir/CMakeCCompilerABI.c.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t'
-Linking C executable cmTC_a7894
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a7894.dir/link.txt --verbose=1
-/usr/bin/arm-none-eabi-gcc   -Wall -fdata-sections -ffunction-sections --specs=nosys.specs   -v CMakeFiles/cmTC_a7894.dir/CMakeCCompilerABI.c.obj -o cmTC_a7894 
+COLLECT_GCC_OPTIONS='-Wall' '-fdata-sections' '-ffunction-sections' '-specs=nosys.specs' '-v' '-o' 'CMakeFiles/cmTC_8eefc.dir/CMakeCCompilerABI.c.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t'
+Linking C executable cmTC_8eefc
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8eefc.dir/link.txt --verbose=1
+/usr/bin/arm-none-eabi-gcc   -Wall -fdata-sections -ffunction-sections --specs=nosys.specs   -v CMakeFiles/cmTC_8eefc.dir/CMakeCCompilerABI.c.obj -o cmTC_8eefc 
 Using built-in specs.
 Reading specs from /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/nosys.specs
 rename spec link_gcc_c_sequence to nosys_link_gcc_c_sequence
@@ -88,11 +88,11 @@ Supported LTO compression algorithms: zlib
 gcc version 10.3.1 20210621 (release) (15:10.3-2021.07-4) 
 COMPILER_PATH=/usr/lib/gcc/arm-none-eabi/10.3.1/:/usr/lib/gcc/arm-none-eabi/10.3.1/:/usr/lib/gcc/arm-none-eabi/:/usr/lib/gcc/arm-none-eabi/10.3.1/:/usr/lib/gcc/arm-none-eabi/:/usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/bin/
 LIBRARY_PATH=/usr/lib/gcc/arm-none-eabi/10.3.1/:/usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/
-COLLECT_GCC_OPTIONS='-Wall' '-fdata-sections' '-ffunction-sections' '-specs=nosys.specs' '-v' '-o' 'cmTC_a7894' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t'
- /usr/lib/gcc/arm-none-eabi/10.3.1/collect2 -plugin /usr/lib/gcc/arm-none-eabi/10.3.1/liblto_plugin.so -plugin-opt=/usr/lib/gcc/arm-none-eabi/10.3.1/lto-wrapper -plugin-opt=-fresolution=/tmp/cc6SzOrL.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lnosys -X -o cmTC_a7894 /usr/lib/gcc/arm-none-eabi/10.3.1/crti.o /usr/lib/gcc/arm-none-eabi/10.3.1/crtbegin.o /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/crt0.o -L/usr/lib/gcc/arm-none-eabi/10.3.1 -L/usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib CMakeFiles/cmTC_a7894.dir/CMakeCCompilerABI.c.obj --start-group -lgcc -lc --end-group --start-group -lgcc -lc -lnosys --end-group /usr/lib/gcc/arm-none-eabi/10.3.1/crtend.o /usr/lib/gcc/arm-none-eabi/10.3.1/crtn.o
-COLLECT_GCC_OPTIONS='-Wall' '-fdata-sections' '-ffunction-sections' '-specs=nosys.specs' '-v' '-o' 'cmTC_a7894' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t'
-gmake[3]: Leaving directory '/home/patrickleclerc/proj/STM32/F303k8/build/CMakeFiles/CMakeTmp'
-gmake[2]: Leaving directory '/home/patrickleclerc/proj/STM32/F303k8/build/CMakeFiles/CMakeTmp'
+COLLECT_GCC_OPTIONS='-Wall' '-fdata-sections' '-ffunction-sections' '-specs=nosys.specs' '-v' '-o' 'cmTC_8eefc' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t'
+ /usr/lib/gcc/arm-none-eabi/10.3.1/collect2 -plugin /usr/lib/gcc/arm-none-eabi/10.3.1/liblto_plugin.so -plugin-opt=/usr/lib/gcc/arm-none-eabi/10.3.1/lto-wrapper -plugin-opt=-fresolution=/tmp/cc396PjX.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lnosys -X -o cmTC_8eefc /usr/lib/gcc/arm-none-eabi/10.3.1/crti.o /usr/lib/gcc/arm-none-eabi/10.3.1/crtbegin.o /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/crt0.o -L/usr/lib/gcc/arm-none-eabi/10.3.1 -L/usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib CMakeFiles/cmTC_8eefc.dir/CMakeCCompilerABI.c.obj --start-group -lgcc -lc --end-group --start-group -lgcc -lc -lnosys --end-group /usr/lib/gcc/arm-none-eabi/10.3.1/crtend.o /usr/lib/gcc/arm-none-eabi/10.3.1/crtn.o
+COLLECT_GCC_OPTIONS='-Wall' '-fdata-sections' '-ffunction-sections' '-specs=nosys.specs' '-v' '-o' 'cmTC_8eefc' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t'
+gmake[3]: Leaving directory '/home/patrickleclerc/proj/git/STM32/F303k8/build/CMakeFiles/CMakeTmp'
+gmake[2]: Leaving directory '/home/patrickleclerc/proj/git/STM32/F303k8/build/CMakeFiles/CMakeTmp'
 
 
 
@@ -111,13 +111,13 @@ Parsed C implicit include dir info from above output: rv=done
 
 Parsed C implicit link information from above output:
   link line regex: [^( *|.*[/\])(arm-none-eabi-ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
-  ignore line: [Change Dir: /home/patrickleclerc/proj/STM32/F303k8/build/CMakeFiles/CMakeTmp]
+  ignore line: [Change Dir: /home/patrickleclerc/proj/git/STM32/F303k8/build/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_a7894/fast && gmake[2]: Entering directory '/home/patrickleclerc/proj/STM32/F303k8/build/CMakeFiles/CMakeTmp']
-  ignore line: [/usr/bin/gmake  -f CMakeFiles/cmTC_a7894.dir/build.make CMakeFiles/cmTC_a7894.dir/build]
-  ignore line: [gmake[3]: Entering directory '/home/patrickleclerc/proj/STM32/F303k8/build/CMakeFiles/CMakeTmp']
-  ignore line: [Building C object CMakeFiles/cmTC_a7894.dir/CMakeCCompilerABI.c.obj]
-  ignore line: [/usr/bin/arm-none-eabi-gcc   -Wall -fdata-sections -ffunction-sections --specs=nosys.specs    -v -o CMakeFiles/cmTC_a7894.dir/CMakeCCompilerABI.c.obj -c /usr/share/cmake-3.22/Modules/CMakeCCompilerABI.c]
+  ignore line: [Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_8eefc/fast && gmake[2]: Entering directory '/home/patrickleclerc/proj/git/STM32/F303k8/build/CMakeFiles/CMakeTmp']
+  ignore line: [/usr/bin/gmake  -f CMakeFiles/cmTC_8eefc.dir/build.make CMakeFiles/cmTC_8eefc.dir/build]
+  ignore line: [gmake[3]: Entering directory '/home/patrickleclerc/proj/git/STM32/F303k8/build/CMakeFiles/CMakeTmp']
+  ignore line: [Building C object CMakeFiles/cmTC_8eefc.dir/CMakeCCompilerABI.c.obj]
+  ignore line: [/usr/bin/arm-none-eabi-gcc   -Wall -fdata-sections -ffunction-sections --specs=nosys.specs    -v -o CMakeFiles/cmTC_8eefc.dir/CMakeCCompilerABI.c.obj -c /usr/share/cmake-3.22/Modules/CMakeCCompilerABI.c]
   ignore line: [Using built-in specs.]
   ignore line: [Reading specs from /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/nosys.specs]
   ignore line: [rename spec link_gcc_c_sequence to nosys_link_gcc_c_sequence]
@@ -127,8 +127,8 @@ Parsed C implicit link information from above output:
   ignore line: [Thread model: single]
   ignore line: [Supported LTO compression algorithms: zlib]
   ignore line: [gcc version 10.3.1 20210621 (release) (15:10.3-2021.07-4) ]
-  ignore line: [COLLECT_GCC_OPTIONS='-Wall' '-fdata-sections' '-ffunction-sections' '-specs=nosys.specs' '-v' '-o' 'CMakeFiles/cmTC_a7894.dir/CMakeCCompilerABI.c.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t']
-  ignore line: [ /usr/lib/gcc/arm-none-eabi/10.3.1/cc1 -quiet -v -D__USES_INITFINI__ /usr/share/cmake-3.22/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mcpu=arm7tdmi -mfloat-abi=soft -marm -mlibarch=armv4t -march=armv4t -auxbase-strip CMakeFiles/cmTC_a7894.dir/CMakeCCompilerABI.c.obj -Wall -version -fdata-sections -ffunction-sections -o /tmp/cc8Puqqy.s]
+  ignore line: [COLLECT_GCC_OPTIONS='-Wall' '-fdata-sections' '-ffunction-sections' '-specs=nosys.specs' '-v' '-o' 'CMakeFiles/cmTC_8eefc.dir/CMakeCCompilerABI.c.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t']
+  ignore line: [ /usr/lib/gcc/arm-none-eabi/10.3.1/cc1 -quiet -v -D__USES_INITFINI__ /usr/share/cmake-3.22/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mcpu=arm7tdmi -mfloat-abi=soft -marm -mlibarch=armv4t -march=armv4t -auxbase-strip CMakeFiles/cmTC_8eefc.dir/CMakeCCompilerABI.c.obj -Wall -version -fdata-sections -ffunction-sections -o /tmp/ccch9xEC.s]
   ignore line: [GNU C17 (15:10.3-2021.07-4) version 10.3.1 20210621 (release) (arm-none-eabi)]
   ignore line: [	compiled by GNU C version 11.2.0  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.1  isl version isl-0.24-GMP]
   ignore line: []
@@ -145,15 +145,15 @@ Parsed C implicit link information from above output:
   ignore line: []
   ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
   ignore line: [Compiler executable checksum: 4cf7574ae54eb0935abb4a8c56f8bcfe]
-  ignore line: [COLLECT_GCC_OPTIONS='-Wall' '-fdata-sections' '-ffunction-sections' '-specs=nosys.specs' '-v' '-o' 'CMakeFiles/cmTC_a7894.dir/CMakeCCompilerABI.c.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t']
-  ignore line: [ /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/bin/as -v -march=armv4t -mfloat-abi=soft -meabi=5 -o CMakeFiles/cmTC_a7894.dir/CMakeCCompilerABI.c.obj /tmp/cc8Puqqy.s]
+  ignore line: [COLLECT_GCC_OPTIONS='-Wall' '-fdata-sections' '-ffunction-sections' '-specs=nosys.specs' '-v' '-o' 'CMakeFiles/cmTC_8eefc.dir/CMakeCCompilerABI.c.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t']
+  ignore line: [ /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/bin/as -v -march=armv4t -mfloat-abi=soft -meabi=5 -o CMakeFiles/cmTC_8eefc.dir/CMakeCCompilerABI.c.obj /tmp/ccch9xEC.s]
   ignore line: [GNU assembler version 2.38 (arm-none-eabi) using BFD version (2.38-3ubuntu1+15build1) 2.38]
   ignore line: [COMPILER_PATH=/usr/lib/gcc/arm-none-eabi/10.3.1/:/usr/lib/gcc/arm-none-eabi/10.3.1/:/usr/lib/gcc/arm-none-eabi/:/usr/lib/gcc/arm-none-eabi/10.3.1/:/usr/lib/gcc/arm-none-eabi/:/usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/bin/]
   ignore line: [LIBRARY_PATH=/usr/lib/gcc/arm-none-eabi/10.3.1/:/usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-Wall' '-fdata-sections' '-ffunction-sections' '-specs=nosys.specs' '-v' '-o' 'CMakeFiles/cmTC_a7894.dir/CMakeCCompilerABI.c.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t']
-  ignore line: [Linking C executable cmTC_a7894]
-  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a7894.dir/link.txt --verbose=1]
-  ignore line: [/usr/bin/arm-none-eabi-gcc   -Wall -fdata-sections -ffunction-sections --specs=nosys.specs   -v CMakeFiles/cmTC_a7894.dir/CMakeCCompilerABI.c.obj -o cmTC_a7894 ]
+  ignore line: [COLLECT_GCC_OPTIONS='-Wall' '-fdata-sections' '-ffunction-sections' '-specs=nosys.specs' '-v' '-o' 'CMakeFiles/cmTC_8eefc.dir/CMakeCCompilerABI.c.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t']
+  ignore line: [Linking C executable cmTC_8eefc]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8eefc.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/arm-none-eabi-gcc   -Wall -fdata-sections -ffunction-sections --specs=nosys.specs   -v CMakeFiles/cmTC_8eefc.dir/CMakeCCompilerABI.c.obj -o cmTC_8eefc ]
   ignore line: [Using built-in specs.]
   ignore line: [Reading specs from /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/nosys.specs]
   ignore line: [rename spec link_gcc_c_sequence to nosys_link_gcc_c_sequence]
@@ -166,13 +166,13 @@ Parsed C implicit link information from above output:
   ignore line: [gcc version 10.3.1 20210621 (release) (15:10.3-2021.07-4) ]
   ignore line: [COMPILER_PATH=/usr/lib/gcc/arm-none-eabi/10.3.1/:/usr/lib/gcc/arm-none-eabi/10.3.1/:/usr/lib/gcc/arm-none-eabi/:/usr/lib/gcc/arm-none-eabi/10.3.1/:/usr/lib/gcc/arm-none-eabi/:/usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/bin/]
   ignore line: [LIBRARY_PATH=/usr/lib/gcc/arm-none-eabi/10.3.1/:/usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-Wall' '-fdata-sections' '-ffunction-sections' '-specs=nosys.specs' '-v' '-o' 'cmTC_a7894' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t']
-  link line: [ /usr/lib/gcc/arm-none-eabi/10.3.1/collect2 -plugin /usr/lib/gcc/arm-none-eabi/10.3.1/liblto_plugin.so -plugin-opt=/usr/lib/gcc/arm-none-eabi/10.3.1/lto-wrapper -plugin-opt=-fresolution=/tmp/cc6SzOrL.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lnosys -X -o cmTC_a7894 /usr/lib/gcc/arm-none-eabi/10.3.1/crti.o /usr/lib/gcc/arm-none-eabi/10.3.1/crtbegin.o /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/crt0.o -L/usr/lib/gcc/arm-none-eabi/10.3.1 -L/usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib CMakeFiles/cmTC_a7894.dir/CMakeCCompilerABI.c.obj --start-group -lgcc -lc --end-group --start-group -lgcc -lc -lnosys --end-group /usr/lib/gcc/arm-none-eabi/10.3.1/crtend.o /usr/lib/gcc/arm-none-eabi/10.3.1/crtn.o]
+  ignore line: [COLLECT_GCC_OPTIONS='-Wall' '-fdata-sections' '-ffunction-sections' '-specs=nosys.specs' '-v' '-o' 'cmTC_8eefc' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t']
+  link line: [ /usr/lib/gcc/arm-none-eabi/10.3.1/collect2 -plugin /usr/lib/gcc/arm-none-eabi/10.3.1/liblto_plugin.so -plugin-opt=/usr/lib/gcc/arm-none-eabi/10.3.1/lto-wrapper -plugin-opt=-fresolution=/tmp/cc396PjX.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lnosys -X -o cmTC_8eefc /usr/lib/gcc/arm-none-eabi/10.3.1/crti.o /usr/lib/gcc/arm-none-eabi/10.3.1/crtbegin.o /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/crt0.o -L/usr/lib/gcc/arm-none-eabi/10.3.1 -L/usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib CMakeFiles/cmTC_8eefc.dir/CMakeCCompilerABI.c.obj --start-group -lgcc -lc --end-group --start-group -lgcc -lc -lnosys --end-group /usr/lib/gcc/arm-none-eabi/10.3.1/crtend.o /usr/lib/gcc/arm-none-eabi/10.3.1/crtn.o]
     arg [/usr/lib/gcc/arm-none-eabi/10.3.1/collect2] ==> ignore
     arg [-plugin] ==> ignore
     arg [/usr/lib/gcc/arm-none-eabi/10.3.1/liblto_plugin.so] ==> ignore
     arg [-plugin-opt=/usr/lib/gcc/arm-none-eabi/10.3.1/lto-wrapper] ==> ignore
-    arg [-plugin-opt=-fresolution=/tmp/cc6SzOrL.res] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/cc396PjX.res] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
     arg [-plugin-opt=-pass-through=-lc] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
@@ -180,13 +180,13 @@ Parsed C implicit link information from above output:
     arg [-plugin-opt=-pass-through=-lnosys] ==> ignore
     arg [-X] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_a7894] ==> ignore
+    arg [cmTC_8eefc] ==> ignore
     arg [/usr/lib/gcc/arm-none-eabi/10.3.1/crti.o] ==> obj [/usr/lib/gcc/arm-none-eabi/10.3.1/crti.o]
     arg [/usr/lib/gcc/arm-none-eabi/10.3.1/crtbegin.o] ==> obj [/usr/lib/gcc/arm-none-eabi/10.3.1/crtbegin.o]
     arg [/usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/crt0.o] ==> obj [/usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/crt0.o]
     arg [-L/usr/lib/gcc/arm-none-eabi/10.3.1] ==> dir [/usr/lib/gcc/arm-none-eabi/10.3.1]
     arg [-L/usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib] ==> dir [/usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib]
-    arg [CMakeFiles/cmTC_a7894.dir/CMakeCCompilerABI.c.obj] ==> ignore
+    arg [CMakeFiles/cmTC_8eefc.dir/CMakeCCompilerABI.c.obj] ==> ignore
     arg [--start-group] ==> ignore
     arg [-lgcc] ==> lib [gcc]
     arg [-lc] ==> lib [c]
@@ -208,13 +208,13 @@ Parsed C implicit link information from above output:
 
 
 Detecting CXX compiler ABI info compiled with the following output:
-Change Dir: /home/patrickleclerc/proj/STM32/F303k8/build/CMakeFiles/CMakeTmp
+Change Dir: /home/patrickleclerc/proj/git/STM32/F303k8/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_85277/fast && gmake[2]: Entering directory '/home/patrickleclerc/proj/STM32/F303k8/build/CMakeFiles/CMakeTmp'
-/usr/bin/gmake  -f CMakeFiles/cmTC_85277.dir/build.make CMakeFiles/cmTC_85277.dir/build
-gmake[3]: Entering directory '/home/patrickleclerc/proj/STM32/F303k8/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_85277.dir/CMakeCXXCompilerABI.cpp.obj
-/usr/bin/arm-none-eabi-g++   -Wall -fdata-sections -ffunction-sections --specs=nosys.specs    -v -o CMakeFiles/cmTC_85277.dir/CMakeCXXCompilerABI.cpp.obj -c /usr/share/cmake-3.22/Modules/CMakeCXXCompilerABI.cpp
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_f7105/fast && gmake[2]: Entering directory '/home/patrickleclerc/proj/git/STM32/F303k8/build/CMakeFiles/CMakeTmp'
+/usr/bin/gmake  -f CMakeFiles/cmTC_f7105.dir/build.make CMakeFiles/cmTC_f7105.dir/build
+gmake[3]: Entering directory '/home/patrickleclerc/proj/git/STM32/F303k8/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_f7105.dir/CMakeCXXCompilerABI.cpp.obj
+/usr/bin/arm-none-eabi-g++   -Wall -fdata-sections -ffunction-sections --specs=nosys.specs    -v -o CMakeFiles/cmTC_f7105.dir/CMakeCXXCompilerABI.cpp.obj -c /usr/share/cmake-3.22/Modules/CMakeCXXCompilerABI.cpp
 Using built-in specs.
 Reading specs from /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/nosys.specs
 rename spec link_gcc_c_sequence to nosys_link_gcc_c_sequence
@@ -224,8 +224,8 @@ Configured with: ../configure --build=x86_64-linux-gnu --prefix=/usr --includedi
 Thread model: single
 Supported LTO compression algorithms: zlib
 gcc version 10.3.1 20210621 (release) (15:10.3-2021.07-4) 
-COLLECT_GCC_OPTIONS='-Wall' '-fdata-sections' '-ffunction-sections' '-specs=nosys.specs' '-v' '-o' 'CMakeFiles/cmTC_85277.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t'
- /usr/lib/gcc/arm-none-eabi/10.3.1/cc1plus -quiet -v -D__USES_INITFINI__ /usr/share/cmake-3.22/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mcpu=arm7tdmi -mfloat-abi=soft -marm -mlibarch=armv4t -march=armv4t -auxbase-strip CMakeFiles/cmTC_85277.dir/CMakeCXXCompilerABI.cpp.obj -Wall -version -fdata-sections -ffunction-sections -o /tmp/ccNpXajD.s
+COLLECT_GCC_OPTIONS='-Wall' '-fdata-sections' '-ffunction-sections' '-specs=nosys.specs' '-v' '-o' 'CMakeFiles/cmTC_f7105.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t'
+ /usr/lib/gcc/arm-none-eabi/10.3.1/cc1plus -quiet -v -D__USES_INITFINI__ /usr/share/cmake-3.22/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mcpu=arm7tdmi -mfloat-abi=soft -marm -mlibarch=armv4t -march=armv4t -auxbase-strip CMakeFiles/cmTC_f7105.dir/CMakeCXXCompilerABI.cpp.obj -Wall -version -fdata-sections -ffunction-sections -o /tmp/ccwnZmji.s
 GNU C++14 (15:10.3-2021.07-4) version 10.3.1 20210621 (release) (arm-none-eabi)
 	compiled by GNU C version 11.2.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version isl-0.24-GMP
 
@@ -245,15 +245,15 @@ GNU C++14 (15:10.3-2021.07-4) version 10.3.1 20210621 (release) (arm-none-eabi)
 
 GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
 Compiler executable checksum: 4f994585a8ca8864fa1f4d2fb208a0ba
-COLLECT_GCC_OPTIONS='-Wall' '-fdata-sections' '-ffunction-sections' '-specs=nosys.specs' '-v' '-o' 'CMakeFiles/cmTC_85277.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t'
- /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/bin/as -v -march=armv4t -mfloat-abi=soft -meabi=5 -o CMakeFiles/cmTC_85277.dir/CMakeCXXCompilerABI.cpp.obj /tmp/ccNpXajD.s
+COLLECT_GCC_OPTIONS='-Wall' '-fdata-sections' '-ffunction-sections' '-specs=nosys.specs' '-v' '-o' 'CMakeFiles/cmTC_f7105.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t'
+ /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/bin/as -v -march=armv4t -mfloat-abi=soft -meabi=5 -o CMakeFiles/cmTC_f7105.dir/CMakeCXXCompilerABI.cpp.obj /tmp/ccwnZmji.s
 GNU assembler version 2.38 (arm-none-eabi) using BFD version (2.38-3ubuntu1+15build1) 2.38
 COMPILER_PATH=/usr/lib/gcc/arm-none-eabi/10.3.1/:/usr/lib/gcc/arm-none-eabi/10.3.1/:/usr/lib/gcc/arm-none-eabi/:/usr/lib/gcc/arm-none-eabi/10.3.1/:/usr/lib/gcc/arm-none-eabi/:/usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/bin/
 LIBRARY_PATH=/usr/lib/gcc/arm-none-eabi/10.3.1/:/usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/
-COLLECT_GCC_OPTIONS='-Wall' '-fdata-sections' '-ffunction-sections' '-specs=nosys.specs' '-v' '-o' 'CMakeFiles/cmTC_85277.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t'
-Linking CXX executable cmTC_85277
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_85277.dir/link.txt --verbose=1
-/usr/bin/arm-none-eabi-g++   -Wall -fdata-sections -ffunction-sections --specs=nosys.specs   -v CMakeFiles/cmTC_85277.dir/CMakeCXXCompilerABI.cpp.obj -o cmTC_85277 
+COLLECT_GCC_OPTIONS='-Wall' '-fdata-sections' '-ffunction-sections' '-specs=nosys.specs' '-v' '-o' 'CMakeFiles/cmTC_f7105.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t'
+Linking CXX executable cmTC_f7105
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f7105.dir/link.txt --verbose=1
+/usr/bin/arm-none-eabi-g++   -Wall -fdata-sections -ffunction-sections --specs=nosys.specs   -v CMakeFiles/cmTC_f7105.dir/CMakeCXXCompilerABI.cpp.obj -o cmTC_f7105 
 Using built-in specs.
 Reading specs from /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/nosys.specs
 rename spec link_gcc_c_sequence to nosys_link_gcc_c_sequence
@@ -266,11 +266,11 @@ Supported LTO compression algorithms: zlib
 gcc version 10.3.1 20210621 (release) (15:10.3-2021.07-4) 
 COMPILER_PATH=/usr/lib/gcc/arm-none-eabi/10.3.1/:/usr/lib/gcc/arm-none-eabi/10.3.1/:/usr/lib/gcc/arm-none-eabi/:/usr/lib/gcc/arm-none-eabi/10.3.1/:/usr/lib/gcc/arm-none-eabi/:/usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/bin/
 LIBRARY_PATH=/usr/lib/gcc/arm-none-eabi/10.3.1/:/usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/
-COLLECT_GCC_OPTIONS='-Wall' '-fdata-sections' '-ffunction-sections' '-specs=nosys.specs' '-v' '-o' 'cmTC_85277' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t'
- /usr/lib/gcc/arm-none-eabi/10.3.1/collect2 -plugin /usr/lib/gcc/arm-none-eabi/10.3.1/liblto_plugin.so -plugin-opt=/usr/lib/gcc/arm-none-eabi/10.3.1/lto-wrapper -plugin-opt=-fresolution=/tmp/ccHFRlW2.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lnosys -X -o cmTC_85277 /usr/lib/gcc/arm-none-eabi/10.3.1/crti.o /usr/lib/gcc/arm-none-eabi/10.3.1/crtbegin.o /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/crt0.o -L/usr/lib/gcc/arm-none-eabi/10.3.1 -L/usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib CMakeFiles/cmTC_85277.dir/CMakeCXXCompilerABI.cpp.obj -lstdc++ -lm --start-group -lgcc -lc --end-group --start-group -lgcc -lc -lnosys --end-group /usr/lib/gcc/arm-none-eabi/10.3.1/crtend.o /usr/lib/gcc/arm-none-eabi/10.3.1/crtn.o
-COLLECT_GCC_OPTIONS='-Wall' '-fdata-sections' '-ffunction-sections' '-specs=nosys.specs' '-v' '-o' 'cmTC_85277' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t'
-gmake[3]: Leaving directory '/home/patrickleclerc/proj/STM32/F303k8/build/CMakeFiles/CMakeTmp'
-gmake[2]: Leaving directory '/home/patrickleclerc/proj/STM32/F303k8/build/CMakeFiles/CMakeTmp'
+COLLECT_GCC_OPTIONS='-Wall' '-fdata-sections' '-ffunction-sections' '-specs=nosys.specs' '-v' '-o' 'cmTC_f7105' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t'
+ /usr/lib/gcc/arm-none-eabi/10.3.1/collect2 -plugin /usr/lib/gcc/arm-none-eabi/10.3.1/liblto_plugin.so -plugin-opt=/usr/lib/gcc/arm-none-eabi/10.3.1/lto-wrapper -plugin-opt=-fresolution=/tmp/ccqVxsAs.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lnosys -X -o cmTC_f7105 /usr/lib/gcc/arm-none-eabi/10.3.1/crti.o /usr/lib/gcc/arm-none-eabi/10.3.1/crtbegin.o /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/crt0.o -L/usr/lib/gcc/arm-none-eabi/10.3.1 -L/usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib CMakeFiles/cmTC_f7105.dir/CMakeCXXCompilerABI.cpp.obj -lstdc++ -lm --start-group -lgcc -lc --end-group --start-group -lgcc -lc -lnosys --end-group /usr/lib/gcc/arm-none-eabi/10.3.1/crtend.o /usr/lib/gcc/arm-none-eabi/10.3.1/crtn.o
+COLLECT_GCC_OPTIONS='-Wall' '-fdata-sections' '-ffunction-sections' '-specs=nosys.specs' '-v' '-o' 'cmTC_f7105' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t'
+gmake[3]: Leaving directory '/home/patrickleclerc/proj/git/STM32/F303k8/build/CMakeFiles/CMakeTmp'
+gmake[2]: Leaving directory '/home/patrickleclerc/proj/git/STM32/F303k8/build/CMakeFiles/CMakeTmp'
 
 
 
@@ -295,13 +295,13 @@ Parsed CXX implicit include dir info from above output: rv=done
 
 Parsed CXX implicit link information from above output:
   link line regex: [^( *|.*[/\])(arm-none-eabi-ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
-  ignore line: [Change Dir: /home/patrickleclerc/proj/STM32/F303k8/build/CMakeFiles/CMakeTmp]
+  ignore line: [Change Dir: /home/patrickleclerc/proj/git/STM32/F303k8/build/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_85277/fast && gmake[2]: Entering directory '/home/patrickleclerc/proj/STM32/F303k8/build/CMakeFiles/CMakeTmp']
-  ignore line: [/usr/bin/gmake  -f CMakeFiles/cmTC_85277.dir/build.make CMakeFiles/cmTC_85277.dir/build]
-  ignore line: [gmake[3]: Entering directory '/home/patrickleclerc/proj/STM32/F303k8/build/CMakeFiles/CMakeTmp']
-  ignore line: [Building CXX object CMakeFiles/cmTC_85277.dir/CMakeCXXCompilerABI.cpp.obj]
-  ignore line: [/usr/bin/arm-none-eabi-g++   -Wall -fdata-sections -ffunction-sections --specs=nosys.specs    -v -o CMakeFiles/cmTC_85277.dir/CMakeCXXCompilerABI.cpp.obj -c /usr/share/cmake-3.22/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_f7105/fast && gmake[2]: Entering directory '/home/patrickleclerc/proj/git/STM32/F303k8/build/CMakeFiles/CMakeTmp']
+  ignore line: [/usr/bin/gmake  -f CMakeFiles/cmTC_f7105.dir/build.make CMakeFiles/cmTC_f7105.dir/build]
+  ignore line: [gmake[3]: Entering directory '/home/patrickleclerc/proj/git/STM32/F303k8/build/CMakeFiles/CMakeTmp']
+  ignore line: [Building CXX object CMakeFiles/cmTC_f7105.dir/CMakeCXXCompilerABI.cpp.obj]
+  ignore line: [/usr/bin/arm-none-eabi-g++   -Wall -fdata-sections -ffunction-sections --specs=nosys.specs    -v -o CMakeFiles/cmTC_f7105.dir/CMakeCXXCompilerABI.cpp.obj -c /usr/share/cmake-3.22/Modules/CMakeCXXCompilerABI.cpp]
   ignore line: [Using built-in specs.]
   ignore line: [Reading specs from /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/nosys.specs]
   ignore line: [rename spec link_gcc_c_sequence to nosys_link_gcc_c_sequence]
@@ -311,8 +311,8 @@ Parsed CXX implicit link information from above output:
   ignore line: [Thread model: single]
   ignore line: [Supported LTO compression algorithms: zlib]
   ignore line: [gcc version 10.3.1 20210621 (release) (15:10.3-2021.07-4) ]
-  ignore line: [COLLECT_GCC_OPTIONS='-Wall' '-fdata-sections' '-ffunction-sections' '-specs=nosys.specs' '-v' '-o' 'CMakeFiles/cmTC_85277.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t']
-  ignore line: [ /usr/lib/gcc/arm-none-eabi/10.3.1/cc1plus -quiet -v -D__USES_INITFINI__ /usr/share/cmake-3.22/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mcpu=arm7tdmi -mfloat-abi=soft -marm -mlibarch=armv4t -march=armv4t -auxbase-strip CMakeFiles/cmTC_85277.dir/CMakeCXXCompilerABI.cpp.obj -Wall -version -fdata-sections -ffunction-sections -o /tmp/ccNpXajD.s]
+  ignore line: [COLLECT_GCC_OPTIONS='-Wall' '-fdata-sections' '-ffunction-sections' '-specs=nosys.specs' '-v' '-o' 'CMakeFiles/cmTC_f7105.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t']
+  ignore line: [ /usr/lib/gcc/arm-none-eabi/10.3.1/cc1plus -quiet -v -D__USES_INITFINI__ /usr/share/cmake-3.22/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mcpu=arm7tdmi -mfloat-abi=soft -marm -mlibarch=armv4t -march=armv4t -auxbase-strip CMakeFiles/cmTC_f7105.dir/CMakeCXXCompilerABI.cpp.obj -Wall -version -fdata-sections -ffunction-sections -o /tmp/ccwnZmji.s]
   ignore line: [GNU C++14 (15:10.3-2021.07-4) version 10.3.1 20210621 (release) (arm-none-eabi)]
   ignore line: [	compiled by GNU C version 11.2.0  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.1  isl version isl-0.24-GMP]
   ignore line: []
@@ -332,15 +332,15 @@ Parsed CXX implicit link information from above output:
   ignore line: []
   ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
   ignore line: [Compiler executable checksum: 4f994585a8ca8864fa1f4d2fb208a0ba]
-  ignore line: [COLLECT_GCC_OPTIONS='-Wall' '-fdata-sections' '-ffunction-sections' '-specs=nosys.specs' '-v' '-o' 'CMakeFiles/cmTC_85277.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t']
-  ignore line: [ /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/bin/as -v -march=armv4t -mfloat-abi=soft -meabi=5 -o CMakeFiles/cmTC_85277.dir/CMakeCXXCompilerABI.cpp.obj /tmp/ccNpXajD.s]
+  ignore line: [COLLECT_GCC_OPTIONS='-Wall' '-fdata-sections' '-ffunction-sections' '-specs=nosys.specs' '-v' '-o' 'CMakeFiles/cmTC_f7105.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t']
+  ignore line: [ /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/bin/as -v -march=armv4t -mfloat-abi=soft -meabi=5 -o CMakeFiles/cmTC_f7105.dir/CMakeCXXCompilerABI.cpp.obj /tmp/ccwnZmji.s]
   ignore line: [GNU assembler version 2.38 (arm-none-eabi) using BFD version (2.38-3ubuntu1+15build1) 2.38]
   ignore line: [COMPILER_PATH=/usr/lib/gcc/arm-none-eabi/10.3.1/:/usr/lib/gcc/arm-none-eabi/10.3.1/:/usr/lib/gcc/arm-none-eabi/:/usr/lib/gcc/arm-none-eabi/10.3.1/:/usr/lib/gcc/arm-none-eabi/:/usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/bin/]
   ignore line: [LIBRARY_PATH=/usr/lib/gcc/arm-none-eabi/10.3.1/:/usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-Wall' '-fdata-sections' '-ffunction-sections' '-specs=nosys.specs' '-v' '-o' 'CMakeFiles/cmTC_85277.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t']
-  ignore line: [Linking CXX executable cmTC_85277]
-  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_85277.dir/link.txt --verbose=1]
-  ignore line: [/usr/bin/arm-none-eabi-g++   -Wall -fdata-sections -ffunction-sections --specs=nosys.specs   -v CMakeFiles/cmTC_85277.dir/CMakeCXXCompilerABI.cpp.obj -o cmTC_85277 ]
+  ignore line: [COLLECT_GCC_OPTIONS='-Wall' '-fdata-sections' '-ffunction-sections' '-specs=nosys.specs' '-v' '-o' 'CMakeFiles/cmTC_f7105.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t']
+  ignore line: [Linking CXX executable cmTC_f7105]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f7105.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/arm-none-eabi-g++   -Wall -fdata-sections -ffunction-sections --specs=nosys.specs   -v CMakeFiles/cmTC_f7105.dir/CMakeCXXCompilerABI.cpp.obj -o cmTC_f7105 ]
   ignore line: [Using built-in specs.]
   ignore line: [Reading specs from /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/nosys.specs]
   ignore line: [rename spec link_gcc_c_sequence to nosys_link_gcc_c_sequence]
@@ -353,13 +353,13 @@ Parsed CXX implicit link information from above output:
   ignore line: [gcc version 10.3.1 20210621 (release) (15:10.3-2021.07-4) ]
   ignore line: [COMPILER_PATH=/usr/lib/gcc/arm-none-eabi/10.3.1/:/usr/lib/gcc/arm-none-eabi/10.3.1/:/usr/lib/gcc/arm-none-eabi/:/usr/lib/gcc/arm-none-eabi/10.3.1/:/usr/lib/gcc/arm-none-eabi/:/usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/bin/]
   ignore line: [LIBRARY_PATH=/usr/lib/gcc/arm-none-eabi/10.3.1/:/usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-Wall' '-fdata-sections' '-ffunction-sections' '-specs=nosys.specs' '-v' '-o' 'cmTC_85277' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t']
-  link line: [ /usr/lib/gcc/arm-none-eabi/10.3.1/collect2 -plugin /usr/lib/gcc/arm-none-eabi/10.3.1/liblto_plugin.so -plugin-opt=/usr/lib/gcc/arm-none-eabi/10.3.1/lto-wrapper -plugin-opt=-fresolution=/tmp/ccHFRlW2.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lnosys -X -o cmTC_85277 /usr/lib/gcc/arm-none-eabi/10.3.1/crti.o /usr/lib/gcc/arm-none-eabi/10.3.1/crtbegin.o /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/crt0.o -L/usr/lib/gcc/arm-none-eabi/10.3.1 -L/usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib CMakeFiles/cmTC_85277.dir/CMakeCXXCompilerABI.cpp.obj -lstdc++ -lm --start-group -lgcc -lc --end-group --start-group -lgcc -lc -lnosys --end-group /usr/lib/gcc/arm-none-eabi/10.3.1/crtend.o /usr/lib/gcc/arm-none-eabi/10.3.1/crtn.o]
+  ignore line: [COLLECT_GCC_OPTIONS='-Wall' '-fdata-sections' '-ffunction-sections' '-specs=nosys.specs' '-v' '-o' 'cmTC_f7105' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t']
+  link line: [ /usr/lib/gcc/arm-none-eabi/10.3.1/collect2 -plugin /usr/lib/gcc/arm-none-eabi/10.3.1/liblto_plugin.so -plugin-opt=/usr/lib/gcc/arm-none-eabi/10.3.1/lto-wrapper -plugin-opt=-fresolution=/tmp/ccqVxsAs.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lnosys -X -o cmTC_f7105 /usr/lib/gcc/arm-none-eabi/10.3.1/crti.o /usr/lib/gcc/arm-none-eabi/10.3.1/crtbegin.o /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/crt0.o -L/usr/lib/gcc/arm-none-eabi/10.3.1 -L/usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib CMakeFiles/cmTC_f7105.dir/CMakeCXXCompilerABI.cpp.obj -lstdc++ -lm --start-group -lgcc -lc --end-group --start-group -lgcc -lc -lnosys --end-group /usr/lib/gcc/arm-none-eabi/10.3.1/crtend.o /usr/lib/gcc/arm-none-eabi/10.3.1/crtn.o]
     arg [/usr/lib/gcc/arm-none-eabi/10.3.1/collect2] ==> ignore
     arg [-plugin] ==> ignore
     arg [/usr/lib/gcc/arm-none-eabi/10.3.1/liblto_plugin.so] ==> ignore
     arg [-plugin-opt=/usr/lib/gcc/arm-none-eabi/10.3.1/lto-wrapper] ==> ignore
-    arg [-plugin-opt=-fresolution=/tmp/ccHFRlW2.res] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccqVxsAs.res] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
     arg [-plugin-opt=-pass-through=-lc] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
@@ -367,13 +367,13 @@ Parsed CXX implicit link information from above output:
     arg [-plugin-opt=-pass-through=-lnosys] ==> ignore
     arg [-X] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_85277] ==> ignore
+    arg [cmTC_f7105] ==> ignore
     arg [/usr/lib/gcc/arm-none-eabi/10.3.1/crti.o] ==> obj [/usr/lib/gcc/arm-none-eabi/10.3.1/crti.o]
     arg [/usr/lib/gcc/arm-none-eabi/10.3.1/crtbegin.o] ==> obj [/usr/lib/gcc/arm-none-eabi/10.3.1/crtbegin.o]
     arg [/usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/crt0.o] ==> obj [/usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/crt0.o]
     arg [-L/usr/lib/gcc/arm-none-eabi/10.3.1] ==> dir [/usr/lib/gcc/arm-none-eabi/10.3.1]
     arg [-L/usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib] ==> dir [/usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib]
-    arg [CMakeFiles/cmTC_85277.dir/CMakeCXXCompilerABI.cpp.obj] ==> ignore
+    arg [CMakeFiles/cmTC_f7105.dir/CMakeCXXCompilerABI.cpp.obj] ==> ignore
     arg [-lstdc++] ==> lib [stdc++]
     arg [-lm] ==> lib [m]
     arg [--start-group] ==> ignore

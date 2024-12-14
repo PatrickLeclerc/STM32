@@ -30,10 +30,11 @@ set(CXX_SOURCES
     drivers/spi/spi.cpp
     # Apps
     apps/led/led.cpp
-    apps/console/console.cpp
+    #apps/console/console.cpp
+    apps/comport/comport.cpp
     apps/wait/wait.cpp
     apps/sd/sd.cpp
-    nucleo/f303k8.cpp
+    #nucleo/f303k8.cpp
     main.cpp
 )
 
@@ -56,12 +57,13 @@ include_directories(
     drivers/spi
     # Apps
     apps
-    apps/led
-    apps/console
+    #apps/led
+    #apps/console
+    apps/comport
     apps/wait
     apps/sd
     # Top
-    nucleo
+    #nucleo
 )
 
 # Define the target and add sources

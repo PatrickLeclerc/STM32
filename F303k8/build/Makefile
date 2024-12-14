@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/patrickleclerc/proj/STM32/F303k8
+CMAKE_SOURCE_DIR = /home/patrickleclerc/proj/git/STM32/F303k8
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/patrickleclerc/proj/STM32/F303k8/build
+CMAKE_BINARY_DIR = /home/patrickleclerc/proj/git/STM32/F303k8/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,9 +87,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/patrickleclerc/proj/STM32/F303k8/build/CMakeFiles /home/patrickleclerc/proj/STM32/F303k8/build//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/patrickleclerc/proj/git/STM32/F303k8/build/CMakeFiles /home/patrickleclerc/proj/git/STM32/F303k8/build//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/patrickleclerc/proj/STM32/F303k8/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/patrickleclerc/proj/git/STM32/F303k8/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -161,29 +161,29 @@ ARM/startup_stm32f303x8.s.obj:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/F303k8.elf.dir/build.make CMakeFiles/F303k8.elf.dir/ARM/startup_stm32f303x8.s.obj
 .PHONY : ARM/startup_stm32f303x8.s.obj
 
-apps/console/console.obj: apps/console/console.cpp.obj
-.PHONY : apps/console/console.obj
+apps/comport/comport.obj: apps/comport/comport.cpp.obj
+.PHONY : apps/comport/comport.obj
 
 # target to build an object file
-apps/console/console.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/F303k8.elf.dir/build.make CMakeFiles/F303k8.elf.dir/apps/console/console.cpp.obj
-.PHONY : apps/console/console.cpp.obj
+apps/comport/comport.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/F303k8.elf.dir/build.make CMakeFiles/F303k8.elf.dir/apps/comport/comport.cpp.obj
+.PHONY : apps/comport/comport.cpp.obj
 
-apps/console/console.i: apps/console/console.cpp.i
-.PHONY : apps/console/console.i
+apps/comport/comport.i: apps/comport/comport.cpp.i
+.PHONY : apps/comport/comport.i
 
 # target to preprocess a source file
-apps/console/console.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/F303k8.elf.dir/build.make CMakeFiles/F303k8.elf.dir/apps/console/console.cpp.i
-.PHONY : apps/console/console.cpp.i
+apps/comport/comport.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/F303k8.elf.dir/build.make CMakeFiles/F303k8.elf.dir/apps/comport/comport.cpp.i
+.PHONY : apps/comport/comport.cpp.i
 
-apps/console/console.s: apps/console/console.cpp.s
-.PHONY : apps/console/console.s
+apps/comport/comport.s: apps/comport/comport.cpp.s
+.PHONY : apps/comport/comport.s
 
 # target to generate assembly for a file
-apps/console/console.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/F303k8.elf.dir/build.make CMakeFiles/F303k8.elf.dir/apps/console/console.cpp.s
-.PHONY : apps/console/console.cpp.s
+apps/comport/comport.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/F303k8.elf.dir/build.make CMakeFiles/F303k8.elf.dir/apps/comport/comport.cpp.s
+.PHONY : apps/comport/comport.cpp.s
 
 apps/led/led.obj: apps/led/led.cpp.obj
 .PHONY : apps/led/led.obj
@@ -449,30 +449,6 @@ main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/F303k8.elf.dir/build.make CMakeFiles/F303k8.elf.dir/main.cpp.s
 .PHONY : main.cpp.s
 
-nucleo/f303k8.obj: nucleo/f303k8.cpp.obj
-.PHONY : nucleo/f303k8.obj
-
-# target to build an object file
-nucleo/f303k8.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/F303k8.elf.dir/build.make CMakeFiles/F303k8.elf.dir/nucleo/f303k8.cpp.obj
-.PHONY : nucleo/f303k8.cpp.obj
-
-nucleo/f303k8.i: nucleo/f303k8.cpp.i
-.PHONY : nucleo/f303k8.i
-
-# target to preprocess a source file
-nucleo/f303k8.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/F303k8.elf.dir/build.make CMakeFiles/F303k8.elf.dir/nucleo/f303k8.cpp.i
-.PHONY : nucleo/f303k8.cpp.i
-
-nucleo/f303k8.s: nucleo/f303k8.cpp.s
-.PHONY : nucleo/f303k8.s
-
-# target to generate assembly for a file
-nucleo/f303k8.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/F303k8.elf.dir/build.make CMakeFiles/F303k8.elf.dir/nucleo/f303k8.cpp.s
-.PHONY : nucleo/f303k8.cpp.s
-
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -486,9 +462,9 @@ help:
 	@echo "... ARM/Core/Src/system_stm32f3xx.i"
 	@echo "... ARM/Core/Src/system_stm32f3xx.s"
 	@echo "... ARM/startup_stm32f303x8.obj"
-	@echo "... apps/console/console.obj"
-	@echo "... apps/console/console.i"
-	@echo "... apps/console/console.s"
+	@echo "... apps/comport/comport.obj"
+	@echo "... apps/comport/comport.i"
+	@echo "... apps/comport/comport.s"
 	@echo "... apps/led/led.obj"
 	@echo "... apps/led/led.i"
 	@echo "... apps/led/led.s"
@@ -522,9 +498,6 @@ help:
 	@echo "... main.obj"
 	@echo "... main.i"
 	@echo "... main.s"
-	@echo "... nucleo/f303k8.obj"
-	@echo "... nucleo/f303k8.i"
-	@echo "... nucleo/f303k8.s"
 .PHONY : help
 
 

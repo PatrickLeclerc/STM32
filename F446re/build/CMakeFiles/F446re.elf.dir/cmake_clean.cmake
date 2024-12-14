@@ -14,6 +14,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/F446re.elf.dir/drivers/gpio/gpio.cpp.obj.d"
   "CMakeFiles/F446re.elf.dir/drivers/rtc/rtc.cpp.obj"
   "CMakeFiles/F446re.elf.dir/drivers/rtc/rtc.cpp.obj.d"
+  "CMakeFiles/F446re.elf.dir/drivers/sdio/sdio.cpp.obj"
+  "CMakeFiles/F446re.elf.dir/drivers/sdio/sdio.cpp.obj.d"
   "CMakeFiles/F446re.elf.dir/drivers/tim/tim.cpp.obj"
   "CMakeFiles/F446re.elf.dir/drivers/tim/tim.cpp.obj.d"
   "CMakeFiles/F446re.elf.dir/drivers/usart/usart.cpp.obj"

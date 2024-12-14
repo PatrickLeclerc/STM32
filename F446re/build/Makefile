@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/patrickleclerc/proj/STM32/F446re
+CMAKE_SOURCE_DIR = /home/patrickleclerc/proj/git/STM32/F446re
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/patrickleclerc/proj/STM32/F446re/build
+CMAKE_BINARY_DIR = /home/patrickleclerc/proj/git/STM32/F446re/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,9 +87,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/patrickleclerc/proj/STM32/F446re/build/CMakeFiles /home/patrickleclerc/proj/STM32/F446re/build//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/patrickleclerc/proj/git/STM32/F446re/build/CMakeFiles /home/patrickleclerc/proj/git/STM32/F446re/build//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/patrickleclerc/proj/STM32/F446re/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/patrickleclerc/proj/git/STM32/F446re/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -305,6 +305,30 @@ drivers/rtc/rtc.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/F446re.elf.dir/build.make CMakeFiles/F446re.elf.dir/drivers/rtc/rtc.cpp.s
 .PHONY : drivers/rtc/rtc.cpp.s
 
+drivers/sdio/sdio.obj: drivers/sdio/sdio.cpp.obj
+.PHONY : drivers/sdio/sdio.obj
+
+# target to build an object file
+drivers/sdio/sdio.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/F446re.elf.dir/build.make CMakeFiles/F446re.elf.dir/drivers/sdio/sdio.cpp.obj
+.PHONY : drivers/sdio/sdio.cpp.obj
+
+drivers/sdio/sdio.i: drivers/sdio/sdio.cpp.i
+.PHONY : drivers/sdio/sdio.i
+
+# target to preprocess a source file
+drivers/sdio/sdio.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/F446re.elf.dir/build.make CMakeFiles/F446re.elf.dir/drivers/sdio/sdio.cpp.i
+.PHONY : drivers/sdio/sdio.cpp.i
+
+drivers/sdio/sdio.s: drivers/sdio/sdio.cpp.s
+.PHONY : drivers/sdio/sdio.s
+
+# target to generate assembly for a file
+drivers/sdio/sdio.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/F446re.elf.dir/build.make CMakeFiles/F446re.elf.dir/drivers/sdio/sdio.cpp.s
+.PHONY : drivers/sdio/sdio.cpp.s
+
 drivers/tim/tim.obj: drivers/tim/tim.cpp.obj
 .PHONY : drivers/tim/tim.obj
 
@@ -432,6 +456,9 @@ help:
 	@echo "... drivers/rtc/rtc.obj"
 	@echo "... drivers/rtc/rtc.i"
 	@echo "... drivers/rtc/rtc.s"
+	@echo "... drivers/sdio/sdio.obj"
+	@echo "... drivers/sdio/sdio.i"
+	@echo "... drivers/sdio/sdio.s"
 	@echo "... drivers/tim/tim.obj"
 	@echo "... drivers/tim/tim.i"
 	@echo "... drivers/tim/tim.s"

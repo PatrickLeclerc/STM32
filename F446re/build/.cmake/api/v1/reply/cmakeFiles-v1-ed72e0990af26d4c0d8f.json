@@ -132,8 +132,8 @@
 	"kind" : "cmakeFiles",
 	"paths" : 
 	{
-		"build" : "/home/patrickleclerc/proj/STM32/F446re/build",
-		"source" : "/home/patrickleclerc/proj/STM32/F446re"
+		"build" : "/home/patrickleclerc/proj/git/STM32/F446re/build",
+		"source" : "/home/patrickleclerc/proj/git/STM32/F446re"
 	},
 	"version" : 
 	{

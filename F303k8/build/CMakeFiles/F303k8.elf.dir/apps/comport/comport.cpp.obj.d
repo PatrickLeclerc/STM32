@@ -1,31 +1,23 @@
-CMakeFiles/F303k8.elf.dir/nucleo/f303k8.cpp.obj: \
- /home/patrickleclerc/proj/STM32/F303k8/nucleo/f303k8.cpp \
- /home/patrickleclerc/proj/STM32/F303k8/nucleo/f303k8.hpp \
- /home/patrickleclerc/proj/STM32/F303k8/drivers/clock/clock.hpp \
- /home/patrickleclerc/proj/STM32/F303k8/drivers/drivers_common.hpp \
- /home/patrickleclerc/proj/STM32/F303k8/ARM/CMSIS/Device/ST/STM32F3xx/Include/stm32f303x8.h \
- /home/patrickleclerc/proj/STM32/F303k8/ARM/CMSIS/Include/core_cm4.h \
+CMakeFiles/F303k8.elf.dir/apps/comport/comport.cpp.obj: \
+ /home/patrickleclerc/proj/git/STM32/F303k8/apps/comport/comport.cpp \
+ /home/patrickleclerc/proj/git/STM32/F303k8/apps/comport/comport.hpp \
+ /home/patrickleclerc/proj/git/STM32/F303k8/apps/app.hpp \
+ /home/patrickleclerc/proj/git/STM32/F303k8/drivers/drivers_common.hpp \
+ /home/patrickleclerc/proj/git/STM32/F303k8/ARM/CMSIS/Device/ST/STM32F3xx/Include/stm32f303x8.h \
+ /home/patrickleclerc/proj/git/STM32/F303k8/ARM/CMSIS/Include/core_cm4.h \
  /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdint.h \
- /home/patrickleclerc/proj/STM32/F303k8/ARM/CMSIS/Include/cmsis_version.h \
- /home/patrickleclerc/proj/STM32/F303k8/ARM/CMSIS/Include/cmsis_compiler.h \
- /home/patrickleclerc/proj/STM32/F303k8/ARM/CMSIS/Include/cmsis_gcc.h \
- /home/patrickleclerc/proj/STM32/F303k8/ARM/CMSIS/Device/ST/STM32F3xx/Include/system_stm32f3xx.h \
- /home/patrickleclerc/proj/STM32/F303k8/apps/led/led.hpp \
- /home/patrickleclerc/proj/STM32/F303k8/apps/app.hpp \
- /home/patrickleclerc/proj/STM32/F303k8/drivers/gpio/gpio.hpp \
- /home/patrickleclerc/proj/STM32/F303k8/apps/console/console.hpp \
- /home/patrickleclerc/proj/STM32/F303k8/drivers/rtc/rtc.hpp \
- /home/patrickleclerc/proj/STM32/F303k8/drivers/usart/usart.hpp \
- /home/patrickleclerc/proj/STM32/F303k8/drivers/dma/dma.hpp \
- /home/patrickleclerc/proj/STM32/F303k8/apps/console/command.hpp \
- /usr/include/newlib/c++/10.3.1/string \
+ /home/patrickleclerc/proj/git/STM32/F303k8/ARM/CMSIS/Include/cmsis_version.h \
+ /home/patrickleclerc/proj/git/STM32/F303k8/ARM/CMSIS/Include/cmsis_compiler.h \
+ /home/patrickleclerc/proj/git/STM32/F303k8/ARM/CMSIS/Include/cmsis_gcc.h \
+ /home/patrickleclerc/proj/git/STM32/F303k8/ARM/CMSIS/Device/ST/STM32F3xx/Include/system_stm32f3xx.h \
+ /home/patrickleclerc/proj/git/STM32/F303k8/drivers/gpio/gpio.hpp \
+ /home/patrickleclerc/proj/git/STM32/F303k8/drivers/usart/usart.hpp \
+ /home/patrickleclerc/proj/git/STM32/F303k8/drivers/dma/dma.hpp \
+ /usr/include/newlib/c++/10.3.1/vector \
+ /usr/include/newlib/c++/10.3.1/bits/stl_algobase.h \
  /usr/include/newlib/c++/10.3.1/arm-none-eabi/thumb/v7e-m+fp/hard/bits/c++config.h \
  /usr/include/newlib/c++/10.3.1/arm-none-eabi/thumb/v7e-m+fp/hard/bits/os_defines.h \
  /usr/include/newlib/c++/10.3.1/arm-none-eabi/thumb/v7e-m+fp/hard/bits/cpu_defines.h \
- /usr/include/newlib/c++/10.3.1/bits/stringfwd.h \
- /usr/include/newlib/c++/10.3.1/bits/memoryfwd.h \
- /usr/include/newlib/c++/10.3.1/bits/char_traits.h \
- /usr/include/newlib/c++/10.3.1/bits/stl_algobase.h \
  /usr/include/newlib/c++/10.3.1/bits/functexcept.h \
  /usr/include/newlib/c++/10.3.1/bits/exception_defines.h \
  /usr/include/newlib/c++/10.3.1/bits/cpp_type_traits.h \
@@ -42,18 +34,6 @@ CMakeFiles/F303k8.elf.dir/nucleo/f303k8.cpp.obj: \
  /usr/include/newlib/c++/10.3.1/bits/ptr_traits.h \
  /usr/include/newlib/c++/10.3.1/debug/debug.h \
  /usr/include/newlib/c++/10.3.1/bits/predefined_ops.h \
- /usr/include/newlib/c++/10.3.1/bits/postypes.h \
- /usr/include/newlib/c++/10.3.1/cwchar /usr/include/newlib/wchar.h \
- /usr/include/newlib/_ansi.h /usr/include/newlib/newlib.h \
- /usr/include/newlib/_newlib_version.h /usr/include/newlib/sys/config.h \
- /usr/include/newlib/machine/ieeefp.h /usr/include/newlib/sys/features.h \
- /usr/include/newlib/sys/reent.h \
- /usr/lib/gcc/arm-none-eabi/10.3.1/include/stddef.h \
- /usr/include/newlib/sys/_types.h /usr/include/newlib/machine/_types.h \
- /usr/include/newlib/machine/_default_types.h \
- /usr/include/newlib/sys/lock.h /usr/include/newlib/sys/cdefs.h \
- /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdarg.h \
- /usr/include/newlib/sys/_locale.h /usr/include/newlib/c++/10.3.1/cstdint \
  /usr/include/newlib/c++/10.3.1/bits/allocator.h \
  /usr/include/newlib/c++/10.3.1/arm-none-eabi/thumb/v7e-m+fp/hard/bits/c++allocator.h \
  /usr/include/newlib/c++/10.3.1/ext/new_allocator.h \
@@ -62,9 +42,38 @@ CMakeFiles/F303k8.elf.dir/nucleo/f303k8.cpp.obj: \
  /usr/include/newlib/c++/10.3.1/bits/exception.h \
  /usr/include/newlib/c++/10.3.1/bits/exception_ptr.h \
  /usr/include/newlib/c++/10.3.1/bits/cxxabi_init_exception.h \
+ /usr/lib/gcc/arm-none-eabi/10.3.1/include/stddef.h \
  /usr/include/newlib/c++/10.3.1/typeinfo \
  /usr/include/newlib/c++/10.3.1/bits/hash_bytes.h \
  /usr/include/newlib/c++/10.3.1/bits/nested_exception.h \
+ /usr/include/newlib/c++/10.3.1/bits/memoryfwd.h \
+ /usr/include/newlib/c++/10.3.1/bits/stl_construct.h \
+ /usr/include/newlib/c++/10.3.1/bits/stl_uninitialized.h \
+ /usr/include/newlib/c++/10.3.1/ext/alloc_traits.h \
+ /usr/include/newlib/c++/10.3.1/bits/alloc_traits.h \
+ /usr/include/newlib/c++/10.3.1/bits/stl_vector.h \
+ /usr/include/newlib/c++/10.3.1/initializer_list \
+ /usr/include/newlib/c++/10.3.1/bits/stl_bvector.h \
+ /usr/include/newlib/c++/10.3.1/bits/functional_hash.h \
+ /usr/include/newlib/c++/10.3.1/bits/range_access.h \
+ /usr/include/newlib/c++/10.3.1/bits/iterator_concepts.h \
+ /usr/include/newlib/c++/10.3.1/concepts \
+ /usr/include/newlib/c++/10.3.1/bits/range_cmp.h \
+ /usr/include/newlib/c++/10.3.1/bits/vector.tcc \
+ /usr/include/newlib/c++/10.3.1/string \
+ /usr/include/newlib/c++/10.3.1/bits/stringfwd.h \
+ /usr/include/newlib/c++/10.3.1/bits/char_traits.h \
+ /usr/include/newlib/c++/10.3.1/bits/postypes.h \
+ /usr/include/newlib/c++/10.3.1/cwchar /usr/include/newlib/wchar.h \
+ /usr/include/newlib/_ansi.h /usr/include/newlib/newlib.h \
+ /usr/include/newlib/_newlib_version.h /usr/include/newlib/sys/config.h \
+ /usr/include/newlib/machine/ieeefp.h /usr/include/newlib/sys/features.h \
+ /usr/include/newlib/sys/reent.h /usr/include/newlib/sys/_types.h \
+ /usr/include/newlib/machine/_types.h \
+ /usr/include/newlib/machine/_default_types.h \
+ /usr/include/newlib/sys/lock.h /usr/include/newlib/sys/cdefs.h \
+ /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdarg.h \
+ /usr/include/newlib/sys/_locale.h /usr/include/newlib/c++/10.3.1/cstdint \
  /usr/include/newlib/c++/10.3.1/bits/localefwd.h \
  /usr/include/newlib/c++/10.3.1/arm-none-eabi/thumb/v7e-m+fp/hard/bits/c++locale.h \
  /usr/include/newlib/c++/10.3.1/clocale /usr/include/newlib/locale.h \
@@ -74,19 +83,11 @@ CMakeFiles/F303k8.elf.dir/nucleo/f303k8.cpp.obj: \
  /usr/include/newlib/c++/10.3.1/bits/cxxabi_forced.h \
  /usr/include/newlib/c++/10.3.1/bits/stl_function.h \
  /usr/include/newlib/c++/10.3.1/backward/binders.h \
- /usr/include/newlib/c++/10.3.1/bits/range_access.h \
- /usr/include/newlib/c++/10.3.1/initializer_list \
- /usr/include/newlib/c++/10.3.1/bits/iterator_concepts.h \
- /usr/include/newlib/c++/10.3.1/concepts \
- /usr/include/newlib/c++/10.3.1/bits/range_cmp.h \
  /usr/include/newlib/c++/10.3.1/bits/basic_string.h \
  /usr/include/newlib/c++/10.3.1/ext/atomicity.h \
  /usr/include/newlib/c++/10.3.1/arm-none-eabi/thumb/v7e-m+fp/hard/bits/gthr.h \
  /usr/include/newlib/c++/10.3.1/arm-none-eabi/thumb/v7e-m+fp/hard/bits/gthr-default.h \
  /usr/include/newlib/c++/10.3.1/arm-none-eabi/thumb/v7e-m+fp/hard/bits/atomic_word.h \
- /usr/include/newlib/c++/10.3.1/ext/alloc_traits.h \
- /usr/include/newlib/c++/10.3.1/bits/alloc_traits.h \
- /usr/include/newlib/c++/10.3.1/bits/stl_construct.h \
  /usr/include/newlib/c++/10.3.1/ext/string_conversions.h \
  /usr/include/newlib/c++/10.3.1/cstdlib \
  /usr/include/newlib/c++/10.3.1/stdlib.h /usr/include/newlib/stdlib.h \
@@ -103,23 +104,6 @@ CMakeFiles/F303k8.elf.dir/nucleo/f303k8.cpp.obj: \
  /usr/include/newlib/c++/10.3.1/cerrno /usr/include/newlib/errno.h \
  /usr/include/newlib/sys/errno.h \
  /usr/include/newlib/c++/10.3.1/bits/charconv.h \
- /usr/include/newlib/c++/10.3.1/bits/functional_hash.h \
  /usr/include/newlib/c++/10.3.1/bits/basic_string.tcc \
- /usr/include/newlib/c++/10.3.1/functional \
- /usr/include/newlib/c++/10.3.1/tuple \
- /usr/include/newlib/c++/10.3.1/utility \
- /usr/include/newlib/c++/10.3.1/bits/stl_relops.h \
- /usr/include/newlib/c++/10.3.1/array \
- /usr/include/newlib/c++/10.3.1/bits/uses_allocator.h \
- /usr/include/newlib/c++/10.3.1/bits/invoke.h \
- /usr/include/newlib/c++/10.3.1/bits/refwrap.h \
- /usr/include/newlib/c++/10.3.1/bits/std_function.h \
- /home/patrickleclerc/proj/STM32/F303k8/apps/sd/sd.hpp \
- /home/patrickleclerc/proj/STM32/F303k8/apps/wait/wait.hpp \
- /home/patrickleclerc/proj/STM32/F303k8/drivers/tim/tim.hpp \
- /home/patrickleclerc/proj/STM32/F303k8/drivers/spi/spi.hpp \
- /usr/include/newlib/c++/10.3.1/vector \
- /usr/include/newlib/c++/10.3.1/bits/stl_uninitialized.h \
- /usr/include/newlib/c++/10.3.1/bits/stl_vector.h \
- /usr/include/newlib/c++/10.3.1/bits/stl_bvector.h \
- /usr/include/newlib/c++/10.3.1/bits/vector.tcc
+ /usr/include/newlib/c++/10.3.1/cstring /usr/include/newlib/string.h \
+ /usr/include/newlib/strings.h /usr/include/newlib/sys/string.h

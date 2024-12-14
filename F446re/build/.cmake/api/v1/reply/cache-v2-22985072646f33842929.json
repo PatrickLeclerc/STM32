@@ -179,7 +179,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/home/patrickleclerc/proj/STM32/F446re/build"
+			"value" : "/home/patrickleclerc/proj/git/STM32/F446re/build"
 		},
 		{
 			"name" : "CMAKE_CACHE_MAJOR_VERSION",
@@ -711,7 +711,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/home/patrickleclerc/proj/STM32/F446re"
+			"value" : "/home/patrickleclerc/proj/git/STM32/F446re"
 		},
 		{
 			"name" : "CMAKE_INSTALL_PREFIX",
@@ -1191,7 +1191,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "/home/patrickleclerc/proj/STM32/F446re/toolchain.cmake"
+			"value" : "/home/patrickleclerc/proj/git/STM32/F446re/toolchain.cmake"
 		},
 		{
 			"name" : "CMAKE_UNAME",
@@ -1231,7 +1231,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/home/patrickleclerc/proj/STM32/F446re/build"
+			"value" : "/home/patrickleclerc/proj/git/STM32/F446re/build"
 		},
 		{
 			"name" : "F446re_IS_TOP_LEVEL",
@@ -1255,7 +1255,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/home/patrickleclerc/proj/STM32/F446re"
+			"value" : "/home/patrickleclerc/proj/git/STM32/F446re"
 		}
 	],
 	"kind" : "cache",

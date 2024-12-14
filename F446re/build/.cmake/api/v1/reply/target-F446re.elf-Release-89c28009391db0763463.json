@@ -27,25 +27,25 @@
 			{
 				"command" : 0,
 				"file" : 0,
-				"line" : 66,
+				"line" : 68,
 				"parent" : 0
 			},
 			{
 				"command" : 1,
 				"file" : 0,
-				"line" : 88,
+				"line" : 90,
 				"parent" : 0
 			},
 			{
 				"command" : 2,
 				"file" : 0,
-				"line" : 78,
+				"line" : 80,
 				"parent" : 0
 			},
 			{
 				"command" : 3,
 				"file" : 0,
-				"line" : 43,
+				"line" : 44,
 				"parent" : 0
 			}
 		]
@@ -99,55 +99,59 @@
 			[
 				{
 					"backtrace" : 4,
-					"path" : "/home/patrickleclerc/proj/STM32/F446re/ARM/CMSIS/Device/ST/STM32F4xx/Include"
+					"path" : "/home/patrickleclerc/proj/git/STM32/F446re/ARM/CMSIS/Device/ST/STM32F4xx/Include"
 				},
 				{
 					"backtrace" : 4,
-					"path" : "/home/patrickleclerc/proj/STM32/F446re/ARM/CMSIS/Include"
+					"path" : "/home/patrickleclerc/proj/git/STM32/F446re/ARM/CMSIS/Include"
 				},
 				{
 					"backtrace" : 4,
-					"path" : "/home/patrickleclerc/proj/STM32/F446re/drivers"
+					"path" : "/home/patrickleclerc/proj/git/STM32/F446re/drivers"
 				},
 				{
 					"backtrace" : 4,
-					"path" : "/home/patrickleclerc/proj/STM32/F446re/drivers/clock"
+					"path" : "/home/patrickleclerc/proj/git/STM32/F446re/drivers/clock"
 				},
 				{
 					"backtrace" : 4,
-					"path" : "/home/patrickleclerc/proj/STM32/F446re/drivers/gpio"
+					"path" : "/home/patrickleclerc/proj/git/STM32/F446re/drivers/gpio"
 				},
 				{
 					"backtrace" : 4,
-					"path" : "/home/patrickleclerc/proj/STM32/F446re/drivers/usart"
+					"path" : "/home/patrickleclerc/proj/git/STM32/F446re/drivers/usart"
 				},
 				{
 					"backtrace" : 4,
-					"path" : "/home/patrickleclerc/proj/STM32/F446re/drivers/rtc"
+					"path" : "/home/patrickleclerc/proj/git/STM32/F446re/drivers/rtc"
 				},
 				{
 					"backtrace" : 4,
-					"path" : "/home/patrickleclerc/proj/STM32/F446re/drivers/dma"
+					"path" : "/home/patrickleclerc/proj/git/STM32/F446re/drivers/dma"
 				},
 				{
 					"backtrace" : 4,
-					"path" : "/home/patrickleclerc/proj/STM32/F446re/drivers/tim"
+					"path" : "/home/patrickleclerc/proj/git/STM32/F446re/drivers/tim"
 				},
 				{
 					"backtrace" : 4,
-					"path" : "/home/patrickleclerc/proj/STM32/F446re/apps"
+					"path" : "/home/patrickleclerc/proj/git/STM32/F446re/drivers/sdio"
 				},
 				{
 					"backtrace" : 4,
-					"path" : "/home/patrickleclerc/proj/STM32/F446re/apps/led"
+					"path" : "/home/patrickleclerc/proj/git/STM32/F446re/apps"
 				},
 				{
 					"backtrace" : 4,
-					"path" : "/home/patrickleclerc/proj/STM32/F446re/apps/console"
+					"path" : "/home/patrickleclerc/proj/git/STM32/F446re/apps/led"
 				},
 				{
 					"backtrace" : 4,
-					"path" : "/home/patrickleclerc/proj/STM32/F446re/nucleo"
+					"path" : "/home/patrickleclerc/proj/git/STM32/F446re/apps/console"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/home/patrickleclerc/proj/git/STM32/F446re/nucleo"
 				}
 			],
 			"language" : "C",
@@ -203,55 +207,59 @@
 			[
 				{
 					"backtrace" : 4,
-					"path" : "/home/patrickleclerc/proj/STM32/F446re/ARM/CMSIS/Device/ST/STM32F4xx/Include"
+					"path" : "/home/patrickleclerc/proj/git/STM32/F446re/ARM/CMSIS/Device/ST/STM32F4xx/Include"
 				},
 				{
 					"backtrace" : 4,
-					"path" : "/home/patrickleclerc/proj/STM32/F446re/ARM/CMSIS/Include"
+					"path" : "/home/patrickleclerc/proj/git/STM32/F446re/ARM/CMSIS/Include"
 				},
 				{
 					"backtrace" : 4,
-					"path" : "/home/patrickleclerc/proj/STM32/F446re/drivers"
+					"path" : "/home/patrickleclerc/proj/git/STM32/F446re/drivers"
 				},
 				{
 					"backtrace" : 4,
-					"path" : "/home/patrickleclerc/proj/STM32/F446re/drivers/clock"
+					"path" : "/home/patrickleclerc/proj/git/STM32/F446re/drivers/clock"
 				},
 				{
 					"backtrace" : 4,
-					"path" : "/home/patrickleclerc/proj/STM32/F446re/drivers/gpio"
+					"path" : "/home/patrickleclerc/proj/git/STM32/F446re/drivers/gpio"
 				},
 				{
 					"backtrace" : 4,
-					"path" : "/home/patrickleclerc/proj/STM32/F446re/drivers/usart"
+					"path" : "/home/patrickleclerc/proj/git/STM32/F446re/drivers/usart"
 				},
 				{
 					"backtrace" : 4,
-					"path" : "/home/patrickleclerc/proj/STM32/F446re/drivers/rtc"
+					"path" : "/home/patrickleclerc/proj/git/STM32/F446re/drivers/rtc"
 				},
 				{
 					"backtrace" : 4,
-					"path" : "/home/patrickleclerc/proj/STM32/F446re/drivers/dma"
+					"path" : "/home/patrickleclerc/proj/git/STM32/F446re/drivers/dma"
 				},
 				{
 					"backtrace" : 4,
-					"path" : "/home/patrickleclerc/proj/STM32/F446re/drivers/tim"
+					"path" : "/home/patrickleclerc/proj/git/STM32/F446re/drivers/tim"
 				},
 				{
 					"backtrace" : 4,
-					"path" : "/home/patrickleclerc/proj/STM32/F446re/apps"
+					"path" : "/home/patrickleclerc/proj/git/STM32/F446re/drivers/sdio"
 				},
 				{
 					"backtrace" : 4,
-					"path" : "/home/patrickleclerc/proj/STM32/F446re/apps/led"
+					"path" : "/home/patrickleclerc/proj/git/STM32/F446re/apps"
 				},
 				{
 					"backtrace" : 4,
-					"path" : "/home/patrickleclerc/proj/STM32/F446re/apps/console"
+					"path" : "/home/patrickleclerc/proj/git/STM32/F446re/apps/led"
 				},
 				{
 					"backtrace" : 4,
-					"path" : "/home/patrickleclerc/proj/STM32/F446re/nucleo"
+					"path" : "/home/patrickleclerc/proj/git/STM32/F446re/apps/console"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/home/patrickleclerc/proj/git/STM32/F446re/nucleo"
 				}
 			],
 			"language" : "CXX",
@@ -266,7 +274,8 @@
 				7,
 				8,
 				9,
-				10
+				10,
+				11
 			]
 		},
 		{
@@ -316,61 +325,65 @@
 			[
 				{
 					"backtrace" : 4,
-					"path" : "/home/patrickleclerc/proj/STM32/F446re/ARM/CMSIS/Device/ST/STM32F4xx/Include"
+					"path" : "/home/patrickleclerc/proj/git/STM32/F446re/ARM/CMSIS/Device/ST/STM32F4xx/Include"
 				},
 				{
 					"backtrace" : 4,
-					"path" : "/home/patrickleclerc/proj/STM32/F446re/ARM/CMSIS/Include"
+					"path" : "/home/patrickleclerc/proj/git/STM32/F446re/ARM/CMSIS/Include"
 				},
 				{
 					"backtrace" : 4,
-					"path" : "/home/patrickleclerc/proj/STM32/F446re/drivers"
+					"path" : "/home/patrickleclerc/proj/git/STM32/F446re/drivers"
 				},
 				{
 					"backtrace" : 4,
-					"path" : "/home/patrickleclerc/proj/STM32/F446re/drivers/clock"
+					"path" : "/home/patrickleclerc/proj/git/STM32/F446re/drivers/clock"
 				},
 				{
 					"backtrace" : 4,
-					"path" : "/home/patrickleclerc/proj/STM32/F446re/drivers/gpio"
+					"path" : "/home/patrickleclerc/proj/git/STM32/F446re/drivers/gpio"
 				},
 				{
 					"backtrace" : 4,
-					"path" : "/home/patrickleclerc/proj/STM32/F446re/drivers/usart"
+					"path" : "/home/patrickleclerc/proj/git/STM32/F446re/drivers/usart"
 				},
 				{
 					"backtrace" : 4,
-					"path" : "/home/patrickleclerc/proj/STM32/F446re/drivers/rtc"
+					"path" : "/home/patrickleclerc/proj/git/STM32/F446re/drivers/rtc"
 				},
 				{
 					"backtrace" : 4,
-					"path" : "/home/patrickleclerc/proj/STM32/F446re/drivers/dma"
+					"path" : "/home/patrickleclerc/proj/git/STM32/F446re/drivers/dma"
 				},
 				{
 					"backtrace" : 4,
-					"path" : "/home/patrickleclerc/proj/STM32/F446re/drivers/tim"
+					"path" : "/home/patrickleclerc/proj/git/STM32/F446re/drivers/tim"
 				},
 				{
 					"backtrace" : 4,
-					"path" : "/home/patrickleclerc/proj/STM32/F446re/apps"
+					"path" : "/home/patrickleclerc/proj/git/STM32/F446re/drivers/sdio"
 				},
 				{
 					"backtrace" : 4,
-					"path" : "/home/patrickleclerc/proj/STM32/F446re/apps/led"
+					"path" : "/home/patrickleclerc/proj/git/STM32/F446re/apps"
 				},
 				{
 					"backtrace" : 4,
-					"path" : "/home/patrickleclerc/proj/STM32/F446re/apps/console"
+					"path" : "/home/patrickleclerc/proj/git/STM32/F446re/apps/led"
 				},
 				{
 					"backtrace" : 4,
-					"path" : "/home/patrickleclerc/proj/STM32/F446re/nucleo"
+					"path" : "/home/patrickleclerc/proj/git/STM32/F446re/apps/console"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/home/patrickleclerc/proj/git/STM32/F446re/nucleo"
 				}
 			],
 			"language" : "ASM",
 			"sourceIndexes" : 
 			[
-				11
+				12
 			]
 		}
 	],
@@ -419,7 +432,7 @@
 			},
 			{
 				"backtrace" : 2,
-				"fragment" : "-Wl,-Map=/home/patrickleclerc/proj/STM32/F446re/build/bin/F446re.map,--cref",
+				"fragment" : "-Wl,-Map=/home/patrickleclerc/proj/git/STM32/F446re/build/bin/F446re.map,--cref",
 				"role" : "flags"
 			},
 			{
@@ -463,14 +476,15 @@
 				7,
 				8,
 				9,
-				10
+				10,
+				11
 			]
 		},
 		{
 			"name" : "",
 			"sourceIndexes" : 
 			[
-				11
+				12
 			]
 		}
 	],
@@ -516,6 +530,12 @@
 			"backtrace" : 1,
 			"compileGroupIndex" : 1,
 			"path" : "drivers/tim/tim.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "drivers/sdio/sdio.cpp",
 			"sourceGroupIndex" : 0
 		},
 		{

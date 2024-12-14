@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/patrickleclerc/proj/STM32/F303k8
+CMAKE_SOURCE_DIR = /home/patrickleclerc/proj/git/STM32/F303k8
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/patrickleclerc/proj/STM32/F303k8/build
+CMAKE_BINARY_DIR = /home/patrickleclerc/proj/git/STM32/F303k8/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/F303k8.elf.dir/depend.make
@@ -72,211 +72,197 @@ include CMakeFiles/F303k8.elf.dir/flags.make
 CMakeFiles/F303k8.elf.dir/ARM/Core/Src/system_stm32f3xx.c.obj: CMakeFiles/F303k8.elf.dir/flags.make
 CMakeFiles/F303k8.elf.dir/ARM/Core/Src/system_stm32f3xx.c.obj: ../ARM/Core/Src/system_stm32f3xx.c
 CMakeFiles/F303k8.elf.dir/ARM/Core/Src/system_stm32f3xx.c.obj: CMakeFiles/F303k8.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/patrickleclerc/proj/STM32/F303k8/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/F303k8.elf.dir/ARM/Core/Src/system_stm32f3xx.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/F303k8.elf.dir/ARM/Core/Src/system_stm32f3xx.c.obj -MF CMakeFiles/F303k8.elf.dir/ARM/Core/Src/system_stm32f3xx.c.obj.d -o CMakeFiles/F303k8.elf.dir/ARM/Core/Src/system_stm32f3xx.c.obj -c /home/patrickleclerc/proj/STM32/F303k8/ARM/Core/Src/system_stm32f3xx.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/patrickleclerc/proj/git/STM32/F303k8/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/F303k8.elf.dir/ARM/Core/Src/system_stm32f3xx.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/F303k8.elf.dir/ARM/Core/Src/system_stm32f3xx.c.obj -MF CMakeFiles/F303k8.elf.dir/ARM/Core/Src/system_stm32f3xx.c.obj.d -o CMakeFiles/F303k8.elf.dir/ARM/Core/Src/system_stm32f3xx.c.obj -c /home/patrickleclerc/proj/git/STM32/F303k8/ARM/Core/Src/system_stm32f3xx.c
 
 CMakeFiles/F303k8.elf.dir/ARM/Core/Src/system_stm32f3xx.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/F303k8.elf.dir/ARM/Core/Src/system_stm32f3xx.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/patrickleclerc/proj/STM32/F303k8/ARM/Core/Src/system_stm32f3xx.c > CMakeFiles/F303k8.elf.dir/ARM/Core/Src/system_stm32f3xx.c.i
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/patrickleclerc/proj/git/STM32/F303k8/ARM/Core/Src/system_stm32f3xx.c > CMakeFiles/F303k8.elf.dir/ARM/Core/Src/system_stm32f3xx.c.i
 
 CMakeFiles/F303k8.elf.dir/ARM/Core/Src/system_stm32f3xx.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/F303k8.elf.dir/ARM/Core/Src/system_stm32f3xx.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/patrickleclerc/proj/STM32/F303k8/ARM/Core/Src/system_stm32f3xx.c -o CMakeFiles/F303k8.elf.dir/ARM/Core/Src/system_stm32f3xx.c.s
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/patrickleclerc/proj/git/STM32/F303k8/ARM/Core/Src/system_stm32f3xx.c -o CMakeFiles/F303k8.elf.dir/ARM/Core/Src/system_stm32f3xx.c.s
 
 CMakeFiles/F303k8.elf.dir/drivers/clock/clock.cpp.obj: CMakeFiles/F303k8.elf.dir/flags.make
 CMakeFiles/F303k8.elf.dir/drivers/clock/clock.cpp.obj: ../drivers/clock/clock.cpp
 CMakeFiles/F303k8.elf.dir/drivers/clock/clock.cpp.obj: CMakeFiles/F303k8.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/patrickleclerc/proj/STM32/F303k8/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/F303k8.elf.dir/drivers/clock/clock.cpp.obj"
-	/usr/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/F303k8.elf.dir/drivers/clock/clock.cpp.obj -MF CMakeFiles/F303k8.elf.dir/drivers/clock/clock.cpp.obj.d -o CMakeFiles/F303k8.elf.dir/drivers/clock/clock.cpp.obj -c /home/patrickleclerc/proj/STM32/F303k8/drivers/clock/clock.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/patrickleclerc/proj/git/STM32/F303k8/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/F303k8.elf.dir/drivers/clock/clock.cpp.obj"
+	/usr/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/F303k8.elf.dir/drivers/clock/clock.cpp.obj -MF CMakeFiles/F303k8.elf.dir/drivers/clock/clock.cpp.obj.d -o CMakeFiles/F303k8.elf.dir/drivers/clock/clock.cpp.obj -c /home/patrickleclerc/proj/git/STM32/F303k8/drivers/clock/clock.cpp
 
 CMakeFiles/F303k8.elf.dir/drivers/clock/clock.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/F303k8.elf.dir/drivers/clock/clock.cpp.i"
-	/usr/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/patrickleclerc/proj/STM32/F303k8/drivers/clock/clock.cpp > CMakeFiles/F303k8.elf.dir/drivers/clock/clock.cpp.i
+	/usr/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/patrickleclerc/proj/git/STM32/F303k8/drivers/clock/clock.cpp > CMakeFiles/F303k8.elf.dir/drivers/clock/clock.cpp.i
 
 CMakeFiles/F303k8.elf.dir/drivers/clock/clock.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/F303k8.elf.dir/drivers/clock/clock.cpp.s"
-	/usr/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/patrickleclerc/proj/STM32/F303k8/drivers/clock/clock.cpp -o CMakeFiles/F303k8.elf.dir/drivers/clock/clock.cpp.s
+	/usr/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/patrickleclerc/proj/git/STM32/F303k8/drivers/clock/clock.cpp -o CMakeFiles/F303k8.elf.dir/drivers/clock/clock.cpp.s
 
 CMakeFiles/F303k8.elf.dir/drivers/gpio/gpio.cpp.obj: CMakeFiles/F303k8.elf.dir/flags.make
 CMakeFiles/F303k8.elf.dir/drivers/gpio/gpio.cpp.obj: ../drivers/gpio/gpio.cpp
 CMakeFiles/F303k8.elf.dir/drivers/gpio/gpio.cpp.obj: CMakeFiles/F303k8.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/patrickleclerc/proj/STM32/F303k8/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/F303k8.elf.dir/drivers/gpio/gpio.cpp.obj"
-	/usr/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/F303k8.elf.dir/drivers/gpio/gpio.cpp.obj -MF CMakeFiles/F303k8.elf.dir/drivers/gpio/gpio.cpp.obj.d -o CMakeFiles/F303k8.elf.dir/drivers/gpio/gpio.cpp.obj -c /home/patrickleclerc/proj/STM32/F303k8/drivers/gpio/gpio.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/patrickleclerc/proj/git/STM32/F303k8/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/F303k8.elf.dir/drivers/gpio/gpio.cpp.obj"
+	/usr/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/F303k8.elf.dir/drivers/gpio/gpio.cpp.obj -MF CMakeFiles/F303k8.elf.dir/drivers/gpio/gpio.cpp.obj.d -o CMakeFiles/F303k8.elf.dir/drivers/gpio/gpio.cpp.obj -c /home/patrickleclerc/proj/git/STM32/F303k8/drivers/gpio/gpio.cpp
 
 CMakeFiles/F303k8.elf.dir/drivers/gpio/gpio.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/F303k8.elf.dir/drivers/gpio/gpio.cpp.i"
-	/usr/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/patrickleclerc/proj/STM32/F303k8/drivers/gpio/gpio.cpp > CMakeFiles/F303k8.elf.dir/drivers/gpio/gpio.cpp.i
+	/usr/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/patrickleclerc/proj/git/STM32/F303k8/drivers/gpio/gpio.cpp > CMakeFiles/F303k8.elf.dir/drivers/gpio/gpio.cpp.i
 
 CMakeFiles/F303k8.elf.dir/drivers/gpio/gpio.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/F303k8.elf.dir/drivers/gpio/gpio.cpp.s"
-	/usr/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/patrickleclerc/proj/STM32/F303k8/drivers/gpio/gpio.cpp -o CMakeFiles/F303k8.elf.dir/drivers/gpio/gpio.cpp.s
+	/usr/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/patrickleclerc/proj/git/STM32/F303k8/drivers/gpio/gpio.cpp -o CMakeFiles/F303k8.elf.dir/drivers/gpio/gpio.cpp.s
 
 CMakeFiles/F303k8.elf.dir/drivers/usart/usart.cpp.obj: CMakeFiles/F303k8.elf.dir/flags.make
 CMakeFiles/F303k8.elf.dir/drivers/usart/usart.cpp.obj: ../drivers/usart/usart.cpp
 CMakeFiles/F303k8.elf.dir/drivers/usart/usart.cpp.obj: CMakeFiles/F303k8.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/patrickleclerc/proj/STM32/F303k8/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/F303k8.elf.dir/drivers/usart/usart.cpp.obj"
-	/usr/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/F303k8.elf.dir/drivers/usart/usart.cpp.obj -MF CMakeFiles/F303k8.elf.dir/drivers/usart/usart.cpp.obj.d -o CMakeFiles/F303k8.elf.dir/drivers/usart/usart.cpp.obj -c /home/patrickleclerc/proj/STM32/F303k8/drivers/usart/usart.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/patrickleclerc/proj/git/STM32/F303k8/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/F303k8.elf.dir/drivers/usart/usart.cpp.obj"
+	/usr/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/F303k8.elf.dir/drivers/usart/usart.cpp.obj -MF CMakeFiles/F303k8.elf.dir/drivers/usart/usart.cpp.obj.d -o CMakeFiles/F303k8.elf.dir/drivers/usart/usart.cpp.obj -c /home/patrickleclerc/proj/git/STM32/F303k8/drivers/usart/usart.cpp
 
 CMakeFiles/F303k8.elf.dir/drivers/usart/usart.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/F303k8.elf.dir/drivers/usart/usart.cpp.i"
-	/usr/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/patrickleclerc/proj/STM32/F303k8/drivers/usart/usart.cpp > CMakeFiles/F303k8.elf.dir/drivers/usart/usart.cpp.i
+	/usr/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/patrickleclerc/proj/git/STM32/F303k8/drivers/usart/usart.cpp > CMakeFiles/F303k8.elf.dir/drivers/usart/usart.cpp.i
 
 CMakeFiles/F303k8.elf.dir/drivers/usart/usart.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/F303k8.elf.dir/drivers/usart/usart.cpp.s"
-	/usr/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/patrickleclerc/proj/STM32/F303k8/drivers/usart/usart.cpp -o CMakeFiles/F303k8.elf.dir/drivers/usart/usart.cpp.s
+	/usr/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/patrickleclerc/proj/git/STM32/F303k8/drivers/usart/usart.cpp -o CMakeFiles/F303k8.elf.dir/drivers/usart/usart.cpp.s
 
 CMakeFiles/F303k8.elf.dir/drivers/rtc/rtc.cpp.obj: CMakeFiles/F303k8.elf.dir/flags.make
 CMakeFiles/F303k8.elf.dir/drivers/rtc/rtc.cpp.obj: ../drivers/rtc/rtc.cpp
 CMakeFiles/F303k8.elf.dir/drivers/rtc/rtc.cpp.obj: CMakeFiles/F303k8.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/patrickleclerc/proj/STM32/F303k8/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/F303k8.elf.dir/drivers/rtc/rtc.cpp.obj"
-	/usr/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/F303k8.elf.dir/drivers/rtc/rtc.cpp.obj -MF CMakeFiles/F303k8.elf.dir/drivers/rtc/rtc.cpp.obj.d -o CMakeFiles/F303k8.elf.dir/drivers/rtc/rtc.cpp.obj -c /home/patrickleclerc/proj/STM32/F303k8/drivers/rtc/rtc.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/patrickleclerc/proj/git/STM32/F303k8/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/F303k8.elf.dir/drivers/rtc/rtc.cpp.obj"
+	/usr/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/F303k8.elf.dir/drivers/rtc/rtc.cpp.obj -MF CMakeFiles/F303k8.elf.dir/drivers/rtc/rtc.cpp.obj.d -o CMakeFiles/F303k8.elf.dir/drivers/rtc/rtc.cpp.obj -c /home/patrickleclerc/proj/git/STM32/F303k8/drivers/rtc/rtc.cpp
 
 CMakeFiles/F303k8.elf.dir/drivers/rtc/rtc.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/F303k8.elf.dir/drivers/rtc/rtc.cpp.i"
-	/usr/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/patrickleclerc/proj/STM32/F303k8/drivers/rtc/rtc.cpp > CMakeFiles/F303k8.elf.dir/drivers/rtc/rtc.cpp.i
+	/usr/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/patrickleclerc/proj/git/STM32/F303k8/drivers/rtc/rtc.cpp > CMakeFiles/F303k8.elf.dir/drivers/rtc/rtc.cpp.i
 
 CMakeFiles/F303k8.elf.dir/drivers/rtc/rtc.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/F303k8.elf.dir/drivers/rtc/rtc.cpp.s"
-	/usr/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/patrickleclerc/proj/STM32/F303k8/drivers/rtc/rtc.cpp -o CMakeFiles/F303k8.elf.dir/drivers/rtc/rtc.cpp.s
+	/usr/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/patrickleclerc/proj/git/STM32/F303k8/drivers/rtc/rtc.cpp -o CMakeFiles/F303k8.elf.dir/drivers/rtc/rtc.cpp.s
 
 CMakeFiles/F303k8.elf.dir/drivers/dma/dma.cpp.obj: CMakeFiles/F303k8.elf.dir/flags.make
 CMakeFiles/F303k8.elf.dir/drivers/dma/dma.cpp.obj: ../drivers/dma/dma.cpp
 CMakeFiles/F303k8.elf.dir/drivers/dma/dma.cpp.obj: CMakeFiles/F303k8.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/patrickleclerc/proj/STM32/F303k8/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/F303k8.elf.dir/drivers/dma/dma.cpp.obj"
-	/usr/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/F303k8.elf.dir/drivers/dma/dma.cpp.obj -MF CMakeFiles/F303k8.elf.dir/drivers/dma/dma.cpp.obj.d -o CMakeFiles/F303k8.elf.dir/drivers/dma/dma.cpp.obj -c /home/patrickleclerc/proj/STM32/F303k8/drivers/dma/dma.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/patrickleclerc/proj/git/STM32/F303k8/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/F303k8.elf.dir/drivers/dma/dma.cpp.obj"
+	/usr/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/F303k8.elf.dir/drivers/dma/dma.cpp.obj -MF CMakeFiles/F303k8.elf.dir/drivers/dma/dma.cpp.obj.d -o CMakeFiles/F303k8.elf.dir/drivers/dma/dma.cpp.obj -c /home/patrickleclerc/proj/git/STM32/F303k8/drivers/dma/dma.cpp
 
 CMakeFiles/F303k8.elf.dir/drivers/dma/dma.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/F303k8.elf.dir/drivers/dma/dma.cpp.i"
-	/usr/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/patrickleclerc/proj/STM32/F303k8/drivers/dma/dma.cpp > CMakeFiles/F303k8.elf.dir/drivers/dma/dma.cpp.i
+	/usr/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/patrickleclerc/proj/git/STM32/F303k8/drivers/dma/dma.cpp > CMakeFiles/F303k8.elf.dir/drivers/dma/dma.cpp.i
 
 CMakeFiles/F303k8.elf.dir/drivers/dma/dma.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/F303k8.elf.dir/drivers/dma/dma.cpp.s"
-	/usr/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/patrickleclerc/proj/STM32/F303k8/drivers/dma/dma.cpp -o CMakeFiles/F303k8.elf.dir/drivers/dma/dma.cpp.s
+	/usr/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/patrickleclerc/proj/git/STM32/F303k8/drivers/dma/dma.cpp -o CMakeFiles/F303k8.elf.dir/drivers/dma/dma.cpp.s
 
 CMakeFiles/F303k8.elf.dir/drivers/tim/tim.cpp.obj: CMakeFiles/F303k8.elf.dir/flags.make
 CMakeFiles/F303k8.elf.dir/drivers/tim/tim.cpp.obj: ../drivers/tim/tim.cpp
 CMakeFiles/F303k8.elf.dir/drivers/tim/tim.cpp.obj: CMakeFiles/F303k8.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/patrickleclerc/proj/STM32/F303k8/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/F303k8.elf.dir/drivers/tim/tim.cpp.obj"
-	/usr/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/F303k8.elf.dir/drivers/tim/tim.cpp.obj -MF CMakeFiles/F303k8.elf.dir/drivers/tim/tim.cpp.obj.d -o CMakeFiles/F303k8.elf.dir/drivers/tim/tim.cpp.obj -c /home/patrickleclerc/proj/STM32/F303k8/drivers/tim/tim.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/patrickleclerc/proj/git/STM32/F303k8/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/F303k8.elf.dir/drivers/tim/tim.cpp.obj"
+	/usr/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/F303k8.elf.dir/drivers/tim/tim.cpp.obj -MF CMakeFiles/F303k8.elf.dir/drivers/tim/tim.cpp.obj.d -o CMakeFiles/F303k8.elf.dir/drivers/tim/tim.cpp.obj -c /home/patrickleclerc/proj/git/STM32/F303k8/drivers/tim/tim.cpp
 
 CMakeFiles/F303k8.elf.dir/drivers/tim/tim.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/F303k8.elf.dir/drivers/tim/tim.cpp.i"
-	/usr/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/patrickleclerc/proj/STM32/F303k8/drivers/tim/tim.cpp > CMakeFiles/F303k8.elf.dir/drivers/tim/tim.cpp.i
+	/usr/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/patrickleclerc/proj/git/STM32/F303k8/drivers/tim/tim.cpp > CMakeFiles/F303k8.elf.dir/drivers/tim/tim.cpp.i
 
 CMakeFiles/F303k8.elf.dir/drivers/tim/tim.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/F303k8.elf.dir/drivers/tim/tim.cpp.s"
-	/usr/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/patrickleclerc/proj/STM32/F303k8/drivers/tim/tim.cpp -o CMakeFiles/F303k8.elf.dir/drivers/tim/tim.cpp.s
+	/usr/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/patrickleclerc/proj/git/STM32/F303k8/drivers/tim/tim.cpp -o CMakeFiles/F303k8.elf.dir/drivers/tim/tim.cpp.s
 
 CMakeFiles/F303k8.elf.dir/drivers/spi/spi.cpp.obj: CMakeFiles/F303k8.elf.dir/flags.make
 CMakeFiles/F303k8.elf.dir/drivers/spi/spi.cpp.obj: ../drivers/spi/spi.cpp
 CMakeFiles/F303k8.elf.dir/drivers/spi/spi.cpp.obj: CMakeFiles/F303k8.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/patrickleclerc/proj/STM32/F303k8/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/F303k8.elf.dir/drivers/spi/spi.cpp.obj"
-	/usr/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/F303k8.elf.dir/drivers/spi/spi.cpp.obj -MF CMakeFiles/F303k8.elf.dir/drivers/spi/spi.cpp.obj.d -o CMakeFiles/F303k8.elf.dir/drivers/spi/spi.cpp.obj -c /home/patrickleclerc/proj/STM32/F303k8/drivers/spi/spi.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/patrickleclerc/proj/git/STM32/F303k8/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/F303k8.elf.dir/drivers/spi/spi.cpp.obj"
+	/usr/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/F303k8.elf.dir/drivers/spi/spi.cpp.obj -MF CMakeFiles/F303k8.elf.dir/drivers/spi/spi.cpp.obj.d -o CMakeFiles/F303k8.elf.dir/drivers/spi/spi.cpp.obj -c /home/patrickleclerc/proj/git/STM32/F303k8/drivers/spi/spi.cpp
 
 CMakeFiles/F303k8.elf.dir/drivers/spi/spi.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/F303k8.elf.dir/drivers/spi/spi.cpp.i"
-	/usr/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/patrickleclerc/proj/STM32/F303k8/drivers/spi/spi.cpp > CMakeFiles/F303k8.elf.dir/drivers/spi/spi.cpp.i
+	/usr/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/patrickleclerc/proj/git/STM32/F303k8/drivers/spi/spi.cpp > CMakeFiles/F303k8.elf.dir/drivers/spi/spi.cpp.i
 
 CMakeFiles/F303k8.elf.dir/drivers/spi/spi.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/F303k8.elf.dir/drivers/spi/spi.cpp.s"
-	/usr/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/patrickleclerc/proj/STM32/F303k8/drivers/spi/spi.cpp -o CMakeFiles/F303k8.elf.dir/drivers/spi/spi.cpp.s
+	/usr/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/patrickleclerc/proj/git/STM32/F303k8/drivers/spi/spi.cpp -o CMakeFiles/F303k8.elf.dir/drivers/spi/spi.cpp.s
 
 CMakeFiles/F303k8.elf.dir/apps/led/led.cpp.obj: CMakeFiles/F303k8.elf.dir/flags.make
 CMakeFiles/F303k8.elf.dir/apps/led/led.cpp.obj: ../apps/led/led.cpp
 CMakeFiles/F303k8.elf.dir/apps/led/led.cpp.obj: CMakeFiles/F303k8.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/patrickleclerc/proj/STM32/F303k8/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/F303k8.elf.dir/apps/led/led.cpp.obj"
-	/usr/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/F303k8.elf.dir/apps/led/led.cpp.obj -MF CMakeFiles/F303k8.elf.dir/apps/led/led.cpp.obj.d -o CMakeFiles/F303k8.elf.dir/apps/led/led.cpp.obj -c /home/patrickleclerc/proj/STM32/F303k8/apps/led/led.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/patrickleclerc/proj/git/STM32/F303k8/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/F303k8.elf.dir/apps/led/led.cpp.obj"
+	/usr/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/F303k8.elf.dir/apps/led/led.cpp.obj -MF CMakeFiles/F303k8.elf.dir/apps/led/led.cpp.obj.d -o CMakeFiles/F303k8.elf.dir/apps/led/led.cpp.obj -c /home/patrickleclerc/proj/git/STM32/F303k8/apps/led/led.cpp
 
 CMakeFiles/F303k8.elf.dir/apps/led/led.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/F303k8.elf.dir/apps/led/led.cpp.i"
-	/usr/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/patrickleclerc/proj/STM32/F303k8/apps/led/led.cpp > CMakeFiles/F303k8.elf.dir/apps/led/led.cpp.i
+	/usr/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/patrickleclerc/proj/git/STM32/F303k8/apps/led/led.cpp > CMakeFiles/F303k8.elf.dir/apps/led/led.cpp.i
 
 CMakeFiles/F303k8.elf.dir/apps/led/led.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/F303k8.elf.dir/apps/led/led.cpp.s"
-	/usr/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/patrickleclerc/proj/STM32/F303k8/apps/led/led.cpp -o CMakeFiles/F303k8.elf.dir/apps/led/led.cpp.s
+	/usr/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/patrickleclerc/proj/git/STM32/F303k8/apps/led/led.cpp -o CMakeFiles/F303k8.elf.dir/apps/led/led.cpp.s
 
-CMakeFiles/F303k8.elf.dir/apps/console/console.cpp.obj: CMakeFiles/F303k8.elf.dir/flags.make
-CMakeFiles/F303k8.elf.dir/apps/console/console.cpp.obj: ../apps/console/console.cpp
-CMakeFiles/F303k8.elf.dir/apps/console/console.cpp.obj: CMakeFiles/F303k8.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/patrickleclerc/proj/STM32/F303k8/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/F303k8.elf.dir/apps/console/console.cpp.obj"
-	/usr/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/F303k8.elf.dir/apps/console/console.cpp.obj -MF CMakeFiles/F303k8.elf.dir/apps/console/console.cpp.obj.d -o CMakeFiles/F303k8.elf.dir/apps/console/console.cpp.obj -c /home/patrickleclerc/proj/STM32/F303k8/apps/console/console.cpp
+CMakeFiles/F303k8.elf.dir/apps/comport/comport.cpp.obj: CMakeFiles/F303k8.elf.dir/flags.make
+CMakeFiles/F303k8.elf.dir/apps/comport/comport.cpp.obj: ../apps/comport/comport.cpp
+CMakeFiles/F303k8.elf.dir/apps/comport/comport.cpp.obj: CMakeFiles/F303k8.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/patrickleclerc/proj/git/STM32/F303k8/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/F303k8.elf.dir/apps/comport/comport.cpp.obj"
+	/usr/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/F303k8.elf.dir/apps/comport/comport.cpp.obj -MF CMakeFiles/F303k8.elf.dir/apps/comport/comport.cpp.obj.d -o CMakeFiles/F303k8.elf.dir/apps/comport/comport.cpp.obj -c /home/patrickleclerc/proj/git/STM32/F303k8/apps/comport/comport.cpp
 
-CMakeFiles/F303k8.elf.dir/apps/console/console.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/F303k8.elf.dir/apps/console/console.cpp.i"
-	/usr/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/patrickleclerc/proj/STM32/F303k8/apps/console/console.cpp > CMakeFiles/F303k8.elf.dir/apps/console/console.cpp.i
+CMakeFiles/F303k8.elf.dir/apps/comport/comport.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/F303k8.elf.dir/apps/comport/comport.cpp.i"
+	/usr/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/patrickleclerc/proj/git/STM32/F303k8/apps/comport/comport.cpp > CMakeFiles/F303k8.elf.dir/apps/comport/comport.cpp.i
 
-CMakeFiles/F303k8.elf.dir/apps/console/console.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/F303k8.elf.dir/apps/console/console.cpp.s"
-	/usr/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/patrickleclerc/proj/STM32/F303k8/apps/console/console.cpp -o CMakeFiles/F303k8.elf.dir/apps/console/console.cpp.s
+CMakeFiles/F303k8.elf.dir/apps/comport/comport.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/F303k8.elf.dir/apps/comport/comport.cpp.s"
+	/usr/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/patrickleclerc/proj/git/STM32/F303k8/apps/comport/comport.cpp -o CMakeFiles/F303k8.elf.dir/apps/comport/comport.cpp.s
 
 CMakeFiles/F303k8.elf.dir/apps/wait/wait.cpp.obj: CMakeFiles/F303k8.elf.dir/flags.make
 CMakeFiles/F303k8.elf.dir/apps/wait/wait.cpp.obj: ../apps/wait/wait.cpp
 CMakeFiles/F303k8.elf.dir/apps/wait/wait.cpp.obj: CMakeFiles/F303k8.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/patrickleclerc/proj/STM32/F303k8/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/F303k8.elf.dir/apps/wait/wait.cpp.obj"
-	/usr/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/F303k8.elf.dir/apps/wait/wait.cpp.obj -MF CMakeFiles/F303k8.elf.dir/apps/wait/wait.cpp.obj.d -o CMakeFiles/F303k8.elf.dir/apps/wait/wait.cpp.obj -c /home/patrickleclerc/proj/STM32/F303k8/apps/wait/wait.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/patrickleclerc/proj/git/STM32/F303k8/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/F303k8.elf.dir/apps/wait/wait.cpp.obj"
+	/usr/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/F303k8.elf.dir/apps/wait/wait.cpp.obj -MF CMakeFiles/F303k8.elf.dir/apps/wait/wait.cpp.obj.d -o CMakeFiles/F303k8.elf.dir/apps/wait/wait.cpp.obj -c /home/patrickleclerc/proj/git/STM32/F303k8/apps/wait/wait.cpp
 
 CMakeFiles/F303k8.elf.dir/apps/wait/wait.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/F303k8.elf.dir/apps/wait/wait.cpp.i"
-	/usr/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/patrickleclerc/proj/STM32/F303k8/apps/wait/wait.cpp > CMakeFiles/F303k8.elf.dir/apps/wait/wait.cpp.i
+	/usr/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/patrickleclerc/proj/git/STM32/F303k8/apps/wait/wait.cpp > CMakeFiles/F303k8.elf.dir/apps/wait/wait.cpp.i
 
 CMakeFiles/F303k8.elf.dir/apps/wait/wait.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/F303k8.elf.dir/apps/wait/wait.cpp.s"
-	/usr/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/patrickleclerc/proj/STM32/F303k8/apps/wait/wait.cpp -o CMakeFiles/F303k8.elf.dir/apps/wait/wait.cpp.s
+	/usr/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/patrickleclerc/proj/git/STM32/F303k8/apps/wait/wait.cpp -o CMakeFiles/F303k8.elf.dir/apps/wait/wait.cpp.s
 
 CMakeFiles/F303k8.elf.dir/apps/sd/sd.cpp.obj: CMakeFiles/F303k8.elf.dir/flags.make
 CMakeFiles/F303k8.elf.dir/apps/sd/sd.cpp.obj: ../apps/sd/sd.cpp
 CMakeFiles/F303k8.elf.dir/apps/sd/sd.cpp.obj: CMakeFiles/F303k8.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/patrickleclerc/proj/STM32/F303k8/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/F303k8.elf.dir/apps/sd/sd.cpp.obj"
-	/usr/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/F303k8.elf.dir/apps/sd/sd.cpp.obj -MF CMakeFiles/F303k8.elf.dir/apps/sd/sd.cpp.obj.d -o CMakeFiles/F303k8.elf.dir/apps/sd/sd.cpp.obj -c /home/patrickleclerc/proj/STM32/F303k8/apps/sd/sd.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/patrickleclerc/proj/git/STM32/F303k8/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/F303k8.elf.dir/apps/sd/sd.cpp.obj"
+	/usr/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/F303k8.elf.dir/apps/sd/sd.cpp.obj -MF CMakeFiles/F303k8.elf.dir/apps/sd/sd.cpp.obj.d -o CMakeFiles/F303k8.elf.dir/apps/sd/sd.cpp.obj -c /home/patrickleclerc/proj/git/STM32/F303k8/apps/sd/sd.cpp
 
 CMakeFiles/F303k8.elf.dir/apps/sd/sd.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/F303k8.elf.dir/apps/sd/sd.cpp.i"
-	/usr/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/patrickleclerc/proj/STM32/F303k8/apps/sd/sd.cpp > CMakeFiles/F303k8.elf.dir/apps/sd/sd.cpp.i
+	/usr/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/patrickleclerc/proj/git/STM32/F303k8/apps/sd/sd.cpp > CMakeFiles/F303k8.elf.dir/apps/sd/sd.cpp.i
 
 CMakeFiles/F303k8.elf.dir/apps/sd/sd.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/F303k8.elf.dir/apps/sd/sd.cpp.s"
-	/usr/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/patrickleclerc/proj/STM32/F303k8/apps/sd/sd.cpp -o CMakeFiles/F303k8.elf.dir/apps/sd/sd.cpp.s
-
-CMakeFiles/F303k8.elf.dir/nucleo/f303k8.cpp.obj: CMakeFiles/F303k8.elf.dir/flags.make
-CMakeFiles/F303k8.elf.dir/nucleo/f303k8.cpp.obj: ../nucleo/f303k8.cpp
-CMakeFiles/F303k8.elf.dir/nucleo/f303k8.cpp.obj: CMakeFiles/F303k8.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/patrickleclerc/proj/STM32/F303k8/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/F303k8.elf.dir/nucleo/f303k8.cpp.obj"
-	/usr/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/F303k8.elf.dir/nucleo/f303k8.cpp.obj -MF CMakeFiles/F303k8.elf.dir/nucleo/f303k8.cpp.obj.d -o CMakeFiles/F303k8.elf.dir/nucleo/f303k8.cpp.obj -c /home/patrickleclerc/proj/STM32/F303k8/nucleo/f303k8.cpp
-
-CMakeFiles/F303k8.elf.dir/nucleo/f303k8.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/F303k8.elf.dir/nucleo/f303k8.cpp.i"
-	/usr/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/patrickleclerc/proj/STM32/F303k8/nucleo/f303k8.cpp > CMakeFiles/F303k8.elf.dir/nucleo/f303k8.cpp.i
-
-CMakeFiles/F303k8.elf.dir/nucleo/f303k8.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/F303k8.elf.dir/nucleo/f303k8.cpp.s"
-	/usr/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/patrickleclerc/proj/STM32/F303k8/nucleo/f303k8.cpp -o CMakeFiles/F303k8.elf.dir/nucleo/f303k8.cpp.s
+	/usr/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/patrickleclerc/proj/git/STM32/F303k8/apps/sd/sd.cpp -o CMakeFiles/F303k8.elf.dir/apps/sd/sd.cpp.s
 
 CMakeFiles/F303k8.elf.dir/main.cpp.obj: CMakeFiles/F303k8.elf.dir/flags.make
 CMakeFiles/F303k8.elf.dir/main.cpp.obj: ../main.cpp
 CMakeFiles/F303k8.elf.dir/main.cpp.obj: CMakeFiles/F303k8.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/patrickleclerc/proj/STM32/F303k8/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/F303k8.elf.dir/main.cpp.obj"
-	/usr/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/F303k8.elf.dir/main.cpp.obj -MF CMakeFiles/F303k8.elf.dir/main.cpp.obj.d -o CMakeFiles/F303k8.elf.dir/main.cpp.obj -c /home/patrickleclerc/proj/STM32/F303k8/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/patrickleclerc/proj/git/STM32/F303k8/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/F303k8.elf.dir/main.cpp.obj"
+	/usr/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/F303k8.elf.dir/main.cpp.obj -MF CMakeFiles/F303k8.elf.dir/main.cpp.obj.d -o CMakeFiles/F303k8.elf.dir/main.cpp.obj -c /home/patrickleclerc/proj/git/STM32/F303k8/main.cpp
 
 CMakeFiles/F303k8.elf.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/F303k8.elf.dir/main.cpp.i"
-	/usr/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/patrickleclerc/proj/STM32/F303k8/main.cpp > CMakeFiles/F303k8.elf.dir/main.cpp.i
+	/usr/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/patrickleclerc/proj/git/STM32/F303k8/main.cpp > CMakeFiles/F303k8.elf.dir/main.cpp.i
 
 CMakeFiles/F303k8.elf.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/F303k8.elf.dir/main.cpp.s"
-	/usr/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/patrickleclerc/proj/STM32/F303k8/main.cpp -o CMakeFiles/F303k8.elf.dir/main.cpp.s
+	/usr/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/patrickleclerc/proj/git/STM32/F303k8/main.cpp -o CMakeFiles/F303k8.elf.dir/main.cpp.s
 
 CMakeFiles/F303k8.elf.dir/ARM/startup_stm32f303x8.s.obj: CMakeFiles/F303k8.elf.dir/flags.make
 CMakeFiles/F303k8.elf.dir/ARM/startup_stm32f303x8.s.obj: ../ARM/startup_stm32f303x8.s
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/patrickleclerc/proj/STM32/F303k8/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building ASM object CMakeFiles/F303k8.elf.dir/ARM/startup_stm32f303x8.s.obj"
-	/usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/F303k8.elf.dir/ARM/startup_stm32f303x8.s.obj -c /home/patrickleclerc/proj/STM32/F303k8/ARM/startup_stm32f303x8.s
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/patrickleclerc/proj/git/STM32/F303k8/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building ASM object CMakeFiles/F303k8.elf.dir/ARM/startup_stm32f303x8.s.obj"
+	/usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/F303k8.elf.dir/ARM/startup_stm32f303x8.s.obj -c /home/patrickleclerc/proj/git/STM32/F303k8/ARM/startup_stm32f303x8.s
 
 CMakeFiles/F303k8.elf.dir/ARM/startup_stm32f303x8.s.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing ASM source to CMakeFiles/F303k8.elf.dir/ARM/startup_stm32f303x8.s.i"
-	/usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -E /home/patrickleclerc/proj/STM32/F303k8/ARM/startup_stm32f303x8.s > CMakeFiles/F303k8.elf.dir/ARM/startup_stm32f303x8.s.i
+	/usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -E /home/patrickleclerc/proj/git/STM32/F303k8/ARM/startup_stm32f303x8.s > CMakeFiles/F303k8.elf.dir/ARM/startup_stm32f303x8.s.i
 
 CMakeFiles/F303k8.elf.dir/ARM/startup_stm32f303x8.s.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling ASM source to assembly CMakeFiles/F303k8.elf.dir/ARM/startup_stm32f303x8.s.s"
-	/usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -S /home/patrickleclerc/proj/STM32/F303k8/ARM/startup_stm32f303x8.s -o CMakeFiles/F303k8.elf.dir/ARM/startup_stm32f303x8.s.s
+	/usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -S /home/patrickleclerc/proj/git/STM32/F303k8/ARM/startup_stm32f303x8.s -o CMakeFiles/F303k8.elf.dir/ARM/startup_stm32f303x8.s.s
 
 # Object files for target F303k8.elf
 F303k8_elf_OBJECTS = \
@@ -289,10 +275,9 @@ F303k8_elf_OBJECTS = \
 "CMakeFiles/F303k8.elf.dir/drivers/tim/tim.cpp.obj" \
 "CMakeFiles/F303k8.elf.dir/drivers/spi/spi.cpp.obj" \
 "CMakeFiles/F303k8.elf.dir/apps/led/led.cpp.obj" \
-"CMakeFiles/F303k8.elf.dir/apps/console/console.cpp.obj" \
+"CMakeFiles/F303k8.elf.dir/apps/comport/comport.cpp.obj" \
 "CMakeFiles/F303k8.elf.dir/apps/wait/wait.cpp.obj" \
 "CMakeFiles/F303k8.elf.dir/apps/sd/sd.cpp.obj" \
-"CMakeFiles/F303k8.elf.dir/nucleo/f303k8.cpp.obj" \
 "CMakeFiles/F303k8.elf.dir/main.cpp.obj" \
 "CMakeFiles/F303k8.elf.dir/ARM/startup_stm32f303x8.s.obj"
 
@@ -308,19 +293,18 @@ bin/F303k8.elf: CMakeFiles/F303k8.elf.dir/drivers/dma/dma.cpp.obj
 bin/F303k8.elf: CMakeFiles/F303k8.elf.dir/drivers/tim/tim.cpp.obj
 bin/F303k8.elf: CMakeFiles/F303k8.elf.dir/drivers/spi/spi.cpp.obj
 bin/F303k8.elf: CMakeFiles/F303k8.elf.dir/apps/led/led.cpp.obj
-bin/F303k8.elf: CMakeFiles/F303k8.elf.dir/apps/console/console.cpp.obj
+bin/F303k8.elf: CMakeFiles/F303k8.elf.dir/apps/comport/comport.cpp.obj
 bin/F303k8.elf: CMakeFiles/F303k8.elf.dir/apps/wait/wait.cpp.obj
 bin/F303k8.elf: CMakeFiles/F303k8.elf.dir/apps/sd/sd.cpp.obj
-bin/F303k8.elf: CMakeFiles/F303k8.elf.dir/nucleo/f303k8.cpp.obj
 bin/F303k8.elf: CMakeFiles/F303k8.elf.dir/main.cpp.obj
 bin/F303k8.elf: CMakeFiles/F303k8.elf.dir/ARM/startup_stm32f303x8.s.obj
 bin/F303k8.elf: CMakeFiles/F303k8.elf.dir/build.make
 bin/F303k8.elf: CMakeFiles/F303k8.elf.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/patrickleclerc/proj/STM32/F303k8/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Linking CXX executable bin/F303k8.elf"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/patrickleclerc/proj/git/STM32/F303k8/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Linking CXX executable bin/F303k8.elf"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/F303k8.elf.dir/link.txt --verbose=$(VERBOSE)
-	arm-none-eabi-objcopy -O ihex /home/patrickleclerc/proj/STM32/F303k8/build/bin/F303k8.elf /home/patrickleclerc/proj/STM32/F303k8/build/bin/F303k8.hex
-	arm-none-eabi-objcopy -O binary -S /home/patrickleclerc/proj/STM32/F303k8/build/bin/F303k8.elf /home/patrickleclerc/proj/STM32/F303k8/build/bin/F303k8.bin
-	arm-none-eabi-size /home/patrickleclerc/proj/STM32/F303k8/build/bin/F303k8.elf
+	arm-none-eabi-objcopy -O ihex /home/patrickleclerc/proj/git/STM32/F303k8/build/bin/F303k8.elf /home/patrickleclerc/proj/git/STM32/F303k8/build/bin/F303k8.hex
+	arm-none-eabi-objcopy -O binary -S /home/patrickleclerc/proj/git/STM32/F303k8/build/bin/F303k8.elf /home/patrickleclerc/proj/git/STM32/F303k8/build/bin/F303k8.bin
+	arm-none-eabi-size /home/patrickleclerc/proj/git/STM32/F303k8/build/bin/F303k8.elf
 
 # Rule to build all files generated by this target.
 CMakeFiles/F303k8.elf.dir/build: bin/F303k8.elf
@@ -331,6 +315,6 @@ CMakeFiles/F303k8.elf.dir/clean:
 .PHONY : CMakeFiles/F303k8.elf.dir/clean
 
 CMakeFiles/F303k8.elf.dir/depend:
-	cd /home/patrickleclerc/proj/STM32/F303k8/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/patrickleclerc/proj/STM32/F303k8 /home/patrickleclerc/proj/STM32/F303k8 /home/patrickleclerc/proj/STM32/F303k8/build /home/patrickleclerc/proj/STM32/F303k8/build /home/patrickleclerc/proj/STM32/F303k8/build/CMakeFiles/F303k8.elf.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/patrickleclerc/proj/git/STM32/F303k8/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/patrickleclerc/proj/git/STM32/F303k8 /home/patrickleclerc/proj/git/STM32/F303k8 /home/patrickleclerc/proj/git/STM32/F303k8/build /home/patrickleclerc/proj/git/STM32/F303k8/build /home/patrickleclerc/proj/git/STM32/F303k8/build/CMakeFiles/F303k8.elf.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/F303k8.elf.dir/depend
 
