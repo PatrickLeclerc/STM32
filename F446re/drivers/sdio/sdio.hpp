@@ -168,10 +168,10 @@ class SD : public Driver
 {
 private:
 	std::vector<GPIO> gpio;
-	void getCardInfo(void);
-	void setFastClock(void);
+	inline void getCardInfo(void);
+	inline void setFastClock(void);
 	inline SD_ERROR_t getSCR(uint32_t *pSCR);
-	SD_ERROR_t sendCommand(uint32_t cmdIndex, uint32_t argument, SD_RESP_SIZE_t responseSize);
+	inline SD_ERROR_t sendCommand(uint32_t cmdIndex, uint32_t argument, SD_RESP_SIZE_t responseSize);
 	inline SD_ERROR_t getR1Resp(uint8_t cmd);
 	inline SD_ERROR_t getR2Resp(uint32_t *pBuf);
 	inline SD_ERROR_t getR3Resp(void);
@@ -183,22 +183,12 @@ public:
 	SDCard_TypeDef cardDef = {0};
 	std::string logs = "";
 	SD_CFG_t cfg;
-	uint32_t getResponse(uint32_t n);
 	SD();
 	void init();
 	void deinit(){};
+	SD_ERROR_t initCard();
 	SD_ERROR_t readBlock(uint32_t addr, uint32_t *pBuf, uint32_t length);
 	SD_ERROR_t writeBlock(uint32_t addr, uint32_t *pBuf, uint32_t length);
-	SD_ERROR_t initCard();
-	inline void logResp(){
-		std::stringstream ss;
-		ss << "\tSDIO->RESP1: " << std::hex << SDIO->RESP1 << "\r\n";
-		ss << "\tSDIO->RESP2: " << std::hex << SDIO->RESP2 << "\r\n";
-		ss << "\tSDIO->RESP3: " << std::hex << SDIO->RESP3 << "\r\n";
-		ss << "\tSDIO->RESP4: " << std::hex << SDIO->RESP4 << "\r\n";
-		std::string str = ss.str();
-		logs += str.c_str();
-	};
 };
 
 #endif

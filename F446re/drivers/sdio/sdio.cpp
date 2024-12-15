@@ -116,7 +116,7 @@ void SD::init(){
     for (volatile int i = 0; i < 100000; i++); // Wait for clock to stabilize
 }
 
-SD_ERROR_t SD::sendCommand(uint32_t cmdIndex, uint32_t argument, SD_RESP_SIZE_t responseSize) {
+inline SD_ERROR_t SD::sendCommand(uint32_t cmdIndex, uint32_t argument, SD_RESP_SIZE_t responseSize) {
     // Clear all previous flags
     cfg.regs->ICR = 0xFFFFFFFF;
 
@@ -126,16 +126,6 @@ SD_ERROR_t SD::sendCommand(uint32_t cmdIndex, uint32_t argument, SD_RESP_SIZE_t 
     // Set command index and response type
     cfg.regs->CMD = (cmdIndex & SDIO_CMD_CMDINDEX) | responseSize | SDIO_CMD_CPSMEN;
     return SDR_Success;
-}
-
-uint32_t SD::getResponse(uint32_t n) {
-    switch (n) {
-        case 1: return SDIO->RESP1;
-        case 2: return SDIO->RESP2;
-        case 3: return SDIO->RESP3;
-        case 4: return SDIO->RESP4;
-        default: return 0;
-    }
 }
 
 // Check R1 response
@@ -567,7 +557,7 @@ SD_ERROR_t SD::initCard(void){
 
 // Parse information about specific card
 // note: CSD/CID register values already must be in the cardDef structure
-void SD::getCardInfo(void) {
+inline void SD::getCardInfo(void) {
 	uint32_t dev_size;
 	uint32_t dev_size_mul;
 
@@ -637,9 +627,8 @@ void SD::getCardInfo(void) {
 	}
 }
 
-void SD::setFastClock() {
+inline void SD::setFastClock() {
 	uint32_t clk;
-
 	clk  = cfg.regs->CLKCR;
 	clk &= ~SDIO_CLKCR_CLKDIV;
 	clk |= (cfg.clk_div_fast & SDIO_CLKCR_CLKDIV);
