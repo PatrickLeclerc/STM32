@@ -120,4 +120,39 @@ CMakeFiles/F446re.elf.dir/main.cpp.obj: \
  /usr/include/newlib/c++/10.3.1/bits/stl_vector.h \
  /usr/include/newlib/c++/10.3.1/bits/stl_bvector.h \
  /usr/include/newlib/c++/10.3.1/bits/vector.tcc \
- /home/patrickleclerc/proj/git/STM32/F446re/drivers/sdio/sdio.hpp
+ /home/patrickleclerc/proj/git/STM32/F446re/drivers/sdio/sdio.hpp \
+ /usr/include/newlib/c++/10.3.1/sstream \
+ /usr/include/newlib/c++/10.3.1/istream \
+ /usr/include/newlib/c++/10.3.1/ios \
+ /usr/include/newlib/c++/10.3.1/bits/ios_base.h \
+ /usr/include/newlib/c++/10.3.1/bits/locale_classes.h \
+ /usr/include/newlib/c++/10.3.1/bits/locale_classes.tcc \
+ /usr/include/newlib/c++/10.3.1/system_error \
+ /usr/include/newlib/c++/10.3.1/arm-none-eabi/thumb/v7e-m+fp/hard/bits/error_constants.h \
+ /usr/include/newlib/c++/10.3.1/stdexcept \
+ /usr/include/newlib/c++/10.3.1/streambuf \
+ /usr/include/newlib/c++/10.3.1/bits/streambuf.tcc \
+ /usr/include/newlib/c++/10.3.1/bits/basic_ios.h \
+ /usr/include/newlib/c++/10.3.1/bits/locale_facets.h \
+ /usr/include/newlib/c++/10.3.1/cwctype /usr/include/newlib/wctype.h \
+ /usr/include/newlib/c++/10.3.1/arm-none-eabi/thumb/v7e-m+fp/hard/bits/ctype_base.h \
+ /usr/include/newlib/c++/10.3.1/bits/streambuf_iterator.h \
+ /usr/include/newlib/c++/10.3.1/arm-none-eabi/thumb/v7e-m+fp/hard/bits/ctype_inline.h \
+ /usr/include/newlib/c++/10.3.1/bits/locale_facets.tcc \
+ /usr/include/newlib/c++/10.3.1/bits/basic_ios.tcc \
+ /usr/include/newlib/c++/10.3.1/ostream \
+ /usr/include/newlib/c++/10.3.1/bits/ostream.tcc \
+ /usr/include/newlib/c++/10.3.1/bits/istream.tcc \
+ /usr/include/newlib/c++/10.3.1/bits/sstream.tcc \
+ /usr/include/newlib/c++/10.3.1/iomanip \
+ /usr/include/newlib/c++/10.3.1/locale \
+ /usr/include/newlib/c++/10.3.1/bits/locale_facets_nonio.h \
+ /usr/include/newlib/c++/10.3.1/ctime /usr/include/newlib/time.h \
+ /usr/include/newlib/machine/time.h \
+ /usr/include/newlib/c++/10.3.1/arm-none-eabi/thumb/v7e-m+fp/hard/bits/time_members.h \
+ /usr/include/newlib/c++/10.3.1/arm-none-eabi/thumb/v7e-m+fp/hard/bits/messages_members.h \
+ /usr/include/newlib/c++/10.3.1/bits/codecvt.h \
+ /usr/include/newlib/c++/10.3.1/bits/locale_facets_nonio.tcc \
+ /usr/include/newlib/c++/10.3.1/bits/locale_conv.h \
+ /usr/include/newlib/c++/10.3.1/bits/unique_ptr.h \
+ /usr/include/newlib/c++/10.3.1/bits/quoted_string.h

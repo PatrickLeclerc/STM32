@@ -54,7 +54,10 @@
         "thread": "cpp",
         "cinttypes": "cpp",
         "dma.h": "c",
-        "cstring": "cpp"
+        "cstring": "cpp",
+        "*.bkp": "cpp",
+        "ranges": "cpp",
+        "iomanip": "cpp"
     },
     "makefile.configureOnOpen": true
 }

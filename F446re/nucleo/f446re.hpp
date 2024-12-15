@@ -15,5 +15,5 @@ public:
     // Apps
     LED  led;
     Console console;
+    SD sd;
 };
-

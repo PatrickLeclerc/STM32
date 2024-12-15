@@ -215,13 +215,15 @@ Discarded input sections
  .text          0x0000000000000000        0x0 CMakeFiles/F446re.elf.dir/drivers/sdio/sdio.cpp.obj
  .data          0x0000000000000000        0x0 CMakeFiles/F446re.elf.dir/drivers/sdio/sdio.cpp.obj
  .bss           0x0000000000000000        0x0 CMakeFiles/F446re.elf.dir/drivers/sdio/sdio.cpp.obj
+ .ARM.extab.text._ZN2SD9getR1RespEh.isra.0
+                0x0000000000000000        0x0 CMakeFiles/F446re.elf.dir/drivers/sdio/sdio.cpp.obj
  .ARM.extab.text._ZN2SD4initEv
                 0x0000000000000000        0x0 CMakeFiles/F446re.elf.dir/drivers/sdio/sdio.cpp.obj
- .text._ZN2SD11sendCommandEmmm
-                0x0000000000000000       0x30 CMakeFiles/F446re.elf.dir/drivers/sdio/sdio.cpp.obj
- .ARM.extab.text._ZN2SD11sendCommandEmmm
+ .text._ZN2SD11sendCommandEmm12SD_RESP_SIZE
+                0x0000000000000000       0x20 CMakeFiles/F446re.elf.dir/drivers/sdio/sdio.cpp.obj
+ .ARM.extab.text._ZN2SD11sendCommandEmm12SD_RESP_SIZE
                 0x0000000000000000        0x0 CMakeFiles/F446re.elf.dir/drivers/sdio/sdio.cpp.obj
- .ARM.exidx.text._ZN2SD11sendCommandEmmm
+ .ARM.exidx.text._ZN2SD11sendCommandEmm12SD_RESP_SIZE
                 0x0000000000000000        0x8 CMakeFiles/F446re.elf.dir/drivers/sdio/sdio.cpp.obj
  .text._ZN2SD11getResponseEm
                 0x0000000000000000       0x30 CMakeFiles/F446re.elf.dir/drivers/sdio/sdio.cpp.obj
@@ -229,24 +231,20 @@ Discarded input sections
                 0x0000000000000000        0x0 CMakeFiles/F446re.elf.dir/drivers/sdio/sdio.cpp.obj
  .ARM.exidx.text._ZN2SD11getResponseEm
                 0x0000000000000000        0x8 CMakeFiles/F446re.elf.dir/drivers/sdio/sdio.cpp.obj
- .text._ZN2SD4CMD0Ev
-                0x0000000000000000       0x20 CMakeFiles/F446re.elf.dir/drivers/sdio/sdio.cpp.obj
- .ARM.extab.text._ZN2SD4CMD0Ev
+ .ARM.extab.text._ZN2SD11getCardInfoEv
                 0x0000000000000000        0x0 CMakeFiles/F446re.elf.dir/drivers/sdio/sdio.cpp.obj
- .ARM.exidx.text._ZN2SD4CMD0Ev
-                0x0000000000000000        0x8 CMakeFiles/F446re.elf.dir/drivers/sdio/sdio.cpp.obj
- .text._ZN2SD4CMD8Ev
-                0x0000000000000000       0x40 CMakeFiles/F446re.elf.dir/drivers/sdio/sdio.cpp.obj
- .ARM.extab.text._ZN2SD4CMD8Ev
+ .ARM.extab.text._ZN2SD8initCardEv
                 0x0000000000000000        0x0 CMakeFiles/F446re.elf.dir/drivers/sdio/sdio.cpp.obj
- .ARM.exidx.text._ZN2SD4CMD8Ev
-                0x0000000000000000        0x8 CMakeFiles/F446re.elf.dir/drivers/sdio/sdio.cpp.obj
- .text._ZN2SD6ACMD41Ev
-                0x0000000000000000       0x58 CMakeFiles/F446re.elf.dir/drivers/sdio/sdio.cpp.obj
- .ARM.extab.text._ZN2SD6ACMD41Ev
+ .text._ZN2SD12setFastClockEv
+                0x0000000000000000       0x14 CMakeFiles/F446re.elf.dir/drivers/sdio/sdio.cpp.obj
+ .ARM.extab.text._ZN2SD12setFastClockEv
                 0x0000000000000000        0x0 CMakeFiles/F446re.elf.dir/drivers/sdio/sdio.cpp.obj
- .ARM.exidx.text._ZN2SD6ACMD41Ev
+ .ARM.exidx.text._ZN2SD12setFastClockEv
                 0x0000000000000000        0x8 CMakeFiles/F446re.elf.dir/drivers/sdio/sdio.cpp.obj
+ .ARM.extab.text._ZN2SD9readBlockEmPmm
+                0x0000000000000000        0x0 CMakeFiles/F446re.elf.dir/drivers/sdio/sdio.cpp.obj
+ .ARM.extab.text._ZN2SD10writeBlockEmPmm
+                0x0000000000000000        0x0 CMakeFiles/F446re.elf.dir/drivers/sdio/sdio.cpp.obj
  .text          0x0000000000000000        0x0 CMakeFiles/F446re.elf.dir/apps/led/led.cpp.obj
  .data          0x0000000000000000        0x0 CMakeFiles/F446re.elf.dir/apps/led/led.cpp.obj
  .bss           0x0000000000000000        0x0 CMakeFiles/F446re.elf.dir/apps/led/led.cpp.obj
@@ -258,8 +256,12 @@ Discarded input sections
                 0x0000000000000000        0x0 CMakeFiles/F446re.elf.dir/apps/led/led.cpp.obj
  .ARM.exidx.text._ZN3LED6deinitEv
                 0x0000000000000000        0x8 CMakeFiles/F446re.elf.dir/apps/led/led.cpp.obj
+ .text._ZN3LED2onEv
+                0x0000000000000000       0x10 CMakeFiles/F446re.elf.dir/apps/led/led.cpp.obj
  .ARM.extab.text._ZN3LED2onEv
                 0x0000000000000000        0x0 CMakeFiles/F446re.elf.dir/apps/led/led.cpp.obj
+ .ARM.exidx.text._ZN3LED2onEv
+                0x0000000000000000        0x8 CMakeFiles/F446re.elf.dir/apps/led/led.cpp.obj
  .text._ZN3LED3offEv
                 0x0000000000000000       0x10 CMakeFiles/F446re.elf.dir/apps/led/led.cpp.obj
  .ARM.extab.text._ZN3LED3offEv
@@ -318,20 +320,6 @@ Discarded input sections
  .text          0x0000000000000000        0x0 CMakeFiles/F446re.elf.dir/main.cpp.obj
  .data          0x0000000000000000        0x0 CMakeFiles/F446re.elf.dir/main.cpp.obj
  .bss           0x0000000000000000        0x0 CMakeFiles/F446re.elf.dir/main.cpp.obj
- .text._Z16SDIO_SendCommandmmm
-                0x0000000000000000       0x38 CMakeFiles/F446re.elf.dir/main.cpp.obj
- .ARM.extab.text._Z16SDIO_SendCommandmmm
-                0x0000000000000000        0x0 CMakeFiles/F446re.elf.dir/main.cpp.obj
- .ARM.exidx.text._Z16SDIO_SendCommandmmm
-                0x0000000000000000        0x8 CMakeFiles/F446re.elf.dir/main.cpp.obj
- .text._Z16SDIO_GetResponsem
-                0x0000000000000000       0x30 CMakeFiles/F446re.elf.dir/main.cpp.obj
- .ARM.extab.text._Z16SDIO_GetResponsem
-                0x0000000000000000        0x0 CMakeFiles/F446re.elf.dir/main.cpp.obj
- .ARM.exidx.text._Z16SDIO_GetResponsem
-                0x0000000000000000        0x8 CMakeFiles/F446re.elf.dir/main.cpp.obj
- .ARM.extab.text._Z11SD_CardInitv
-                0x0000000000000000        0x0 CMakeFiles/F446re.elf.dir/main.cpp.obj
  .text          0x0000000000000000       0x14 CMakeFiles/F446re.elf.dir/ARM/startup_stm32f446xx.s.obj
  .data          0x0000000000000000        0x0 CMakeFiles/F446re.elf.dir/ARM/startup_stm32f446xx.s.obj
  .bss           0x0000000000000000        0x0 CMakeFiles/F446re.elf.dir/ARM/startup_stm32f446xx.s.obj
@@ -930,8 +918,6 @@ Discarded input sections
                 0x0000000000000000       0x16 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libstdc++_nano.a(string-inst.o)
  .text._ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE7replaceEN9__gnu_cxx17__normal_iteratorIPKcS4_EES9_S9_S9_
                 0x0000000000000000       0x16 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libstdc++_nano.a(string-inst.o)
- .text._ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE9_M_appendEPKcj
-                0x0000000000000000       0x44 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libstdc++_nano.a(string-inst.o)
  .text._ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE6appendERKS4_
                 0x0000000000000000        0xc /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libstdc++_nano.a(string-inst.o)
  .text._ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEpLERKS4_
@@ -1308,7 +1294,7 @@ LOAD /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/crtn.o
                 0x0000000008000000                g_pfnVectors
                 0x00000000080001c4                . = ALIGN (0x4)
 
-.text           0x0000000008000200     0x5940
+.text           0x0000000008000200     0x7340
                 0x0000000008000200                . = ALIGN (0x4)
  *(.text)
  .text          0x0000000008000200       0x88 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/crtbegin.o
@@ -1462,698 +1448,722 @@ LOAD /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/crtn.o
  .text._ZN3DMA4initEv
                 0x0000000008002bcc      0x308 CMakeFiles/F446re.elf.dir/drivers/dma/dma.cpp.obj
                 0x0000000008002bcc                DMA::init()
+ .text._ZN2SD9getR1RespEh.isra.0
+                0x0000000008002ed4       0xf8 CMakeFiles/F446re.elf.dir/drivers/sdio/sdio.cpp.obj
  .text._ZN2SD4initEv
-                0x0000000008002ed4       0x74 CMakeFiles/F446re.elf.dir/drivers/sdio/sdio.cpp.obj
-                0x0000000008002ed4                SD::init()
+                0x0000000008002fcc       0x78 CMakeFiles/F446re.elf.dir/drivers/sdio/sdio.cpp.obj
+                0x0000000008002fcc                SD::init()
+ .text._ZN2SD11getCardInfoEv
+                0x0000000008003044      0x124 CMakeFiles/F446re.elf.dir/drivers/sdio/sdio.cpp.obj
+                0x0000000008003044                SD::getCardInfo()
+ .text._ZN2SD8initCardEv
+                0x0000000008003168      0xed8 CMakeFiles/F446re.elf.dir/drivers/sdio/sdio.cpp.obj
+                0x0000000008003168                SD::initCard()
+ .text._ZN2SD9readBlockEmPmm
+                0x0000000008004040      0x3bc CMakeFiles/F446re.elf.dir/drivers/sdio/sdio.cpp.obj
+                0x0000000008004040                SD::readBlock(unsigned long, unsigned long*, unsigned long)
+ .text._ZN2SD10writeBlockEmPmm
+                0x00000000080043fc      0x520 CMakeFiles/F446re.elf.dir/drivers/sdio/sdio.cpp.obj
+                0x00000000080043fc                SD::writeBlock(unsigned long, unsigned long*, unsigned long)
  .text._ZNSt6vectorI4GPIOSaIS0_EE17_M_realloc_insertIJS0_EEEvN9__gnu_cxx17__normal_iteratorIPS0_S2_EEDpOT_
-                0x0000000008002f48      0x140 CMakeFiles/F446re.elf.dir/drivers/sdio/sdio.cpp.obj
-                0x0000000008002f48                void std::vector<GPIO, std::allocator<GPIO> >::_M_realloc_insert<GPIO>(__gnu_cxx::__normal_iterator<GPIO*, std::vector<GPIO, std::allocator<GPIO> > >, GPIO&&)
+                0x000000000800491c      0x140 CMakeFiles/F446re.elf.dir/drivers/sdio/sdio.cpp.obj
+                0x000000000800491c                void std::vector<GPIO, std::allocator<GPIO> >::_M_realloc_insert<GPIO>(__gnu_cxx::__normal_iterator<GPIO*, std::vector<GPIO, std::allocator<GPIO> > >, GPIO&&)
  .text._ZN2SDC2Ev
-                0x0000000008003088      0x190 CMakeFiles/F446re.elf.dir/drivers/sdio/sdio.cpp.obj
-                0x0000000008003088                SD::SD()
-                0x0000000008003088                SD::SD()
+                0x0000000008004a5c      0x19c CMakeFiles/F446re.elf.dir/drivers/sdio/sdio.cpp.obj
+                0x0000000008004a5c                SD::SD()
+                0x0000000008004a5c                SD::SD()
  .text._ZN3LEDC2Ev
-                0x0000000008003218       0x50 CMakeFiles/F446re.elf.dir/apps/led/led.cpp.obj
-                0x0000000008003218                LED::LED()
-                0x0000000008003218                LED::LED()
+                0x0000000008004bf8       0x50 CMakeFiles/F446re.elf.dir/apps/led/led.cpp.obj
+                0x0000000008004bf8                LED::LED()
+                0x0000000008004bf8                LED::LED()
  .text._ZN3LED4initEv
-                0x0000000008003268        0x4 CMakeFiles/F446re.elf.dir/apps/led/led.cpp.obj
-                0x0000000008003268                LED::init()
- .text._ZN3LED2onEv
-                0x000000000800326c       0x10 CMakeFiles/F446re.elf.dir/apps/led/led.cpp.obj
-                0x000000000800326c                LED::on()
+                0x0000000008004c48        0x4 CMakeFiles/F446re.elf.dir/apps/led/led.cpp.obj
+                0x0000000008004c48                LED::init()
  .text._ZNSt17_Function_handlerIFvvESt5_BindIFM7ConsoleFvvEPS2_EEE9_M_invokeERKSt9_Any_data
-                0x000000000800327c       0x20 CMakeFiles/F446re.elf.dir/apps/console/console.cpp.obj
-                0x000000000800327c                std::_Function_handler<void (), std::_Bind<void (Console::*(Console*))()> >::_M_invoke(std::_Any_data const&)
+                0x0000000008004c4c       0x20 CMakeFiles/F446re.elf.dir/apps/console/console.cpp.obj
+                0x0000000008004c4c                std::_Function_handler<void (), std::_Bind<void (Console::*(Console*))()> >::_M_invoke(std::_Any_data const&)
  .text._ZNSt17_Function_handlerIFvvESt5_BindIFM7ConsoleFvvEPS2_EEE10_M_managerERSt9_Any_dataRKS9_St18_Manager_operation
-                0x000000000800329c       0x4c CMakeFiles/F446re.elf.dir/apps/console/console.cpp.obj
-                0x000000000800329c                std::_Function_handler<void (), std::_Bind<void (Console::*(Console*))()> >::_M_manager(std::_Any_data&, std::_Any_data const&, std::_Manager_operation)
+                0x0000000008004c6c       0x4c CMakeFiles/F446re.elf.dir/apps/console/console.cpp.obj
+                0x0000000008004c6c                std::_Function_handler<void (), std::_Bind<void (Console::*(Console*))()> >::_M_manager(std::_Any_data&, std::_Any_data const&, std::_Manager_operation)
  .text._ZN7CommandD2Ev
-                0x00000000080032e8       0x3c CMakeFiles/F446re.elf.dir/apps/console/console.cpp.obj
-                0x00000000080032e8                Command::~Command()
-                0x00000000080032e8                Command::~Command()
+                0x0000000008004cb8       0x3c CMakeFiles/F446re.elf.dir/apps/console/console.cpp.obj
+                0x0000000008004cb8                Command::~Command()
+                0x0000000008004cb8                Command::~Command()
  .text._ZN7Console5printEPKcz
-                0x0000000008003324       0x5c CMakeFiles/F446re.elf.dir/apps/console/console.cpp.obj
-                0x0000000008003324                Console::print(char const*, ...)
+                0x0000000008004cf4       0x60 CMakeFiles/F446re.elf.dir/apps/console/console.cpp.obj
+                0x0000000008004cf4                Console::print(char const*, ...)
  .text._ZN7Console12time_commandEv
-                0x0000000008003380       0x28 CMakeFiles/F446re.elf.dir/apps/console/console.cpp.obj
-                0x0000000008003380                Console::time_command()
+                0x0000000008004d54       0x28 CMakeFiles/F446re.elf.dir/apps/console/console.cpp.obj
+                0x0000000008004d54                Console::time_command()
  .text._ZN7Console11cls_commandEv
-                0x00000000080033a8        0xc CMakeFiles/F446re.elf.dir/apps/console/console.cpp.obj
-                0x00000000080033a8                Console::cls_command()
+                0x0000000008004d7c        0xc CMakeFiles/F446re.elf.dir/apps/console/console.cpp.obj
+                0x0000000008004d7c                Console::cls_command()
  .text._ZN7Console12help_commandEv
-                0x00000000080033b4       0x90 CMakeFiles/F446re.elf.dir/apps/console/console.cpp.obj
-                0x00000000080033b4                Console::help_command()
+                0x0000000008004d88       0x90 CMakeFiles/F446re.elf.dir/apps/console/console.cpp.obj
+                0x0000000008004d88                Console::help_command()
  .text._ZN7Console4initEv
-                0x0000000008003444       0xc8 CMakeFiles/F446re.elf.dir/apps/console/console.cpp.obj
-                0x0000000008003444                Console::init()
+                0x0000000008004e18       0xc8 CMakeFiles/F446re.elf.dir/apps/console/console.cpp.obj
+                0x0000000008004e18                Console::init()
  .text.DMA1_Stream6_IRQHandler
-                0x000000000800350c       0x20 CMakeFiles/F446re.elf.dir/apps/console/console.cpp.obj
-                0x000000000800350c                DMA1_Stream6_IRQHandler
+                0x0000000008004ee0       0x20 CMakeFiles/F446re.elf.dir/apps/console/console.cpp.obj
+                0x0000000008004ee0                DMA1_Stream6_IRQHandler
  .text.USART2_IRQHandler
-                0x000000000800352c       0x84 CMakeFiles/F446re.elf.dir/apps/console/console.cpp.obj
-                0x000000000800352c                USART2_IRQHandler
+                0x0000000008004f00       0x84 CMakeFiles/F446re.elf.dir/apps/console/console.cpp.obj
+                0x0000000008004f00                USART2_IRQHandler
  .text._ZNSt6vectorINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESaIS5_EED2Ev
-                0x00000000080035b0       0x4c CMakeFiles/F446re.elf.dir/apps/console/console.cpp.obj
-                0x00000000080035b0                std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >::~vector()
-                0x00000000080035b0                std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >::~vector()
+                0x0000000008004f84       0x4c CMakeFiles/F446re.elf.dir/apps/console/console.cpp.obj
+                0x0000000008004f84                std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >::~vector()
+                0x0000000008004f84                std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >::~vector()
  .text._ZNSt6vectorINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESaIS5_EE17_M_realloc_insertIJRKS5_EEEvN9__gnu_cxx17__normal_iteratorIPS5_S7_EEDpOT_
-                0x00000000080035fc      0x254 CMakeFiles/F446re.elf.dir/apps/console/console.cpp.obj
-                0x00000000080035fc                void std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >::_M_realloc_insert<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&>(__gnu_cxx::__normal_iterator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >*, std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > >, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)
+                0x0000000008004fd0      0x254 CMakeFiles/F446re.elf.dir/apps/console/console.cpp.obj
+                0x0000000008004fd0                void std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >::_M_realloc_insert<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&>(__gnu_cxx::__normal_iterator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >*, std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > >, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)
  .text._ZN7Console12convert_argsB5cxx11Ev
-                0x0000000008003850      0x158 CMakeFiles/F446re.elf.dir/apps/console/console.cpp.obj
-                0x0000000008003850                Console::convert_args[abi:cxx11]()
+                0x0000000008005224      0x158 CMakeFiles/F446re.elf.dir/apps/console/console.cpp.obj
+                0x0000000008005224                Console::convert_args[abi:cxx11]()
  .text._ZN7Console11processLineEv
-                0x00000000080039a8      0x134 CMakeFiles/F446re.elf.dir/apps/console/console.cpp.obj
-                0x00000000080039a8                Console::processLine()
+                0x000000000800537c      0x134 CMakeFiles/F446re.elf.dir/apps/console/console.cpp.obj
+                0x000000000800537c                Console::processLine()
  .text._ZN7Console12echo_commandEv
-                0x0000000008003adc       0x74 CMakeFiles/F446re.elf.dir/apps/console/console.cpp.obj
-                0x0000000008003adc                Console::echo_command()
+                0x00000000080054b0       0x74 CMakeFiles/F446re.elf.dir/apps/console/console.cpp.obj
+                0x00000000080054b0                Console::echo_command()
  .text._ZNSt6vectorI7CommandSaIS0_EE17_M_realloc_insertIJS0_EEEvN9__gnu_cxx17__normal_iteratorIPS0_S2_EEDpOT_
-                0x0000000008003b50      0x36c CMakeFiles/F446re.elf.dir/apps/console/console.cpp.obj
-                0x0000000008003b50                void std::vector<Command, std::allocator<Command> >::_M_realloc_insert<Command>(__gnu_cxx::__normal_iterator<Command*, std::vector<Command, std::allocator<Command> > >, Command&&)
+                0x0000000008005524      0x36c CMakeFiles/F446re.elf.dir/apps/console/console.cpp.obj
+                0x0000000008005524                void std::vector<Command, std::allocator<Command> >::_M_realloc_insert<Command>(__gnu_cxx::__normal_iterator<Command*, std::vector<Command, std::allocator<Command> > >, Command&&)
  .text._ZNSt6vectorI7CommandSaIS0_EE12emplace_backIJS0_EEEvDpOT_
-                0x0000000008003ebc       0xd0 CMakeFiles/F446re.elf.dir/apps/console/console.cpp.obj
-                0x0000000008003ebc                void std::vector<Command, std::allocator<Command> >::emplace_back<Command>(Command&&)
+                0x0000000008005890       0xd0 CMakeFiles/F446re.elf.dir/apps/console/console.cpp.obj
+                0x0000000008005890                void std::vector<Command, std::allocator<Command> >::emplace_back<Command>(Command&&)
  .text._ZN7Console17assemble_commandsEv
-                0x0000000008003f8c      0x8cc CMakeFiles/F446re.elf.dir/apps/console/console.cpp.obj
-                0x0000000008003f8c                Console::assemble_commands()
+                0x0000000008005960      0x8cc CMakeFiles/F446re.elf.dir/apps/console/console.cpp.obj
+                0x0000000008005960                Console::assemble_commands()
  .text._ZN7ConsoleC2Em
-                0x0000000008004858      0x208 CMakeFiles/F446re.elf.dir/apps/console/console.cpp.obj
-                0x0000000008004858                Console::Console(unsigned long)
-                0x0000000008004858                Console::Console(unsigned long)
+                0x000000000800622c      0x208 CMakeFiles/F446re.elf.dir/apps/console/console.cpp.obj
+                0x000000000800622c                Console::Console(unsigned long)
+                0x000000000800622c                Console::Console(unsigned long)
  .text._ZN6F446reD2Ev
-                0x0000000008004a60       0xa8 CMakeFiles/F446re.elf.dir/nucleo/f446re.cpp.obj
-                0x0000000008004a60                F446re::~F446re()
-                0x0000000008004a60                F446re::~F446re()
+                0x0000000008006434       0xe4 CMakeFiles/F446re.elf.dir/nucleo/f446re.cpp.obj
+                0x0000000008006434                F446re::~F446re()
+                0x0000000008006434                F446re::~F446re()
  .text._ZNSt6vectorI7CommandSaIS0_EED2Ev
-                0x0000000008004b08       0x74 CMakeFiles/F446re.elf.dir/nucleo/f446re.cpp.obj
-                0x0000000008004b08                std::vector<Command, std::allocator<Command> >::~vector()
-                0x0000000008004b08                std::vector<Command, std::allocator<Command> >::~vector()
+                0x0000000008006518       0x74 CMakeFiles/F446re.elf.dir/nucleo/f446re.cpp.obj
+                0x0000000008006518                std::vector<Command, std::allocator<Command> >::~vector()
+                0x0000000008006518                std::vector<Command, std::allocator<Command> >::~vector()
  .text._ZN6F446reC2Ev
-                0x0000000008004b7c       0x6c CMakeFiles/F446re.elf.dir/nucleo/f446re.cpp.obj
-                0x0000000008004b7c                F446re::F446re()
-                0x0000000008004b7c                F446re::F446re()
- .text._Z11SD_CardInitv
-                0x0000000008004be8      0x108 CMakeFiles/F446re.elf.dir/main.cpp.obj
-                0x0000000008004be8                SD_CardInit()
+                0x000000000800658c       0xb4 CMakeFiles/F446re.elf.dir/nucleo/f446re.cpp.obj
+                0x000000000800658c                F446re::F446re()
+                0x000000000800658c                F446re::F446re()
  .text.startup.main
-                0x0000000008004cf0       0x64 CMakeFiles/F446re.elf.dir/main.cpp.obj
-                0x0000000008004cf0                main
+                0x0000000008006640       0xd0 CMakeFiles/F446re.elf.dir/main.cpp.obj
+                0x0000000008006640                main
  .text.Reset_Handler
-                0x0000000008004d54       0x50 CMakeFiles/F446re.elf.dir/ARM/startup_stm32f446xx.s.obj
-                0x0000000008004d54                Reset_Handler
+                0x0000000008006710       0x50 CMakeFiles/F446re.elf.dir/ARM/startup_stm32f446xx.s.obj
+                0x0000000008006710                Reset_Handler
  .text.Default_Handler
-                0x0000000008004da4        0x2 CMakeFiles/F446re.elf.dir/ARM/startup_stm32f446xx.s.obj
-                0x0000000008004da4                RTC_Alarm_IRQHandler
-                0x0000000008004da4                EXTI2_IRQHandler
-                0x0000000008004da4                TIM8_CC_IRQHandler
-                0x0000000008004da4                DebugMon_Handler
-                0x0000000008004da4                FMPI2C1_EV_IRQHandler
-                0x0000000008004da4                SPI4_IRQHandler
-                0x0000000008004da4                TIM1_CC_IRQHandler
-                0x0000000008004da4                DMA2_Stream5_IRQHandler
-                0x0000000008004da4                HardFault_Handler
-                0x0000000008004da4                DMA1_Stream5_IRQHandler
-                0x0000000008004da4                SysTick_Handler
-                0x0000000008004da4                PVD_IRQHandler
-                0x0000000008004da4                SDIO_IRQHandler
-                0x0000000008004da4                TAMP_STAMP_IRQHandler
-                0x0000000008004da4                PendSV_Handler
-                0x0000000008004da4                NMI_Handler
-                0x0000000008004da4                CAN2_RX1_IRQHandler
-                0x0000000008004da4                EXTI3_IRQHandler
-                0x0000000008004da4                TIM8_TRG_COM_TIM14_IRQHandler
-                0x0000000008004da4                TIM1_UP_TIM10_IRQHandler
-                0x0000000008004da4                TIM8_UP_TIM13_IRQHandler
-                0x0000000008004da4                I2C3_ER_IRQHandler
-                0x0000000008004da4                EXTI0_IRQHandler
-                0x0000000008004da4                I2C2_EV_IRQHandler
-                0x0000000008004da4                DMA1_Stream2_IRQHandler
-                0x0000000008004da4                CAN1_RX0_IRQHandler
-                0x0000000008004da4                FPU_IRQHandler
-                0x0000000008004da4                OTG_HS_WKUP_IRQHandler
-                0x0000000008004da4                UsageFault_Handler
-                0x0000000008004da4                CAN2_SCE_IRQHandler
-                0x0000000008004da4                DMA2_Stream2_IRQHandler
-                0x0000000008004da4                SPI1_IRQHandler
-                0x0000000008004da4                TIM6_DAC_IRQHandler
-                0x0000000008004da4                TIM1_BRK_TIM9_IRQHandler
-                0x0000000008004da4                DCMI_IRQHandler
-                0x0000000008004da4                CAN2_RX0_IRQHandler
-                0x0000000008004da4                DMA2_Stream3_IRQHandler
-                0x0000000008004da4                SAI2_IRQHandler
-                0x0000000008004da4                USART6_IRQHandler
-                0x0000000008004da4                USART3_IRQHandler
-                0x0000000008004da4                CAN1_RX1_IRQHandler
-                0x0000000008004da4                UART5_IRQHandler
-                0x0000000008004da4                DMA2_Stream0_IRQHandler
-                0x0000000008004da4                TIM4_IRQHandler
-                0x0000000008004da4                QUADSPI_IRQHandler
-                0x0000000008004da4                I2C1_EV_IRQHandler
-                0x0000000008004da4                DMA1_Stream1_IRQHandler
-                0x0000000008004da4                UART4_IRQHandler
-                0x0000000008004da4                TIM3_IRQHandler
-                0x0000000008004da4                RCC_IRQHandler
-                0x0000000008004da4                TIM8_BRK_TIM12_IRQHandler
-                0x0000000008004da4                Default_Handler
-                0x0000000008004da4                CEC_IRQHandler
-                0x0000000008004da4                EXTI15_10_IRQHandler
-                0x0000000008004da4                ADC_IRQHandler
-                0x0000000008004da4                DMA1_Stream7_IRQHandler
-                0x0000000008004da4                TIM7_IRQHandler
-                0x0000000008004da4                CAN2_TX_IRQHandler
-                0x0000000008004da4                TIM5_IRQHandler
-                0x0000000008004da4                DMA2_Stream7_IRQHandler
-                0x0000000008004da4                I2C3_EV_IRQHandler
-                0x0000000008004da4                EXTI9_5_IRQHandler
-                0x0000000008004da4                RTC_WKUP_IRQHandler
-                0x0000000008004da4                SPDIF_RX_IRQHandler
-                0x0000000008004da4                SPI2_IRQHandler
-                0x0000000008004da4                OTG_HS_EP1_IN_IRQHandler
-                0x0000000008004da4                MemManage_Handler
-                0x0000000008004da4                DMA1_Stream0_IRQHandler
-                0x0000000008004da4                CAN1_TX_IRQHandler
-                0x0000000008004da4                SVC_Handler
-                0x0000000008004da4                FMPI2C1_ER_IRQHandler
-                0x0000000008004da4                EXTI4_IRQHandler
-                0x0000000008004da4                OTG_HS_EP1_OUT_IRQHandler
-                0x0000000008004da4                WWDG_IRQHandler
-                0x0000000008004da4                TIM2_IRQHandler
-                0x0000000008004da4                OTG_FS_WKUP_IRQHandler
-                0x0000000008004da4                TIM1_TRG_COM_TIM11_IRQHandler
-                0x0000000008004da4                OTG_HS_IRQHandler
-                0x0000000008004da4                EXTI1_IRQHandler
-                0x0000000008004da4                I2C2_ER_IRQHandler
-                0x0000000008004da4                DMA2_Stream1_IRQHandler
-                0x0000000008004da4                CAN1_SCE_IRQHandler
-                0x0000000008004da4                FLASH_IRQHandler
-                0x0000000008004da4                DMA2_Stream4_IRQHandler
-                0x0000000008004da4                BusFault_Handler
-                0x0000000008004da4                USART1_IRQHandler
-                0x0000000008004da4                OTG_FS_IRQHandler
-                0x0000000008004da4                SPI3_IRQHandler
-                0x0000000008004da4                DMA1_Stream4_IRQHandler
-                0x0000000008004da4                I2C1_ER_IRQHandler
-                0x0000000008004da4                FMC_IRQHandler
-                0x0000000008004da4                DMA2_Stream6_IRQHandler
-                0x0000000008004da4                SAI1_IRQHandler
-                0x0000000008004da4                DMA1_Stream3_IRQHandler
+                0x0000000008006760        0x2 CMakeFiles/F446re.elf.dir/ARM/startup_stm32f446xx.s.obj
+                0x0000000008006760                RTC_Alarm_IRQHandler
+                0x0000000008006760                EXTI2_IRQHandler
+                0x0000000008006760                TIM8_CC_IRQHandler
+                0x0000000008006760                DebugMon_Handler
+                0x0000000008006760                FMPI2C1_EV_IRQHandler
+                0x0000000008006760                SPI4_IRQHandler
+                0x0000000008006760                TIM1_CC_IRQHandler
+                0x0000000008006760                DMA2_Stream5_IRQHandler
+                0x0000000008006760                HardFault_Handler
+                0x0000000008006760                DMA1_Stream5_IRQHandler
+                0x0000000008006760                SysTick_Handler
+                0x0000000008006760                PVD_IRQHandler
+                0x0000000008006760                SDIO_IRQHandler
+                0x0000000008006760                TAMP_STAMP_IRQHandler
+                0x0000000008006760                PendSV_Handler
+                0x0000000008006760                NMI_Handler
+                0x0000000008006760                CAN2_RX1_IRQHandler
+                0x0000000008006760                EXTI3_IRQHandler
+                0x0000000008006760                TIM8_TRG_COM_TIM14_IRQHandler
+                0x0000000008006760                TIM1_UP_TIM10_IRQHandler
+                0x0000000008006760                TIM8_UP_TIM13_IRQHandler
+                0x0000000008006760                I2C3_ER_IRQHandler
+                0x0000000008006760                EXTI0_IRQHandler
+                0x0000000008006760                I2C2_EV_IRQHandler
+                0x0000000008006760                DMA1_Stream2_IRQHandler
+                0x0000000008006760                CAN1_RX0_IRQHandler
+                0x0000000008006760                FPU_IRQHandler
+                0x0000000008006760                OTG_HS_WKUP_IRQHandler
+                0x0000000008006760                UsageFault_Handler
+                0x0000000008006760                CAN2_SCE_IRQHandler
+                0x0000000008006760                DMA2_Stream2_IRQHandler
+                0x0000000008006760                SPI1_IRQHandler
+                0x0000000008006760                TIM6_DAC_IRQHandler
+                0x0000000008006760                TIM1_BRK_TIM9_IRQHandler
+                0x0000000008006760                DCMI_IRQHandler
+                0x0000000008006760                CAN2_RX0_IRQHandler
+                0x0000000008006760                DMA2_Stream3_IRQHandler
+                0x0000000008006760                SAI2_IRQHandler
+                0x0000000008006760                USART6_IRQHandler
+                0x0000000008006760                USART3_IRQHandler
+                0x0000000008006760                CAN1_RX1_IRQHandler
+                0x0000000008006760                UART5_IRQHandler
+                0x0000000008006760                DMA2_Stream0_IRQHandler
+                0x0000000008006760                TIM4_IRQHandler
+                0x0000000008006760                QUADSPI_IRQHandler
+                0x0000000008006760                I2C1_EV_IRQHandler
+                0x0000000008006760                DMA1_Stream1_IRQHandler
+                0x0000000008006760                UART4_IRQHandler
+                0x0000000008006760                TIM3_IRQHandler
+                0x0000000008006760                RCC_IRQHandler
+                0x0000000008006760                TIM8_BRK_TIM12_IRQHandler
+                0x0000000008006760                Default_Handler
+                0x0000000008006760                CEC_IRQHandler
+                0x0000000008006760                EXTI15_10_IRQHandler
+                0x0000000008006760                ADC_IRQHandler
+                0x0000000008006760                DMA1_Stream7_IRQHandler
+                0x0000000008006760                TIM7_IRQHandler
+                0x0000000008006760                CAN2_TX_IRQHandler
+                0x0000000008006760                TIM5_IRQHandler
+                0x0000000008006760                DMA2_Stream7_IRQHandler
+                0x0000000008006760                I2C3_EV_IRQHandler
+                0x0000000008006760                EXTI9_5_IRQHandler
+                0x0000000008006760                RTC_WKUP_IRQHandler
+                0x0000000008006760                SPDIF_RX_IRQHandler
+                0x0000000008006760                SPI2_IRQHandler
+                0x0000000008006760                OTG_HS_EP1_IN_IRQHandler
+                0x0000000008006760                MemManage_Handler
+                0x0000000008006760                DMA1_Stream0_IRQHandler
+                0x0000000008006760                CAN1_TX_IRQHandler
+                0x0000000008006760                SVC_Handler
+                0x0000000008006760                FMPI2C1_ER_IRQHandler
+                0x0000000008006760                EXTI4_IRQHandler
+                0x0000000008006760                OTG_HS_EP1_OUT_IRQHandler
+                0x0000000008006760                WWDG_IRQHandler
+                0x0000000008006760                TIM2_IRQHandler
+                0x0000000008006760                OTG_FS_WKUP_IRQHandler
+                0x0000000008006760                TIM1_TRG_COM_TIM11_IRQHandler
+                0x0000000008006760                OTG_HS_IRQHandler
+                0x0000000008006760                EXTI1_IRQHandler
+                0x0000000008006760                I2C2_ER_IRQHandler
+                0x0000000008006760                DMA2_Stream1_IRQHandler
+                0x0000000008006760                CAN1_SCE_IRQHandler
+                0x0000000008006760                FLASH_IRQHandler
+                0x0000000008006760                DMA2_Stream4_IRQHandler
+                0x0000000008006760                BusFault_Handler
+                0x0000000008006760                USART1_IRQHandler
+                0x0000000008006760                OTG_FS_IRQHandler
+                0x0000000008006760                SPI3_IRQHandler
+                0x0000000008006760                DMA1_Stream4_IRQHandler
+                0x0000000008006760                I2C1_ER_IRQHandler
+                0x0000000008006760                FMC_IRQHandler
+                0x0000000008006760                DMA2_Stream6_IRQHandler
+                0x0000000008006760                SAI1_IRQHandler
+                0x0000000008006760                DMA1_Stream3_IRQHandler
  .text._ZNK10__cxxabiv117__class_type_info11__do_upcastEPKS0_PPv
-                0x0000000008004da6       0x32 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libstdc++_nano.a(class_type_info.o)
-                0x0000000008004da6                __cxxabiv1::__class_type_info::__do_upcast(__cxxabiv1::__class_type_info const*, void**) const
+                0x0000000008006762       0x32 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libstdc++_nano.a(class_type_info.o)
+                0x0000000008006762                __cxxabiv1::__class_type_info::__do_upcast(__cxxabiv1::__class_type_info const*, void**) const
  .text._ZNK10__cxxabiv117__class_type_info20__do_find_public_srcEiPKvPKS0_S2_
-                0x0000000008004dd8        0xc /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libstdc++_nano.a(class_type_info.o)
-                0x0000000008004dd8                __cxxabiv1::__class_type_info::__do_find_public_src(int, void const*, __cxxabiv1::__class_type_info const*, void const*) const
+                0x0000000008006794        0xc /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libstdc++_nano.a(class_type_info.o)
+                0x0000000008006794                __cxxabiv1::__class_type_info::__do_find_public_src(int, void const*, __cxxabiv1::__class_type_info const*, void const*) const
  .text._ZN10__cxxabiv117__class_type_infoD2Ev
-                0x0000000008004de4       0x14 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libstdc++_nano.a(class_type_info.o)
-                0x0000000008004de4                __cxxabiv1::__class_type_info::~__class_type_info()
-                0x0000000008004de4                __cxxabiv1::__class_type_info::~__class_type_info()
+                0x00000000080067a0       0x14 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libstdc++_nano.a(class_type_info.o)
+                0x00000000080067a0                __cxxabiv1::__class_type_info::~__class_type_info()
+                0x00000000080067a0                __cxxabiv1::__class_type_info::~__class_type_info()
  .text._ZN10__cxxabiv117__class_type_infoD0Ev
-                0x0000000008004df8       0x14 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libstdc++_nano.a(class_type_info.o)
-                0x0000000008004df8                __cxxabiv1::__class_type_info::~__class_type_info()
+                0x00000000080067b4       0x14 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libstdc++_nano.a(class_type_info.o)
+                0x00000000080067b4                __cxxabiv1::__class_type_info::~__class_type_info()
  .text._ZNK10__cxxabiv117__class_type_info12__do_dyncastEiNS0_10__sub_kindEPKS0_PKvS3_S5_RNS0_16__dyncast_resultE
-                0x0000000008004e0c       0x3e /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libstdc++_nano.a(class_type_info.o)
-                0x0000000008004e0c                __cxxabiv1::__class_type_info::__do_dyncast(int, __cxxabiv1::__class_type_info::__sub_kind, __cxxabiv1::__class_type_info const*, void const*, __cxxabiv1::__class_type_info const*, void const*, __cxxabiv1::__class_type_info::__dyncast_result&) const
+                0x00000000080067c8       0x3e /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libstdc++_nano.a(class_type_info.o)
+                0x00000000080067c8                __cxxabiv1::__class_type_info::__do_dyncast(int, __cxxabiv1::__class_type_info::__sub_kind, __cxxabiv1::__class_type_info const*, void const*, __cxxabiv1::__class_type_info const*, void const*, __cxxabiv1::__class_type_info::__dyncast_result&) const
  .text._ZNK10__cxxabiv117__class_type_info11__do_upcastEPKS0_PKvRNS0_15__upcast_resultE
-                0x0000000008004e4a       0x18 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libstdc++_nano.a(class_type_info.o)
-                0x0000000008004e4a                __cxxabiv1::__class_type_info::__do_upcast(__cxxabiv1::__class_type_info const*, void const*, __cxxabiv1::__class_type_info::__upcast_result&) const
+                0x0000000008006806       0x18 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libstdc++_nano.a(class_type_info.o)
+                0x0000000008006806                __cxxabiv1::__class_type_info::__do_upcast(__cxxabiv1::__class_type_info const*, void const*, __cxxabiv1::__class_type_info::__upcast_result&) const
  .text._ZNK10__cxxabiv117__class_type_info10__do_catchEPKSt9type_infoPPvj
-                0x0000000008004e62       0x2a /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libstdc++_nano.a(class_type_info.o)
-                0x0000000008004e62                __cxxabiv1::__class_type_info::__do_catch(std::type_info const*, void**, unsigned int) const
- .text._ZdlPvj  0x0000000008004e8c        0x4 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libstdc++_nano.a(del_ops.o)
-                0x0000000008004e8c                operator delete(void*, unsigned int)
+                0x000000000800681e       0x2a /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libstdc++_nano.a(class_type_info.o)
+                0x000000000800681e                __cxxabiv1::__class_type_info::__do_catch(std::type_info const*, void**, unsigned int) const
+ .text._ZdlPvj  0x0000000008006848        0x4 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libstdc++_nano.a(del_ops.o)
+                0x0000000008006848                operator delete(void*, unsigned int)
  .text.__cxa_end_cleanup
-                0x0000000008004e90        0xc /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libstdc++_nano.a(eh_arm.o)
-                0x0000000008004e90                __cxa_end_cleanup
+                0x000000000800684c        0xc /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libstdc++_nano.a(eh_arm.o)
+                0x000000000800684c                __cxa_end_cleanup
  .text._ZN10__cxxabiv1L24__is_gxx_exception_classEPc
-                0x0000000008004e9c       0x3a /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libstdc++_nano.a(eh_arm.o)
- *fill*         0x0000000008004ed6        0x2 
+                0x0000000008006858       0x3a /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libstdc++_nano.a(eh_arm.o)
+ *fill*         0x0000000008006892        0x2 
  .text.__cxa_type_match
-                0x0000000008004ed8       0xbc /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libstdc++_nano.a(eh_arm.o)
-                0x0000000008004ed8                __cxa_type_match
+                0x0000000008006894       0xbc /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libstdc++_nano.a(eh_arm.o)
+                0x0000000008006894                __cxa_type_match
  .text.__cxa_begin_cleanup
-                0x0000000008004f94       0x3a /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libstdc++_nano.a(eh_arm.o)
-                0x0000000008004f94                __cxa_begin_cleanup
+                0x0000000008006950       0x3a /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libstdc++_nano.a(eh_arm.o)
+                0x0000000008006950                __cxa_begin_cleanup
  .text.__gnu_end_cleanup
-                0x0000000008004fce       0x32 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libstdc++_nano.a(eh_arm.o)
-                0x0000000008004fce                __gnu_end_cleanup
+                0x000000000800698a       0x32 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libstdc++_nano.a(eh_arm.o)
+                0x000000000800698a                __gnu_end_cleanup
  .text._ZN10__cxxabiv1L24__is_gxx_exception_classEPc
-                0x0000000008005000       0x3a /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libstdc++_nano.a(eh_catch.o)
+                0x00000000080069bc       0x3a /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libstdc++_nano.a(eh_catch.o)
  .text.__cxa_begin_catch
-                0x000000000800503a       0x52 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libstdc++_nano.a(eh_catch.o)
-                0x000000000800503a                __cxa_begin_catch
+                0x00000000080069f6       0x52 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libstdc++_nano.a(eh_catch.o)
+                0x00000000080069f6                __cxa_begin_catch
  .text.__cxa_end_catch
-                0x000000000800508c       0x48 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libstdc++_nano.a(eh_catch.o)
-                0x000000000800508c                __cxa_end_catch
+                0x0000000008006a48       0x48 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libstdc++_nano.a(eh_catch.o)
+                0x0000000008006a48                __cxa_end_catch
  .text.__cxa_get_globals_fast
-                0x00000000080050d4        0x8 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libstdc++_nano.a(eh_globals.o)
-                0x00000000080050d4                __cxa_get_globals_fast
+                0x0000000008006a90        0x8 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libstdc++_nano.a(eh_globals.o)
+                0x0000000008006a90                __cxa_get_globals_fast
  .text.__cxa_get_globals
-                0x00000000080050dc        0x8 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libstdc++_nano.a(eh_globals.o)
-                0x00000000080050dc                __cxa_get_globals
+                0x0000000008006a98        0x8 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libstdc++_nano.a(eh_globals.o)
+                0x0000000008006a98                __cxa_get_globals
  .text._ZL12read_uleb128PKhPm
-                0x00000000080050e4       0x1e /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libstdc++_nano.a(eh_personality.o)
+                0x0000000008006aa0       0x1e /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libstdc++_nano.a(eh_personality.o)
  .text._ZL12read_sleb128PKhPl
-                0x0000000008005102       0x30 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libstdc++_nano.a(eh_personality.o)
+                0x0000000008006abe       0x30 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libstdc++_nano.a(eh_personality.o)
  .text._ZL28read_encoded_value_with_basehjPKhPj
-                0x0000000008005132       0x8c /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libstdc++_nano.a(eh_personality.o)
+                0x0000000008006aee       0x8c /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libstdc++_nano.a(eh_personality.o)
  .text._ZL21base_of_encoded_valuehP15_Unwind_Context
-                0x00000000080051be       0x48 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libstdc++_nano.a(eh_personality.o)
+                0x0000000008006b7a       0x48 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libstdc++_nano.a(eh_personality.o)
  .text._ZL18read_encoded_valueP15_Unwind_ContexthPKhPj
-                0x0000000008005206       0x22 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libstdc++_nano.a(eh_personality.o)
+                0x0000000008006bc2       0x22 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libstdc++_nano.a(eh_personality.o)
  .text._ZL17parse_lsda_headerP15_Unwind_ContextPKhP16lsda_header_info
-                0x0000000008005228       0x62 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libstdc++_nano.a(eh_personality.o)
+                0x0000000008006be4       0x62 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libstdc++_nano.a(eh_personality.o)
  .text._Unwind_GetGR
-                0x000000000800528a       0x18 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libstdc++_nano.a(eh_personality.o)
- *fill*         0x00000000080052a2        0x2 
+                0x0000000008006c46       0x18 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libstdc++_nano.a(eh_personality.o)
+ *fill*         0x0000000008006c5e        0x2 
  .text.__gxx_personality_v0
-                0x00000000080052a4      0x338 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libstdc++_nano.a(eh_personality.o)
-                0x00000000080052a4                __gxx_personality_v0
+                0x0000000008006c60      0x338 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libstdc++_nano.a(eh_personality.o)
+                0x0000000008006c60                __gxx_personality_v0
  .text._ZN10__cxxabiv111__terminateEPFvvE
-                0x00000000080055dc        0x8 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libstdc++_nano.a(eh_terminate.o)
-                0x00000000080055dc                __cxxabiv1::__terminate(void (*)())
+                0x0000000008006f98        0x8 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libstdc++_nano.a(eh_terminate.o)
+                0x0000000008006f98                __cxxabiv1::__terminate(void (*)())
  .text._ZSt13get_terminatev
-                0x00000000080055e4       0x10 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libstdc++_nano.a(eh_terminate.o)
-                0x00000000080055e4                std::get_terminate()
+                0x0000000008006fa0       0x10 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libstdc++_nano.a(eh_terminate.o)
+                0x0000000008006fa0                std::get_terminate()
  .text._ZSt9terminatev
-                0x00000000080055f4        0xa /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libstdc++_nano.a(eh_terminate.o)
-                0x00000000080055f4                std::terminate()
+                0x0000000008006fb0        0xa /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libstdc++_nano.a(eh_terminate.o)
+                0x0000000008006fb0                std::terminate()
  .text._ZN10__cxxabiv112__unexpectedEPFvvE
-                0x00000000080055fe        0x8 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libstdc++_nano.a(eh_terminate.o)
-                0x00000000080055fe                __cxxabiv1::__unexpected(void (*)())
- *fill*         0x0000000008005606        0x2 
+                0x0000000008006fba        0x8 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libstdc++_nano.a(eh_terminate.o)
+                0x0000000008006fba                __cxxabiv1::__unexpected(void (*)())
+ *fill*         0x0000000008006fc2        0x2 
  .text._ZSt14get_unexpectedv
-                0x0000000008005608       0x10 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libstdc++_nano.a(eh_terminate.o)
-                0x0000000008005608                std::get_unexpected()
+                0x0000000008006fc4       0x10 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libstdc++_nano.a(eh_terminate.o)
+                0x0000000008006fc4                std::get_unexpected()
  .text._ZSt10unexpectedv
-                0x0000000008005618        0xa /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libstdc++_nano.a(eh_terminate.o)
-                0x0000000008005618                std::unexpected()
+                0x0000000008006fd4        0xa /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libstdc++_nano.a(eh_terminate.o)
+                0x0000000008006fd4                std::unexpected()
  .text.__cxa_rethrow
-                0x0000000008005622       0x6e /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libstdc++_nano.a(eh_throw.o)
-                0x0000000008005622                __cxa_rethrow
- .text._Znwj    0x0000000008005690       0x22 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libstdc++_nano.a(new_op.o)
-                0x0000000008005690                operator new(unsigned int)
- *fill*         0x00000000080056b2        0x2 
+                0x0000000008006fde       0x6e /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libstdc++_nano.a(eh_throw.o)
+                0x0000000008006fde                __cxa_rethrow
+ .text._Znwj    0x000000000800704c       0x22 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libstdc++_nano.a(new_op.o)
+                0x000000000800704c                operator new(unsigned int)
+ *fill*         0x000000000800706e        0x2 
  .text._ZN10__cxxabiv120__si_class_type_infoD2Ev
-                0x00000000080056b4       0x14 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libstdc++_nano.a(si_class_type_info.o)
-                0x00000000080056b4                __cxxabiv1::__si_class_type_info::~__si_class_type_info()
-                0x00000000080056b4                __cxxabiv1::__si_class_type_info::~__si_class_type_info()
+                0x0000000008007070       0x14 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libstdc++_nano.a(si_class_type_info.o)
+                0x0000000008007070                __cxxabiv1::__si_class_type_info::~__si_class_type_info()
+                0x0000000008007070                __cxxabiv1::__si_class_type_info::~__si_class_type_info()
  .text._ZN10__cxxabiv120__si_class_type_infoD0Ev
-                0x00000000080056c8       0x14 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libstdc++_nano.a(si_class_type_info.o)
-                0x00000000080056c8                __cxxabiv1::__si_class_type_info::~__si_class_type_info()
+                0x0000000008007084       0x14 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libstdc++_nano.a(si_class_type_info.o)
+                0x0000000008007084                __cxxabiv1::__si_class_type_info::~__si_class_type_info()
  .text._ZNK10__cxxabiv120__si_class_type_info20__do_find_public_srcEiPKvPKNS_17__class_type_infoES2_
-                0x00000000080056dc       0x38 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libstdc++_nano.a(si_class_type_info.o)
-                0x00000000080056dc                __cxxabiv1::__si_class_type_info::__do_find_public_src(int, void const*, __cxxabiv1::__class_type_info const*, void const*) const
+                0x0000000008007098       0x38 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libstdc++_nano.a(si_class_type_info.o)
+                0x0000000008007098                __cxxabiv1::__si_class_type_info::__do_find_public_src(int, void const*, __cxxabiv1::__class_type_info const*, void const*) const
  .text._ZNK10__cxxabiv120__si_class_type_info12__do_dyncastEiNS_17__class_type_info10__sub_kindEPKS1_PKvS4_S6_RNS1_16__dyncast_resultE
-                0x0000000008005714       0x74 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libstdc++_nano.a(si_class_type_info.o)
-                0x0000000008005714                __cxxabiv1::__si_class_type_info::__do_dyncast(int, __cxxabiv1::__class_type_info::__sub_kind, __cxxabiv1::__class_type_info const*, void const*, __cxxabiv1::__class_type_info const*, void const*, __cxxabiv1::__class_type_info::__dyncast_result&) const
+                0x00000000080070d0       0x74 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libstdc++_nano.a(si_class_type_info.o)
+                0x00000000080070d0                __cxxabiv1::__si_class_type_info::__do_dyncast(int, __cxxabiv1::__class_type_info::__sub_kind, __cxxabiv1::__class_type_info const*, void const*, __cxxabiv1::__class_type_info const*, void const*, __cxxabiv1::__class_type_info::__dyncast_result&) const
  .text._ZNK10__cxxabiv120__si_class_type_info11__do_upcastEPKNS_17__class_type_infoEPKvRNS1_15__upcast_resultE
-                0x0000000008005788       0x2a /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libstdc++_nano.a(si_class_type_info.o)
-                0x0000000008005788                __cxxabiv1::__si_class_type_info::__do_upcast(__cxxabiv1::__class_type_info const*, void const*, __cxxabiv1::__class_type_info::__upcast_result&) const
+                0x0000000008007144       0x2a /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libstdc++_nano.a(si_class_type_info.o)
+                0x0000000008007144                __cxxabiv1::__si_class_type_info::__do_upcast(__cxxabiv1::__class_type_info const*, void const*, __cxxabiv1::__class_type_info::__upcast_result&) const
  .text._ZNSt9type_infoD2Ev
-                0x00000000080057b2        0x2 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libstdc++_nano.a(tinfo.o)
-                0x00000000080057b2                std::type_info::~type_info()
-                0x00000000080057b2                std::type_info::~type_info()
+                0x000000000800716e        0x2 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libstdc++_nano.a(tinfo.o)
+                0x000000000800716e                std::type_info::~type_info()
+                0x000000000800716e                std::type_info::~type_info()
  .text._ZNKSt9type_info14__is_pointer_pEv
-                0x00000000080057b4        0x4 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libstdc++_nano.a(tinfo.o)
-                0x00000000080057b4                std::type_info::__is_function_p() const
-                0x00000000080057b4                std::type_info::__is_pointer_p() const
+                0x0000000008007170        0x4 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libstdc++_nano.a(tinfo.o)
+                0x0000000008007170                std::type_info::__is_function_p() const
+                0x0000000008007170                std::type_info::__is_pointer_p() const
  .text._ZNKSt9type_infoeqERKS_
-                0x00000000080057b8       0x2c /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libstdc++_nano.a(tinfo.o)
-                0x00000000080057b8                std::type_info::operator==(std::type_info const&) const
+                0x0000000008007174       0x2c /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libstdc++_nano.a(tinfo.o)
+                0x0000000008007174                std::type_info::operator==(std::type_info const&) const
  .text.unlikely._ZSt17__throw_bad_allocv
-                0x00000000080057e4        0x6 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libstdc++_nano.a(functexcept.o)
-                0x00000000080057e4                std::__throw_bad_alloc()
+                0x00000000080071a0        0x6 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libstdc++_nano.a(functexcept.o)
+                0x00000000080071a0                std::__throw_bad_alloc()
  .text.unlikely._ZSt19__throw_logic_errorPKc
-                0x00000000080057ea        0x6 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libstdc++_nano.a(functexcept.o)
-                0x00000000080057ea                std::__throw_logic_error(char const*)
+                0x00000000080071a6        0x6 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libstdc++_nano.a(functexcept.o)
+                0x00000000080071a6                std::__throw_logic_error(char const*)
  .text.unlikely._ZSt20__throw_length_errorPKc
-                0x00000000080057f0        0x6 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libstdc++_nano.a(functexcept.o)
-                0x00000000080057f0                std::__throw_length_error(char const*)
+                0x00000000080071ac        0x6 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libstdc++_nano.a(functexcept.o)
+                0x00000000080071ac                std::__throw_length_error(char const*)
  .text.unlikely._ZSt25__throw_bad_function_callv
-                0x00000000080057f6        0x6 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libstdc++_nano.a(functional.o)
-                0x00000000080057f6                std::__throw_bad_function_call()
+                0x00000000080071b2        0x6 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libstdc++_nano.a(functional.o)
+                0x00000000080071b2                std::__throw_bad_function_call()
  .text._ZNSt11char_traitsIcE4copyEPcPKcj.isra.0
-                0x00000000080057fc        0x8 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libstdc++_nano.a(string-inst.o)
+                0x00000000080071b8        0x8 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libstdc++_nano.a(string-inst.o)
  .text._ZNSt11char_traitsIcE7compareEPKcS2_j
-                0x0000000008005804        0xa /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libstdc++_nano.a(string-inst.o)
-                0x0000000008005804                std::char_traits<char>::compare(char const*, char const*, unsigned int)
- *fill*         0x000000000800580e        0x2 
+                0x00000000080071c0        0xa /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libstdc++_nano.a(string-inst.o)
+                0x00000000080071c0                std::char_traits<char>::compare(char const*, char const*, unsigned int)
+ *fill*         0x00000000080071ca        0x2 
  .text._ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE9_M_createERjj
-                0x0000000008005810       0x44 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libstdc++_nano.a(string-inst.o)
-                0x0000000008005810                std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_create(unsigned int&, unsigned int)
+                0x00000000080071cc       0x44 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libstdc++_nano.a(string-inst.o)
+                0x00000000080071cc                std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_create(unsigned int&, unsigned int)
  .text._ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE10_M_disposeEv
-                0x0000000008005854       0x10 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libstdc++_nano.a(string-inst.o)
-                0x0000000008005854                std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_dispose()
+                0x0000000008007210       0x10 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libstdc++_nano.a(string-inst.o)
+                0x0000000008007210                std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_dispose()
  .text._ZNKSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE15_M_check_lengthEjjPKc
-                0x0000000008005864       0x18 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libstdc++_nano.a(string-inst.o)
-                0x0000000008005864                std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_check_length(unsigned int, unsigned int, char const*) const
+                0x0000000008007220       0x18 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libstdc++_nano.a(string-inst.o)
+                0x0000000008007220                std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_check_length(unsigned int, unsigned int, char const*) const
  .text._ZNKSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE11_M_disjunctEPKc
-                0x000000000800587c       0x18 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libstdc++_nano.a(string-inst.o)
-                0x000000000800587c                std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_disjunct(char const*) const
+                0x0000000008007238       0x18 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libstdc++_nano.a(string-inst.o)
+                0x0000000008007238                std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_disjunct(char const*) const
  .text._ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE7_S_copyEPcPKcj
-                0x0000000008005894       0x18 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libstdc++_nano.a(string-inst.o)
-                0x0000000008005894                std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_S_copy(char*, char const*, unsigned int)
+                0x0000000008007250       0x18 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libstdc++_nano.a(string-inst.o)
+                0x0000000008007250                std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_S_copy(char*, char const*, unsigned int)
  .text._ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE7_S_moveEPcPKcj
-                0x00000000080058ac       0x18 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libstdc++_nano.a(string-inst.o)
-                0x00000000080058ac                std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_S_move(char*, char const*, unsigned int)
+                0x0000000008007268       0x18 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libstdc++_nano.a(string-inst.o)
+                0x0000000008007268                std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_S_move(char*, char const*, unsigned int)
  .text._ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE9_M_mutateEjjPKcj
-                0x00000000080058c4       0x78 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libstdc++_nano.a(string-inst.o)
-                0x00000000080058c4                std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_mutate(unsigned int, unsigned int, char const*, unsigned int)
+                0x0000000008007280       0x78 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libstdc++_nano.a(string-inst.o)
+                0x0000000008007280                std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_mutate(unsigned int, unsigned int, char const*, unsigned int)
  .text._ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE10_M_replaceEjjPKcj
-                0x000000000800593c       0xfc /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libstdc++_nano.a(string-inst.o)
-                0x000000000800593c                std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_replace(unsigned int, unsigned int, char const*, unsigned int)
+                0x00000000080072f8       0xfc /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libstdc++_nano.a(string-inst.o)
+                0x00000000080072f8                std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_replace(unsigned int, unsigned int, char const*, unsigned int)
+ .text._ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE9_M_appendEPKcj
+                0x00000000080073f4       0x44 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libstdc++_nano.a(string-inst.o)
+                0x00000000080073f4                std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_append(char const*, unsigned int)
  .text._ZNKSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE7compareEPKc
-                0x0000000008005a38       0x28 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libstdc++_nano.a(string-inst.o)
-                0x0000000008005a38                std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::compare(char const*) const
- .text._ZdlPv   0x0000000008005a60        0x4 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libstdc++_nano.a(del_op.o)
-                0x0000000008005a60                operator delete(void*)
+                0x0000000008007438       0x28 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libstdc++_nano.a(string-inst.o)
+                0x0000000008007438                std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::compare(char const*) const
+ .text._ZdlPv   0x0000000008007460        0x4 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libstdc++_nano.a(del_op.o)
+                0x0000000008007460                operator delete(void*)
  .text.startup._GLOBAL__sub_I__ZN9__gnu_cxx9__freeresEv
-                0x0000000008005a64       0x28 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libstdc++_nano.a(eh_alloc.o)
+                0x0000000008007464       0x28 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libstdc++_nano.a(eh_alloc.o)
  .text._ZN10__cxxabiv1L24__is_gxx_exception_classEPc
-                0x0000000008005a8c       0x3a /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libstdc++_nano.a(eh_call.o)
+                0x000000000800748c       0x3a /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libstdc++_nano.a(eh_call.o)
  .text.__cxa_call_terminate
-                0x0000000008005ac6       0x1e /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libstdc++_nano.a(eh_call.o)
-                0x0000000008005ac6                __cxa_call_terminate
+                0x00000000080074c6       0x1e /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libstdc++_nano.a(eh_call.o)
+                0x00000000080074c6                __cxa_call_terminate
  .text.__cxa_call_unexpected
-                0x0000000008005ae4       0x28 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libstdc++_nano.a(eh_call.o)
-                0x0000000008005ae4                __cxa_call_unexpected
+                0x00000000080074e4       0x28 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libstdc++_nano.a(eh_call.o)
+                0x00000000080074e4                __cxa_call_unexpected
  .text._ZSt15get_new_handlerv
-                0x0000000008005b0c       0x10 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libstdc++_nano.a(new_handler.o)
-                0x0000000008005b0c                std::get_new_handler()
+                0x000000000800750c       0x10 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libstdc++_nano.a(new_handler.o)
+                0x000000000800750c                std::get_new_handler()
  .text.unlikely
-                0x0000000008005b1c        0xc /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/libgcc.a(pr-support.o)
-                0x0000000008005b1c                _Unwind_GetDataRelBase
-                0x0000000008005b22                _Unwind_GetTextRelBase
+                0x000000000800751c        0xc /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/libgcc.a(pr-support.o)
+                0x000000000800751c                _Unwind_GetDataRelBase
+                0x0000000008007522                _Unwind_GetTextRelBase
  *(.glue_7)
- .glue_7        0x0000000008005b28        0x0 linker stubs
+ .glue_7        0x0000000008007528        0x0 linker stubs
  *(.glue_7t)
- .glue_7t       0x0000000008005b28        0x0 linker stubs
+ .glue_7t       0x0000000008007528        0x0 linker stubs
  *(.eh_frame)
- .eh_frame      0x0000000008005b28        0x0 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/crtbegin.o
+ .eh_frame      0x0000000008007528        0x0 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/crtbegin.o
  *(.init)
- .init          0x0000000008005b28        0x4 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/crti.o
-                0x0000000008005b28                _init
- .init          0x0000000008005b2c        0x8 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/crtn.o
+ .init          0x0000000008007528        0x4 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/crti.o
+                0x0000000008007528                _init
+ .init          0x000000000800752c        0x8 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/crtn.o
  *(.fini)
- .fini          0x0000000008005b34        0x4 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/crti.o
-                0x0000000008005b34                _fini
- .fini          0x0000000008005b38        0x8 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/crtn.o
-                0x0000000008005b40                . = ALIGN (0x4)
-                0x0000000008005b40                _etext = .
+ .fini          0x0000000008007534        0x4 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/crti.o
+                0x0000000008007534                _fini
+ .fini          0x0000000008007538        0x8 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/crtn.o
+                0x0000000008007540                . = ALIGN (0x4)
+                0x0000000008007540                _etext = .
 
-.vfp11_veneer   0x0000000008005b40        0x0
- .vfp11_veneer  0x0000000008005b40        0x0 linker stubs
+.vfp11_veneer   0x0000000008007540        0x0
+ .vfp11_veneer  0x0000000008007540        0x0 linker stubs
 
-.v4_bx          0x0000000008005b40        0x0
- .v4_bx         0x0000000008005b40        0x0 linker stubs
+.v4_bx          0x0000000008007540        0x0
+ .v4_bx         0x0000000008007540        0x0 linker stubs
 
-.iplt           0x0000000008005b40        0x0
- .iplt          0x0000000008005b40        0x0 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/crtbegin.o
+.iplt           0x0000000008007540        0x0
+ .iplt          0x0000000008007540        0x0 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/crtbegin.o
 
-.rodata         0x0000000008005b40      0x5e4
-                0x0000000008005b40                . = ALIGN (0x4)
+.rodata         0x0000000008007540      0x72c
+                0x0000000008007540                . = ALIGN (0x4)
  *(.rodata)
- .rodata        0x0000000008005b40       0x2f CMakeFiles/F446re.elf.dir/drivers/sdio/sdio.cpp.obj
- *fill*         0x0000000008005b6f        0x1 
- .rodata        0x0000000008005b70        0xf CMakeFiles/F446re.elf.dir/apps/led/led.cpp.obj
- *fill*         0x0000000008005b7f        0x1 
- .rodata        0x0000000008005b80       0x60 CMakeFiles/F446re.elf.dir/apps/console/console.cpp.obj
+ .rodata        0x0000000008007540       0x2f CMakeFiles/F446re.elf.dir/drivers/sdio/sdio.cpp.obj
+ *fill*         0x000000000800756f        0x1 
+ .rodata        0x0000000008007570        0xf CMakeFiles/F446re.elf.dir/apps/led/led.cpp.obj
+ *fill*         0x000000000800757f        0x1 
+ .rodata        0x0000000008007580       0x60 CMakeFiles/F446re.elf.dir/apps/console/console.cpp.obj
  *(.rodata*)
  .rodata.AHBPrescTable
-                0x0000000008005be0       0x10 CMakeFiles/F446re.elf.dir/ARM/Core/Src/system_stm32f4xx.c.obj
-                0x0000000008005be0                AHBPrescTable
+                0x00000000080075e0       0x10 CMakeFiles/F446re.elf.dir/ARM/Core/Src/system_stm32f4xx.c.obj
+                0x00000000080075e0                AHBPrescTable
+ .rodata._ZN2SD8initCardEv.str1.4
+                0x00000000080075f0      0x111 CMakeFiles/F446re.elf.dir/drivers/sdio/sdio.cpp.obj
+ *fill*         0x0000000008007701        0x3 
  .rodata._ZNSt6vectorI4GPIOSaIS0_EE17_M_realloc_insertIJS0_EEEvN9__gnu_cxx17__normal_iteratorIPS0_S2_EEDpOT_.str1.4
-                0x0000000008005bf0       0x1a CMakeFiles/F446re.elf.dir/drivers/sdio/sdio.cpp.obj
- *fill*         0x0000000008005c0a        0x2 
+                0x0000000008007704       0x1a CMakeFiles/F446re.elf.dir/drivers/sdio/sdio.cpp.obj
+ *fill*         0x000000000800771e        0x2 
  .rodata._ZN7Console6bannerEv.str1.4
-                0x0000000008005c0c      0x1bc CMakeFiles/F446re.elf.dir/apps/console/console.cpp.obj
+                0x0000000008007720      0x1bc CMakeFiles/F446re.elf.dir/apps/console/console.cpp.obj
  .rodata._ZN7Console12time_commandEv.str1.4
-                0x0000000008005dc8        0x5 CMakeFiles/F446re.elf.dir/apps/console/console.cpp.obj
- *fill*         0x0000000008005dcd        0x3 
+                0x00000000080078dc        0x5 CMakeFiles/F446re.elf.dir/apps/console/console.cpp.obj
+ *fill*         0x00000000080078e1        0x3 
  .rodata._ZN7Console11cls_commandEv.str1.4
-                0x0000000008005dd0        0x5 CMakeFiles/F446re.elf.dir/apps/console/console.cpp.obj
- *fill*         0x0000000008005dd5        0x3 
+                0x00000000080078e4        0x5 CMakeFiles/F446re.elf.dir/apps/console/console.cpp.obj
+ *fill*         0x00000000080078e9        0x3 
  .rodata._ZN7Console12help_commandEv.str1.4
-                0x0000000008005dd8       0x36 CMakeFiles/F446re.elf.dir/apps/console/console.cpp.obj
- *fill*         0x0000000008005e0e        0x2 
+                0x00000000080078ec       0x36 CMakeFiles/F446re.elf.dir/apps/console/console.cpp.obj
+ *fill*         0x0000000008007922        0x2 
  .rodata._ZNSt6vectorINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESaIS5_EE17_M_realloc_insertIJRKS5_EEEvN9__gnu_cxx17__normal_iteratorIPS5_S7_EEDpOT_.str1.4
-                0x0000000008005e10       0x2a CMakeFiles/F446re.elf.dir/apps/console/console.cpp.obj
+                0x0000000008007924       0x2a CMakeFiles/F446re.elf.dir/apps/console/console.cpp.obj
                                          0x46 (size before relaxing)
  .rodata._ZN7Console12convert_argsB5cxx11Ev.str1.4
-                0x0000000008005e3a       0x2a CMakeFiles/F446re.elf.dir/apps/console/console.cpp.obj
+                0x000000000800794e       0x2a CMakeFiles/F446re.elf.dir/apps/console/console.cpp.obj
                                           0x1 (size before relaxing)
- *fill*         0x0000000008005e3a        0x2 
+ *fill*         0x000000000800794e        0x2 
  .rodata._ZN7Console11processLineEv.str1.4
-                0x0000000008005e3c       0x56 CMakeFiles/F446re.elf.dir/apps/console/console.cpp.obj
- *fill*         0x0000000008005e92        0x2 
+                0x0000000008007950       0x56 CMakeFiles/F446re.elf.dir/apps/console/console.cpp.obj
+ *fill*         0x00000000080079a6        0x2 
  .rodata._ZN7Console17assemble_commandsEv.str1.4
-                0x0000000008005e94       0x54 CMakeFiles/F446re.elf.dir/apps/console/console.cpp.obj
+                0x00000000080079a8       0x54 CMakeFiles/F446re.elf.dir/apps/console/console.cpp.obj
  .rodata._ZTSSt24_Weak_result_type_memfunIM7ConsoleFvvELb1EE
-                0x0000000008005ee8       0x30 CMakeFiles/F446re.elf.dir/apps/console/console.cpp.obj
-                0x0000000008005ee8                typeinfo name for std::_Weak_result_type_memfun<void (Console::*)(), true>
+                0x00000000080079fc       0x30 CMakeFiles/F446re.elf.dir/apps/console/console.cpp.obj
+                0x00000000080079fc                typeinfo name for std::_Weak_result_type_memfun<void (Console::*)(), true>
  .rodata._ZTISt24_Weak_result_type_memfunIM7ConsoleFvvELb1EE
-                0x0000000008005f18        0x8 CMakeFiles/F446re.elf.dir/apps/console/console.cpp.obj
-                0x0000000008005f18                typeinfo for std::_Weak_result_type_memfun<void (Console::*)(), true>
+                0x0000000008007a2c        0x8 CMakeFiles/F446re.elf.dir/apps/console/console.cpp.obj
+                0x0000000008007a2c                typeinfo for std::_Weak_result_type_memfun<void (Console::*)(), true>
  .rodata._ZTSSt17_Weak_result_typeIM7ConsoleFvvEE
-                0x0000000008005f20       0x25 CMakeFiles/F446re.elf.dir/apps/console/console.cpp.obj
-                0x0000000008005f20                typeinfo name for std::_Weak_result_type<void (Console::*)()>
- *fill*         0x0000000008005f45        0x3 
+                0x0000000008007a34       0x25 CMakeFiles/F446re.elf.dir/apps/console/console.cpp.obj
+                0x0000000008007a34                typeinfo name for std::_Weak_result_type<void (Console::*)()>
+ *fill*         0x0000000008007a59        0x3 
  .rodata._ZTISt17_Weak_result_typeIM7ConsoleFvvEE
-                0x0000000008005f48        0xc CMakeFiles/F446re.elf.dir/apps/console/console.cpp.obj
-                0x0000000008005f48                typeinfo for std::_Weak_result_type<void (Console::*)()>
+                0x0000000008007a5c        0xc CMakeFiles/F446re.elf.dir/apps/console/console.cpp.obj
+                0x0000000008007a5c                typeinfo for std::_Weak_result_type<void (Console::*)()>
  .rodata._ZTSSt5_BindIFM7ConsoleFvvEPS0_EE
-                0x0000000008005f54       0x1e CMakeFiles/F446re.elf.dir/apps/console/console.cpp.obj
-                0x0000000008005f54                typeinfo name for std::_Bind<void (Console::*(Console*))()>
- *fill*         0x0000000008005f72        0x2 
+                0x0000000008007a68       0x1e CMakeFiles/F446re.elf.dir/apps/console/console.cpp.obj
+                0x0000000008007a68                typeinfo name for std::_Bind<void (Console::*(Console*))()>
+ *fill*         0x0000000008007a86        0x2 
  .rodata._ZTISt5_BindIFM7ConsoleFvvEPS0_EE
-                0x0000000008005f74        0xc CMakeFiles/F446re.elf.dir/apps/console/console.cpp.obj
-                0x0000000008005f74                typeinfo for std::_Bind<void (Console::*(Console*))()>
+                0x0000000008007a88        0xc CMakeFiles/F446re.elf.dir/apps/console/console.cpp.obj
+                0x0000000008007a88                typeinfo for std::_Bind<void (Console::*(Console*))()>
  .rodata.main.str1.4
-                0x0000000008005f80        0xf CMakeFiles/F446re.elf.dir/main.cpp.obj
- *fill*         0x0000000008005f8f        0x1 
+                0x0000000008007a94       0x41 CMakeFiles/F446re.elf.dir/main.cpp.obj
+                                         0x45 (size before relaxing)
+ *fill*         0x0000000008007ad5        0x3 
  .rodata._ZTIN10__cxxabiv117__class_type_infoE
-                0x0000000008005f90        0xc /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libstdc++_nano.a(class_type_info.o)
-                0x0000000008005f90                typeinfo for __cxxabiv1::__class_type_info
+                0x0000000008007ad8        0xc /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libstdc++_nano.a(class_type_info.o)
+                0x0000000008007ad8                typeinfo for __cxxabiv1::__class_type_info
  .rodata._ZTSN10__cxxabiv117__class_type_infoE
-                0x0000000008005f9c       0x22 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libstdc++_nano.a(class_type_info.o)
-                0x0000000008005f9c                typeinfo name for __cxxabiv1::__class_type_info
- *fill*         0x0000000008005fbe        0x2 
+                0x0000000008007ae4       0x22 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libstdc++_nano.a(class_type_info.o)
+                0x0000000008007ae4                typeinfo name for __cxxabiv1::__class_type_info
+ *fill*         0x0000000008007b06        0x2 
  .rodata._ZTVN10__cxxabiv117__class_type_infoE
-                0x0000000008005fc0       0x2c /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libstdc++_nano.a(class_type_info.o)
-                0x0000000008005fc0                vtable for __cxxabiv1::__class_type_info
+                0x0000000008007b08       0x2c /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libstdc++_nano.a(class_type_info.o)
+                0x0000000008007b08                vtable for __cxxabiv1::__class_type_info
  .rodata._ZTIN10__cxxabiv115__forced_unwindE
-                0x0000000008005fec        0x8 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libstdc++_nano.a(eh_exception.o)
-                0x0000000008005fec                typeinfo for __cxxabiv1::__forced_unwind
+                0x0000000008007b34        0x8 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libstdc++_nano.a(eh_exception.o)
+                0x0000000008007b34                typeinfo for __cxxabiv1::__forced_unwind
  .rodata._ZTIN10__cxxabiv119__foreign_exceptionE
-                0x0000000008005ff4        0x8 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libstdc++_nano.a(eh_exception.o)
-                0x0000000008005ff4                typeinfo for __cxxabiv1::__foreign_exception
+                0x0000000008007b3c        0x8 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libstdc++_nano.a(eh_exception.o)
+                0x0000000008007b3c                typeinfo for __cxxabiv1::__foreign_exception
  .rodata._ZTSN10__cxxabiv115__forced_unwindE
-                0x0000000008005ffc       0x20 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libstdc++_nano.a(eh_exception.o)
-                0x0000000008005ffc                typeinfo name for __cxxabiv1::__forced_unwind
+                0x0000000008007b44       0x20 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libstdc++_nano.a(eh_exception.o)
+                0x0000000008007b44                typeinfo name for __cxxabiv1::__forced_unwind
  .rodata._ZTSN10__cxxabiv119__foreign_exceptionE
-                0x000000000800601c       0x24 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libstdc++_nano.a(eh_exception.o)
-                0x000000000800601c                typeinfo name for __cxxabiv1::__foreign_exception
+                0x0000000008007b64       0x24 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libstdc++_nano.a(eh_exception.o)
+                0x0000000008007b64                typeinfo name for __cxxabiv1::__foreign_exception
  .rodata._ZTIN10__cxxabiv120__si_class_type_infoE
-                0x0000000008006040        0xc /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libstdc++_nano.a(si_class_type_info.o)
-                0x0000000008006040                typeinfo for __cxxabiv1::__si_class_type_info
+                0x0000000008007b88        0xc /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libstdc++_nano.a(si_class_type_info.o)
+                0x0000000008007b88                typeinfo for __cxxabiv1::__si_class_type_info
  .rodata._ZTSN10__cxxabiv120__si_class_type_infoE
-                0x000000000800604c       0x25 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libstdc++_nano.a(si_class_type_info.o)
-                0x000000000800604c                typeinfo name for __cxxabiv1::__si_class_type_info
- *fill*         0x0000000008006071        0x3 
+                0x0000000008007b94       0x25 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libstdc++_nano.a(si_class_type_info.o)
+                0x0000000008007b94                typeinfo name for __cxxabiv1::__si_class_type_info
+ *fill*         0x0000000008007bb9        0x3 
  .rodata._ZTVN10__cxxabiv120__si_class_type_infoE
-                0x0000000008006074       0x2c /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libstdc++_nano.a(si_class_type_info.o)
-                0x0000000008006074                vtable for __cxxabiv1::__si_class_type_info
+                0x0000000008007bbc       0x2c /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libstdc++_nano.a(si_class_type_info.o)
+                0x0000000008007bbc                vtable for __cxxabiv1::__si_class_type_info
  .rodata._ZTISt9type_info
-                0x00000000080060a0        0x8 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libstdc++_nano.a(tinfo.o)
-                0x00000000080060a0                typeinfo for std::type_info
+                0x0000000008007be8        0x8 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libstdc++_nano.a(tinfo.o)
+                0x0000000008007be8                typeinfo for std::type_info
  .rodata._ZTSSt9type_info
-                0x00000000080060a8        0xd /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libstdc++_nano.a(tinfo.o)
-                0x00000000080060a8                typeinfo name for std::type_info
+                0x0000000008007bf0        0xd /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libstdc++_nano.a(tinfo.o)
+                0x0000000008007bf0                typeinfo name for std::type_info
  .rodata._ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE9_M_createERjj.str1.1
-                0x00000000080060b5       0x18 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libstdc++_nano.a(string-inst.o)
+                0x0000000008007bfd       0x18 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libstdc++_nano.a(string-inst.o)
  .rodata._ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE10_M_replaceEjjPKcj.str1.1
-                0x00000000080060cd       0x19 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libstdc++_nano.a(string-inst.o)
- *fill*         0x00000000080060e6        0x2 
+                0x0000000008007c15       0x19 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libstdc++_nano.a(string-inst.o)
+ *fill*         0x0000000008007c2e        0x2 
  .rodata.str1.4
-                0x00000000080060e8       0x13 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-nano-svfprintf.o)
- *fill*         0x00000000080060fb        0x1 
+                0x0000000008007c30       0x13 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-nano-svfprintf.o)
+ *fill*         0x0000000008007c43        0x1 
  .rodata.str1.4
-                0x00000000080060fc       0x25 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-nano-vfprintf_i.o)
-                0x0000000008006124                . = ALIGN (0x4)
- *fill*         0x0000000008006121        0x3 
+                0x0000000008007c44       0x25 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-nano-vfprintf_i.o)
+                0x0000000008007c6c                . = ALIGN (0x4)
+ *fill*         0x0000000008007c69        0x3 
 
-.ARM.extab      0x0000000008006124      0x21c
+.ARM.extab      0x0000000008007c6c      0x228
  *(.ARM.extab* .gnu.linkonce.armextab.*)
  .ARM.extab.text._ZNSt6vectorI4GPIOSaIS0_EE17_M_realloc_insertIJS0_EEEvN9__gnu_cxx17__normal_iteratorIPS0_S2_EEDpOT_
-                0x0000000008006124        0x0 CMakeFiles/F446re.elf.dir/drivers/sdio/sdio.cpp.obj
+                0x0000000008007c6c        0x0 CMakeFiles/F446re.elf.dir/drivers/sdio/sdio.cpp.obj
  .ARM.extab.text._ZN2SDC2Ev
-                0x0000000008006124       0x28 CMakeFiles/F446re.elf.dir/drivers/sdio/sdio.cpp.obj
+                0x0000000008007c6c       0x28 CMakeFiles/F446re.elf.dir/drivers/sdio/sdio.cpp.obj
  .ARM.extab.text._ZN3LEDC2Ev
-                0x000000000800614c       0x14 CMakeFiles/F446re.elf.dir/apps/led/led.cpp.obj
+                0x0000000008007c94       0x14 CMakeFiles/F446re.elf.dir/apps/led/led.cpp.obj
  .ARM.extab.text._ZNSt17_Function_handlerIFvvESt5_BindIFM7ConsoleFvvEPS2_EEE9_M_invokeERKSt9_Any_data
-                0x0000000008006160        0x0 CMakeFiles/F446re.elf.dir/apps/console/console.cpp.obj
+                0x0000000008007ca8        0x0 CMakeFiles/F446re.elf.dir/apps/console/console.cpp.obj
  .ARM.extab.text._ZNSt17_Function_handlerIFvvESt5_BindIFM7ConsoleFvvEPS2_EEE10_M_managerERSt9_Any_dataRKS9_St18_Manager_operation
-                0x0000000008006160        0x0 CMakeFiles/F446re.elf.dir/apps/console/console.cpp.obj
+                0x0000000008007ca8        0x0 CMakeFiles/F446re.elf.dir/apps/console/console.cpp.obj
  .ARM.extab.text._ZN7CommandD2Ev
-                0x0000000008006160        0xc CMakeFiles/F446re.elf.dir/apps/console/console.cpp.obj
+                0x0000000008007ca8        0xc CMakeFiles/F446re.elf.dir/apps/console/console.cpp.obj
  .ARM.extab.text._ZNSt6vectorINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESaIS5_EED2Ev
-                0x000000000800616c        0x0 CMakeFiles/F446re.elf.dir/apps/console/console.cpp.obj
+                0x0000000008007cb4        0x0 CMakeFiles/F446re.elf.dir/apps/console/console.cpp.obj
  .ARM.extab.text._ZNSt6vectorINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESaIS5_EE17_M_realloc_insertIJRKS5_EEEvN9__gnu_cxx17__normal_iteratorIPS5_S7_EEDpOT_
-                0x000000000800616c       0x30 CMakeFiles/F446re.elf.dir/apps/console/console.cpp.obj
+                0x0000000008007cb4       0x30 CMakeFiles/F446re.elf.dir/apps/console/console.cpp.obj
  .ARM.extab.text._ZN7Console12convert_argsB5cxx11Ev
-                0x000000000800619c       0x18 CMakeFiles/F446re.elf.dir/apps/console/console.cpp.obj
+                0x0000000008007ce4       0x18 CMakeFiles/F446re.elf.dir/apps/console/console.cpp.obj
  .ARM.extab.text._ZN7Console11processLineEv
-                0x00000000080061b4       0x1b CMakeFiles/F446re.elf.dir/apps/console/console.cpp.obj
- *fill*         0x00000000080061cf        0x1 
+                0x0000000008007cfc       0x1b CMakeFiles/F446re.elf.dir/apps/console/console.cpp.obj
+ *fill*         0x0000000008007d17        0x1 
  .ARM.extab.text._ZNSt6vectorI7CommandSaIS0_EE17_M_realloc_insertIJS0_EEEvN9__gnu_cxx17__normal_iteratorIPS0_S2_EEDpOT_
-                0x00000000080061d0       0x11 CMakeFiles/F446re.elf.dir/apps/console/console.cpp.obj
+                0x0000000008007d18       0x11 CMakeFiles/F446re.elf.dir/apps/console/console.cpp.obj
  .ARM.extab.text._ZNSt6vectorI7CommandSaIS0_EE12emplace_backIJS0_EEEvDpOT_
-                0x00000000080061e1        0x0 CMakeFiles/F446re.elf.dir/apps/console/console.cpp.obj
- *fill*         0x00000000080061e1        0x3 
+                0x0000000008007d29        0x0 CMakeFiles/F446re.elf.dir/apps/console/console.cpp.obj
+ *fill*         0x0000000008007d29        0x3 
  .ARM.extab.text._ZN7Console17assemble_commandsEv
-                0x00000000080061e4       0xca CMakeFiles/F446re.elf.dir/apps/console/console.cpp.obj
- *fill*         0x00000000080062ae        0x2 
+                0x0000000008007d2c       0xca CMakeFiles/F446re.elf.dir/apps/console/console.cpp.obj
+ *fill*         0x0000000008007df6        0x2 
  .ARM.extab.text._ZN7ConsoleC2Em
-                0x00000000080062b0       0x24 CMakeFiles/F446re.elf.dir/apps/console/console.cpp.obj
+                0x0000000008007df8       0x24 CMakeFiles/F446re.elf.dir/apps/console/console.cpp.obj
  .ARM.extab.text._ZN6F446reD2Ev
-                0x00000000080062d4        0xc CMakeFiles/F446re.elf.dir/nucleo/f446re.cpp.obj
+                0x0000000008007e1c        0xc CMakeFiles/F446re.elf.dir/nucleo/f446re.cpp.obj
  .ARM.extab.text._ZNSt6vectorI7CommandSaIS0_EED2Ev
-                0x00000000080062e0        0xc CMakeFiles/F446re.elf.dir/nucleo/f446re.cpp.obj
+                0x0000000008007e28        0xc CMakeFiles/F446re.elf.dir/nucleo/f446re.cpp.obj
  .ARM.extab.text._ZN6F446reC2Ev
-                0x00000000080062ec       0x20 CMakeFiles/F446re.elf.dir/nucleo/f446re.cpp.obj
+                0x0000000008007e34       0x26 CMakeFiles/F446re.elf.dir/nucleo/f446re.cpp.obj
+ *fill*         0x0000000008007e5a        0x2 
  .ARM.extab.text.startup.main
-                0x000000000800630c       0x1c CMakeFiles/F446re.elf.dir/main.cpp.obj
- .ARM.extab     0x0000000008006328       0x18 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/libgcc.a(pr-support.o)
+                0x0000000008007e5c       0x1f CMakeFiles/F446re.elf.dir/main.cpp.obj
+ *fill*         0x0000000008007e7b        0x1 
+ .ARM.extab     0x0000000008007e7c       0x18 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/libgcc.a(pr-support.o)
 
-.ARM            0x0000000008006340      0x198
-                0x0000000008006340                __exidx_start = .
+.ARM            0x0000000008007e94      0x1a8
+                0x0000000008007e94                __exidx_start = .
  *(.ARM.exidx*)
- .ARM.exidx     0x0000000008006340       0x80 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/libgcc.a(unwind-arm.o)
+ .ARM.exidx     0x0000000008007e94       0x80 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/libgcc.a(unwind-arm.o)
                                          0xd8 (size before relaxing)
- .ARM.exidx     0x00000000080063c0       0x38 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/libgcc.a(pr-support.o)
+ .ARM.exidx     0x0000000008007f14       0x38 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/libgcc.a(pr-support.o)
  .ARM.exidx.text._ZN5ClockC2Em
-                0x00000000080063f8        0x8 CMakeFiles/F446re.elf.dir/drivers/clock/clock.cpp.obj
+                0x0000000008007f4c        0x8 CMakeFiles/F446re.elf.dir/drivers/clock/clock.cpp.obj
  .ARM.exidx.text._ZN5ClockD2Ev
-                0x0000000008006400        0x8 CMakeFiles/F446re.elf.dir/drivers/clock/clock.cpp.obj
+                0x0000000008007f54        0x8 CMakeFiles/F446re.elf.dir/drivers/clock/clock.cpp.obj
  .ARM.exidx.text._ZN4GPIOC2ER10GPIO_CFG_t
-                0x0000000008006408        0x0 CMakeFiles/F446re.elf.dir/drivers/gpio/gpio.cpp.obj
+                0x0000000008007f5c        0x0 CMakeFiles/F446re.elf.dir/drivers/gpio/gpio.cpp.obj
                                           0x8 (size before relaxing)
  .ARM.exidx.text._ZN4GPIOD2Ev
-                0x0000000008006408        0x0 CMakeFiles/F446re.elf.dir/drivers/gpio/gpio.cpp.obj
+                0x0000000008007f5c        0x0 CMakeFiles/F446re.elf.dir/drivers/gpio/gpio.cpp.obj
                                           0x8 (size before relaxing)
  .ARM.exidx.text._ZN4GPIO4initEv
-                0x0000000008006408        0x0 CMakeFiles/F446re.elf.dir/drivers/gpio/gpio.cpp.obj
+                0x0000000008007f5c        0x0 CMakeFiles/F446re.elf.dir/drivers/gpio/gpio.cpp.obj
                                           0x8 (size before relaxing)
  .ARM.exidx.text._ZN5USART4initEv
-                0x0000000008006408        0x0 CMakeFiles/F446re.elf.dir/drivers/usart/usart.cpp.obj
+                0x0000000008007f5c        0x0 CMakeFiles/F446re.elf.dir/drivers/usart/usart.cpp.obj
                                           0x8 (size before relaxing)
  .ARM.exidx.text._ZN7RTCLOCK4initEv
-                0x0000000008006408        0x0 CMakeFiles/F446re.elf.dir/drivers/rtc/rtc.cpp.obj
+                0x0000000008007f5c        0x0 CMakeFiles/F446re.elf.dir/drivers/rtc/rtc.cpp.obj
                                           0x8 (size before relaxing)
  .ARM.exidx.text._ZN7RTCLOCK7get_bcdEPc
-                0x0000000008006408        0x0 CMakeFiles/F446re.elf.dir/drivers/rtc/rtc.cpp.obj
+                0x0000000008007f5c        0x0 CMakeFiles/F446re.elf.dir/drivers/rtc/rtc.cpp.obj
                                           0x8 (size before relaxing)
  .ARM.exidx.text._ZN3DMA4initEv
-                0x0000000008006408        0x0 CMakeFiles/F446re.elf.dir/drivers/dma/dma.cpp.obj
+                0x0000000008007f5c        0x0 CMakeFiles/F446re.elf.dir/drivers/dma/dma.cpp.obj
+                                          0x8 (size before relaxing)
+ .ARM.exidx.text._ZN2SD9getR1RespEh.isra.0
+                0x0000000008007f5c        0x0 CMakeFiles/F446re.elf.dir/drivers/sdio/sdio.cpp.obj
                                           0x8 (size before relaxing)
  .ARM.exidx.text._ZN2SD4initEv
-                0x0000000008006408        0x8 CMakeFiles/F446re.elf.dir/drivers/sdio/sdio.cpp.obj
- .ARM.exidx.text._ZNSt6vectorI4GPIOSaIS0_EE17_M_realloc_insertIJS0_EEEvN9__gnu_cxx17__normal_iteratorIPS0_S2_EEDpOT_
-                0x0000000008006410        0x8 CMakeFiles/F446re.elf.dir/drivers/sdio/sdio.cpp.obj
- .ARM.exidx.text._ZN2SDC2Ev
-                0x0000000008006418        0x8 CMakeFiles/F446re.elf.dir/drivers/sdio/sdio.cpp.obj
- .ARM.exidx.text._ZN3LEDC2Ev
-                0x0000000008006420        0x8 CMakeFiles/F446re.elf.dir/apps/led/led.cpp.obj
- .ARM.exidx.text._ZN3LED4initEv
-                0x0000000008006428        0x8 CMakeFiles/F446re.elf.dir/apps/led/led.cpp.obj
- .ARM.exidx.text._ZN3LED2onEv
-                0x0000000008006430        0x0 CMakeFiles/F446re.elf.dir/apps/led/led.cpp.obj
+                0x0000000008007f5c        0x8 CMakeFiles/F446re.elf.dir/drivers/sdio/sdio.cpp.obj
+ .ARM.exidx.text._ZN2SD11getCardInfoEv
+                0x0000000008007f64        0x8 CMakeFiles/F446re.elf.dir/drivers/sdio/sdio.cpp.obj
+ .ARM.exidx.text._ZN2SD8initCardEv
+                0x0000000008007f6c        0x8 CMakeFiles/F446re.elf.dir/drivers/sdio/sdio.cpp.obj
+ .ARM.exidx.text._ZN2SD9readBlockEmPmm
+                0x0000000008007f74        0x8 CMakeFiles/F446re.elf.dir/drivers/sdio/sdio.cpp.obj
+ .ARM.exidx.text._ZN2SD10writeBlockEmPmm
+                0x0000000008007f7c        0x0 CMakeFiles/F446re.elf.dir/drivers/sdio/sdio.cpp.obj
                                           0x8 (size before relaxing)
+ .ARM.exidx.text._ZNSt6vectorI4GPIOSaIS0_EE17_M_realloc_insertIJS0_EEEvN9__gnu_cxx17__normal_iteratorIPS0_S2_EEDpOT_
+                0x0000000008007f7c        0x8 CMakeFiles/F446re.elf.dir/drivers/sdio/sdio.cpp.obj
+ .ARM.exidx.text._ZN2SDC2Ev
+                0x0000000008007f84        0x8 CMakeFiles/F446re.elf.dir/drivers/sdio/sdio.cpp.obj
+ .ARM.exidx.text._ZN3LEDC2Ev
+                0x0000000008007f8c        0x8 CMakeFiles/F446re.elf.dir/apps/led/led.cpp.obj
+ .ARM.exidx.text._ZN3LED4initEv
+                0x0000000008007f94        0x8 CMakeFiles/F446re.elf.dir/apps/led/led.cpp.obj
  .ARM.exidx.text._ZNSt17_Function_handlerIFvvESt5_BindIFM7ConsoleFvvEPS2_EEE9_M_invokeERKSt9_Any_data
-                0x0000000008006430        0x0 CMakeFiles/F446re.elf.dir/apps/console/console.cpp.obj
+                0x0000000008007f9c        0x0 CMakeFiles/F446re.elf.dir/apps/console/console.cpp.obj
                                           0x8 (size before relaxing)
  .ARM.exidx.text._ZNSt17_Function_handlerIFvvESt5_BindIFM7ConsoleFvvEPS2_EEE10_M_managerERSt9_Any_dataRKS9_St18_Manager_operation
-                0x0000000008006430        0x8 CMakeFiles/F446re.elf.dir/apps/console/console.cpp.obj
+                0x0000000008007f9c        0x8 CMakeFiles/F446re.elf.dir/apps/console/console.cpp.obj
  .ARM.exidx.text._ZN7CommandD2Ev
-                0x0000000008006438        0x8 CMakeFiles/F446re.elf.dir/apps/console/console.cpp.obj
+                0x0000000008007fa4        0x8 CMakeFiles/F446re.elf.dir/apps/console/console.cpp.obj
  .ARM.exidx.text._ZN7Console5printEPKcz
-                0x0000000008006440        0x8 CMakeFiles/F446re.elf.dir/apps/console/console.cpp.obj
+                0x0000000008007fac        0x8 CMakeFiles/F446re.elf.dir/apps/console/console.cpp.obj
  .ARM.exidx.text._ZN7Console12time_commandEv
-                0x0000000008006448        0x8 CMakeFiles/F446re.elf.dir/apps/console/console.cpp.obj
+                0x0000000008007fb4        0x8 CMakeFiles/F446re.elf.dir/apps/console/console.cpp.obj
  .ARM.exidx.text._ZN7Console11cls_commandEv
-                0x0000000008006450        0x8 CMakeFiles/F446re.elf.dir/apps/console/console.cpp.obj
+                0x0000000008007fbc        0x8 CMakeFiles/F446re.elf.dir/apps/console/console.cpp.obj
  .ARM.exidx.text._ZN7Console12help_commandEv
-                0x0000000008006458        0x0 CMakeFiles/F446re.elf.dir/apps/console/console.cpp.obj
+                0x0000000008007fc4        0x0 CMakeFiles/F446re.elf.dir/apps/console/console.cpp.obj
                                           0x8 (size before relaxing)
  .ARM.exidx.text._ZN7Console4initEv
-                0x0000000008006458        0x8 CMakeFiles/F446re.elf.dir/apps/console/console.cpp.obj
+                0x0000000008007fc4        0x8 CMakeFiles/F446re.elf.dir/apps/console/console.cpp.obj
  .ARM.exidx.text.DMA1_Stream6_IRQHandler
-                0x0000000008006460        0x8 CMakeFiles/F446re.elf.dir/apps/console/console.cpp.obj
+                0x0000000008007fcc        0x8 CMakeFiles/F446re.elf.dir/apps/console/console.cpp.obj
  .ARM.exidx.text.USART2_IRQHandler
-                0x0000000008006468        0x0 CMakeFiles/F446re.elf.dir/apps/console/console.cpp.obj
+                0x0000000008007fd4        0x0 CMakeFiles/F446re.elf.dir/apps/console/console.cpp.obj
                                           0x8 (size before relaxing)
  .ARM.exidx.text._ZNSt6vectorINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESaIS5_EED2Ev
-                0x0000000008006468        0x0 CMakeFiles/F446re.elf.dir/apps/console/console.cpp.obj
+                0x0000000008007fd4        0x0 CMakeFiles/F446re.elf.dir/apps/console/console.cpp.obj
                                           0x8 (size before relaxing)
  .ARM.exidx.text._ZNSt6vectorINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESaIS5_EE17_M_realloc_insertIJRKS5_EEEvN9__gnu_cxx17__normal_iteratorIPS5_S7_EEDpOT_
-                0x0000000008006468        0x8 CMakeFiles/F446re.elf.dir/apps/console/console.cpp.obj
+                0x0000000008007fd4        0x8 CMakeFiles/F446re.elf.dir/apps/console/console.cpp.obj
  .ARM.exidx.text._ZN7Console12convert_argsB5cxx11Ev
-                0x0000000008006470        0x8 CMakeFiles/F446re.elf.dir/apps/console/console.cpp.obj
+                0x0000000008007fdc        0x8 CMakeFiles/F446re.elf.dir/apps/console/console.cpp.obj
  .ARM.exidx.text._ZN7Console11processLineEv
-                0x0000000008006478        0x8 CMakeFiles/F446re.elf.dir/apps/console/console.cpp.obj
+                0x0000000008007fe4        0x8 CMakeFiles/F446re.elf.dir/apps/console/console.cpp.obj
  .ARM.exidx.text._ZN7Console12echo_commandEv
-                0x0000000008006480        0x8 CMakeFiles/F446re.elf.dir/apps/console/console.cpp.obj
+                0x0000000008007fec        0x8 CMakeFiles/F446re.elf.dir/apps/console/console.cpp.obj
  .ARM.exidx.text._ZNSt6vectorI7CommandSaIS0_EE17_M_realloc_insertIJS0_EEEvN9__gnu_cxx17__normal_iteratorIPS0_S2_EEDpOT_
-                0x0000000008006488        0x8 CMakeFiles/F446re.elf.dir/apps/console/console.cpp.obj
+                0x0000000008007ff4        0x8 CMakeFiles/F446re.elf.dir/apps/console/console.cpp.obj
  .ARM.exidx.text._ZNSt6vectorI7CommandSaIS0_EE12emplace_backIJS0_EEEvDpOT_
-                0x0000000008006490        0x8 CMakeFiles/F446re.elf.dir/apps/console/console.cpp.obj
+                0x0000000008007ffc        0x8 CMakeFiles/F446re.elf.dir/apps/console/console.cpp.obj
  .ARM.exidx.text._ZN7Console17assemble_commandsEv
-                0x0000000008006498        0x8 CMakeFiles/F446re.elf.dir/apps/console/console.cpp.obj
+                0x0000000008008004        0x8 CMakeFiles/F446re.elf.dir/apps/console/console.cpp.obj
  .ARM.exidx.text._ZN7ConsoleC2Em
-                0x00000000080064a0        0x8 CMakeFiles/F446re.elf.dir/apps/console/console.cpp.obj
+                0x000000000800800c        0x8 CMakeFiles/F446re.elf.dir/apps/console/console.cpp.obj
  .ARM.exidx.text._ZN6F446reD2Ev
-                0x00000000080064a8        0x8 CMakeFiles/F446re.elf.dir/nucleo/f446re.cpp.obj
+                0x0000000008008014        0x8 CMakeFiles/F446re.elf.dir/nucleo/f446re.cpp.obj
  .ARM.exidx.text._ZNSt6vectorI7CommandSaIS0_EED2Ev
-                0x00000000080064b0        0x8 CMakeFiles/F446re.elf.dir/nucleo/f446re.cpp.obj
+                0x000000000800801c        0x8 CMakeFiles/F446re.elf.dir/nucleo/f446re.cpp.obj
  .ARM.exidx.text._ZN6F446reC2Ev
-                0x00000000080064b8        0x8 CMakeFiles/F446re.elf.dir/nucleo/f446re.cpp.obj
- .ARM.exidx.text._Z11SD_CardInitv
-                0x00000000080064c0        0x8 CMakeFiles/F446re.elf.dir/main.cpp.obj
+                0x0000000008008024        0x8 CMakeFiles/F446re.elf.dir/nucleo/f446re.cpp.obj
  .ARM.exidx.text.startup.main
-                0x00000000080064c8       0x10 CMakeFiles/F446re.elf.dir/main.cpp.obj
+                0x000000000800802c       0x10 CMakeFiles/F446re.elf.dir/main.cpp.obj
                                           0x8 (size before relaxing)
  .ARM.exidx.text.unlikely
-                0x00000000080064d8        0x0 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/libgcc.a(pr-support.o)
+                0x000000000800803c        0x0 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/libgcc.a(pr-support.o)
                                          0x10 (size before relaxing)
-                0x00000000080064d8                __exidx_end = .
+                0x000000000800803c                __exidx_end = .
 
-.rel.dyn        0x00000000080064d8        0x0
- .rel.iplt      0x00000000080064d8        0x0 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/crtbegin.o
+.rel.dyn        0x000000000800803c        0x0
+ .rel.iplt      0x000000000800803c        0x0 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/crtbegin.o
 
-.preinit_array  0x00000000080064d8        0x0
-                0x00000000080064d8                PROVIDE (__preinit_array_start = .)
+.preinit_array  0x000000000800803c        0x0
+                0x000000000800803c                PROVIDE (__preinit_array_start = .)
  *(.preinit_array*)
-                0x00000000080064d8                PROVIDE (__preinit_array_end = .)
+                0x000000000800803c                PROVIDE (__preinit_array_end = .)
 
-.init_array     0x00000000080064d8        0x8
-                0x00000000080064d8                PROVIDE (__init_array_start = .)
+.init_array     0x000000000800803c        0x8
+                0x000000000800803c                PROVIDE (__init_array_start = .)
  *(SORT_BY_NAME(.init_array.*))
  *(.init_array*)
- .init_array    0x00000000080064d8        0x4 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/crtbegin.o
- .init_array    0x00000000080064dc        0x4 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libstdc++_nano.a(eh_alloc.o)
-                0x00000000080064e0                PROVIDE (__init_array_end = .)
+ .init_array    0x000000000800803c        0x4 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/crtbegin.o
+ .init_array    0x0000000008008040        0x4 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libstdc++_nano.a(eh_alloc.o)
+                0x0000000008008044                PROVIDE (__init_array_end = .)
 
-.fini_array     0x00000000080064e0        0x4
-                0x00000000080064e0                PROVIDE (__fini_array_start = .)
+.fini_array     0x0000000008008044        0x4
+                0x0000000008008044                PROVIDE (__fini_array_start = .)
  *(SORT_BY_NAME(.fini_array.*))
  *(.fini_array*)
- .fini_array    0x00000000080064e0        0x4 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/crtbegin.o
-                0x00000000080064e4                PROVIDE (__fini_array_end = .)
-                0x00000000080064e4                _sidata = LOADADDR (.data)
+ .fini_array    0x0000000008008044        0x4 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/crtbegin.o
+                0x0000000008008048                PROVIDE (__fini_array_end = .)
+                0x0000000008008048                _sidata = LOADADDR (.data)
 
-.data           0x0000000020000000       0x70 load address 0x00000000080064e4
+.data           0x0000000020000000       0x70 load address 0x0000000008008048
                 0x0000000020000000                . = ALIGN (0x4)
                 0x0000000020000000                _sdata = .
  *(.data)
@@ -2173,17 +2183,17 @@ LOAD /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/crtn.o
                 0x0000000020000070                _edata = .
 
 .tm_clone_table
-                0x0000000020000070        0x0 load address 0x0000000008006554
+                0x0000000020000070        0x0 load address 0x00000000080080b8
  .tm_clone_table
                 0x0000000020000070        0x0 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/crtbegin.o
  .tm_clone_table
                 0x0000000020000070        0x0 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/crtend.o
 
-.igot.plt       0x0000000020000070        0x0 load address 0x0000000008006554
+.igot.plt       0x0000000020000070        0x0 load address 0x00000000080080b8
  .igot.plt      0x0000000020000070        0x0 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/crtbegin.o
                 0x0000000020000070                . = ALIGN (0x4)
 
-.bss            0x0000000020000070       0xf8 load address 0x0000000008006554
+.bss            0x0000000020000070      0x478 load address 0x00000000080080b8
                 0x0000000020000070                _sbss = .
                 0x0000000020000070                __bss_start__ = _sbss
  *(.bss)
@@ -2198,37 +2208,37 @@ LOAD /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/crtn.o
  .bss._ZZ17USART2_IRQHandlerE1i
                 0x000000002000009c        0x4 CMakeFiles/F446re.elf.dir/apps/console/console.cpp.obj
  .bss._ZZN7Console5printEPKczE6buffer
-                0x00000000200000a0       0x80 CMakeFiles/F446re.elf.dir/apps/console/console.cpp.obj
+                0x00000000200000a0      0x400 CMakeFiles/F446re.elf.dir/apps/console/console.cpp.obj
  .bss.console_line_rdy
-                0x0000000020000120        0x4 CMakeFiles/F446re.elf.dir/apps/console/console.cpp.obj
-                0x0000000020000120                console_line_rdy
+                0x00000000200004a0        0x4 CMakeFiles/F446re.elf.dir/apps/console/console.cpp.obj
+                0x00000000200004a0                console_line_rdy
  .bss.console_rx_buff
-                0x0000000020000124       0x20 CMakeFiles/F446re.elf.dir/apps/console/console.cpp.obj
-                0x0000000020000124                console_rx_buff
+                0x00000000200004a4       0x20 CMakeFiles/F446re.elf.dir/apps/console/console.cpp.obj
+                0x00000000200004a4                console_rx_buff
  .bss.console_tx_busy
-                0x0000000020000144        0x4 CMakeFiles/F446re.elf.dir/apps/console/console.cpp.obj
-                0x0000000020000144                console_tx_busy
+                0x00000000200004c4        0x4 CMakeFiles/F446re.elf.dir/apps/console/console.cpp.obj
+                0x00000000200004c4                console_tx_busy
  .bss._ZL10eh_globals
-                0x0000000020000148        0xc /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libstdc++_nano.a(eh_globals.o)
+                0x00000000200004c8        0xc /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libstdc++_nano.a(eh_globals.o)
  .bss._ZN12_GLOBAL__N_114emergency_poolE
-                0x0000000020000154       0x10 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libstdc++_nano.a(eh_alloc.o)
+                0x00000000200004d4       0x10 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libstdc++_nano.a(eh_alloc.o)
  .bss._ZN12_GLOBAL__N_113__new_handlerE
-                0x0000000020000164        0x4 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libstdc++_nano.a(new_handler.o)
+                0x00000000200004e4        0x4 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libstdc++_nano.a(new_handler.o)
  *(COMMON)
-                0x0000000020000168                . = ALIGN (0x4)
-                0x0000000020000168                _ebss = .
-                0x0000000020000168                __bss_end__ = _ebss
+                0x00000000200004e8                . = ALIGN (0x4)
+                0x00000000200004e8                _ebss = .
+                0x00000000200004e8                __bss_end__ = _ebss
 
 ._user_heap_stack
-                0x0000000020000168      0x600 load address 0x0000000008006554
-                0x0000000020000168                . = ALIGN (0x8)
-                0x0000000020000168                PROVIDE (end = .)
+                0x00000000200004e8      0x600 load address 0x00000000080080b8
+                0x00000000200004e8                . = ALIGN (0x8)
+                0x00000000200004e8                PROVIDE (end = .)
                 [!provide]                        PROVIDE (_end = .)
-                0x0000000020000368                . = (. + _Min_Heap_Size)
- *fill*         0x0000000020000168      0x200 
-                0x0000000020000768                . = (. + _Min_Stack_Size)
- *fill*         0x0000000020000368      0x400 
-                0x0000000020000768                . = ALIGN (0x8)
+                0x00000000200006e8                . = (. + _Min_Heap_Size)
+ *fill*         0x00000000200004e8      0x200 
+                0x0000000020000ae8                . = (. + _Min_Stack_Size)
+ *fill*         0x00000000200006e8      0x400 
+                0x0000000020000ae8                . = ALIGN (0x8)
 
 /DISCARD/
  libc.a(*)
@@ -3022,7 +3032,6 @@ GPIO::init()                                      CMakeFiles/F446re.elf.dir/driv
                                                   CMakeFiles/F446re.elf.dir/apps/led/led.cpp.obj
                                                   CMakeFiles/F446re.elf.dir/drivers/sdio/sdio.cpp.obj
 GPIO::~GPIO()                                     CMakeFiles/F446re.elf.dir/drivers/gpio/gpio.cpp.obj
-                                                  CMakeFiles/F446re.elf.dir/main.cpp.obj
                                                   CMakeFiles/F446re.elf.dir/nucleo/f446re.cpp.obj
                                                   CMakeFiles/F446re.elf.dir/apps/console/console.cpp.obj
                                                   CMakeFiles/F446re.elf.dir/apps/led/led.cpp.obj
@@ -3043,7 +3052,6 @@ LED::init()                                       CMakeFiles/F446re.elf.dir/apps
                                                   CMakeFiles/F446re.elf.dir/nucleo/f446re.cpp.obj
 LED::off()                                        CMakeFiles/F446re.elf.dir/apps/led/led.cpp.obj
 LED::on()                                         CMakeFiles/F446re.elf.dir/apps/led/led.cpp.obj
-                                                  CMakeFiles/F446re.elf.dir/main.cpp.obj
 MemManage_Handler                                 CMakeFiles/F446re.elf.dir/ARM/startup_stm32f446xx.s.obj
 NMI_Handler                                       CMakeFiles/F446re.elf.dir/ARM/startup_stm32f446xx.s.obj
 OTG_FS_IRQHandler                                 CMakeFiles/F446re.elf.dir/ARM/startup_stm32f446xx.s.obj
@@ -3066,20 +3074,22 @@ RTC_WKUP_IRQHandler                               CMakeFiles/F446re.elf.dir/ARM/
 Reset_Handler                                     CMakeFiles/F446re.elf.dir/ARM/startup_stm32f446xx.s.obj
 SAI1_IRQHandler                                   CMakeFiles/F446re.elf.dir/ARM/startup_stm32f446xx.s.obj
 SAI2_IRQHandler                                   CMakeFiles/F446re.elf.dir/ARM/startup_stm32f446xx.s.obj
-SD::ACMD41()                                      CMakeFiles/F446re.elf.dir/drivers/sdio/sdio.cpp.obj
-SD::CMD0()                                        CMakeFiles/F446re.elf.dir/drivers/sdio/sdio.cpp.obj
-SD::CMD8()                                        CMakeFiles/F446re.elf.dir/drivers/sdio/sdio.cpp.obj
 SD::SD()                                          CMakeFiles/F446re.elf.dir/drivers/sdio/sdio.cpp.obj
-                                                  CMakeFiles/F446re.elf.dir/main.cpp.obj
+                                                  CMakeFiles/F446re.elf.dir/nucleo/f446re.cpp.obj
 SD::SD()                                          CMakeFiles/F446re.elf.dir/drivers/sdio/sdio.cpp.obj
+SD::getCardInfo()                                 CMakeFiles/F446re.elf.dir/drivers/sdio/sdio.cpp.obj
 SD::getResponse(unsigned long)                    CMakeFiles/F446re.elf.dir/drivers/sdio/sdio.cpp.obj
 SD::init()                                        CMakeFiles/F446re.elf.dir/drivers/sdio/sdio.cpp.obj
+                                                  CMakeFiles/F446re.elf.dir/nucleo/f446re.cpp.obj
+SD::initCard()                                    CMakeFiles/F446re.elf.dir/drivers/sdio/sdio.cpp.obj
                                                   CMakeFiles/F446re.elf.dir/main.cpp.obj
-SD::sendCommand(unsigned long, unsigned long, unsigned long) CMakeFiles/F446re.elf.dir/drivers/sdio/sdio.cpp.obj
-SDIO_GetResponse(unsigned long)                   CMakeFiles/F446re.elf.dir/main.cpp.obj
+SD::readBlock(unsigned long, unsigned long*, unsigned long) CMakeFiles/F446re.elf.dir/drivers/sdio/sdio.cpp.obj
+                                                  CMakeFiles/F446re.elf.dir/main.cpp.obj
+SD::sendCommand(unsigned long, unsigned long, SD_RESP_SIZE) CMakeFiles/F446re.elf.dir/drivers/sdio/sdio.cpp.obj
+SD::setFastClock()                                CMakeFiles/F446re.elf.dir/drivers/sdio/sdio.cpp.obj
+SD::writeBlock(unsigned long, unsigned long*, unsigned long) CMakeFiles/F446re.elf.dir/drivers/sdio/sdio.cpp.obj
+                                                  CMakeFiles/F446re.elf.dir/main.cpp.obj
 SDIO_IRQHandler                                   CMakeFiles/F446re.elf.dir/ARM/startup_stm32f446xx.s.obj
-SDIO_SendCommand(unsigned long, unsigned long, unsigned long) CMakeFiles/F446re.elf.dir/main.cpp.obj
-SD_CardInit()                                     CMakeFiles/F446re.elf.dir/main.cpp.obj
 SPDIF_RX_IRQHandler                               CMakeFiles/F446re.elf.dir/ARM/startup_stm32f446xx.s.obj
 SPI1_IRQHandler                                   CMakeFiles/F446re.elf.dir/ARM/startup_stm32f446xx.s.obj
 SPI2_IRQHandler                                   CMakeFiles/F446re.elf.dir/ARM/startup_stm32f446xx.s.obj
@@ -3452,7 +3462,9 @@ memmove                                           /usr/lib/gcc/arm-none-eabi/10.
 memset                                            /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-memset.o)
                                                   /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libstdc++_nano.a(eh_alloc.o)
                                                   /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libstdc++_nano.a(string-inst.o)
+                                                  CMakeFiles/F446re.elf.dir/main.cpp.obj
                                                   CMakeFiles/F446re.elf.dir/apps/console/console.cpp.obj
+                                                  CMakeFiles/F446re.elf.dir/drivers/sdio/sdio.cpp.obj
                                                   /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/crt0.o
 operator delete(void*)                            /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libstdc++_nano.a(del_op.o)
                                                   /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libstdc++_nano.a(string-inst.o)
@@ -3463,7 +3475,6 @@ operator delete(void*, unsigned int)              /usr/lib/gcc/arm-none-eabi/10.
                                                   /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libstdc++_nano.a(si_class_type_info.o)
                                                   /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libstdc++_nano.a(eh_exception.o)
                                                   /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libstdc++_nano.a(class_type_info.o)
-                                                  CMakeFiles/F446re.elf.dir/main.cpp.obj
                                                   CMakeFiles/F446re.elf.dir/nucleo/f446re.cpp.obj
                                                   CMakeFiles/F446re.elf.dir/apps/console/console.cpp.obj
                                                   CMakeFiles/F446re.elf.dir/drivers/sdio/sdio.cpp.obj
@@ -3487,6 +3498,7 @@ std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >:
 std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_Alloc_hider::_Alloc_hider(char*, std::allocator<char>&&) /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libstdc++_nano.a(string-inst.o)
 std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_Alloc_hider::_Alloc_hider(char*, std::allocator<char>&&) /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libstdc++_nano.a(string-inst.o)
 std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_append(char const*, unsigned int) /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libstdc++_nano.a(string-inst.o)
+                                                  CMakeFiles/F446re.elf.dir/drivers/sdio/sdio.cpp.obj
 std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_assign(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libstdc++_nano.a(string-inst.o)
 std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_capacity(unsigned int) /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libstdc++_nano.a(string-inst.o)
 std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_check(unsigned int, char const*) const /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libstdc++_nano.a(string-inst.o)
@@ -3511,6 +3523,7 @@ std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >:
 std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_mutate(unsigned int, unsigned int, char const*, unsigned int) /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libstdc++_nano.a(string-inst.o)
                                                   CMakeFiles/F446re.elf.dir/apps/console/console.cpp.obj
 std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_replace(unsigned int, unsigned int, char const*, unsigned int) /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libstdc++_nano.a(string-inst.o)
+                                                  CMakeFiles/F446re.elf.dir/main.cpp.obj
                                                   CMakeFiles/F446re.elf.dir/apps/console/console.cpp.obj
 std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_replace_aux(unsigned int, unsigned int, unsigned int, char) /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libstdc++_nano.a(string-inst.o)
 std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_set_length(unsigned int) /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libstdc++_nano.a(string-inst.o)

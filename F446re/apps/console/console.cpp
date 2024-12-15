@@ -137,7 +137,7 @@ void Console::print(const char *format, ...){
 	console_tx_busy = 1;
 
     // Format the thing
-    static char buffer[128];
+    static char buffer[1024];
     va_list args;
     va_start(args, format);
     int len = vsnprintf(buffer, sizeof(buffer), format, args);

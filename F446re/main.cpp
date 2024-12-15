@@ -1,93 +1,23 @@
+
 #include "f446re.hpp"
-#include "sdio.hpp"
-
-// Define SDIO command response types
-#define SDIO_CMD_WAITRESP_NO       (0x0 << SDIO_CMD_WAITRESP_Pos) // No response
-#define SDIO_CMD_WAITRESP_SHORT    (0x1 << SDIO_CMD_WAITRESP_Pos) // Short response
-#define SDIO_CMD_WAITRESP_LONG     (0x2 << SDIO_CMD_WAITRESP_Pos) // Long response
-
-// Timeout value for waiting loops
-#define SDIO_CMD_TIMEOUT           1000000
-
-// Send a command via SDIO
-void SDIO_SendCommand(uint32_t cmdIndex, uint32_t argument, uint32_t responseType) {
-    // Clear all previous flags
-    SDIO->ICR = 0xFFFFFFFF;
-
-    // Set command argument
-    SDIO->ARG = argument;
-
-    // Set command index and response type
-    SDIO->CMD = (cmdIndex & SDIO_CMD_CMDINDEX) | responseType | SDIO_CMD_CPSMEN;
-
-    // Wait for command to complete or timeout
-    uint32_t timeout = SDIO_CMD_TIMEOUT;
-    while (!(SDIO->STA & (SDIO_STA_CMDSENT | SDIO_STA_CMDREND | SDIO_STA_CTIMEOUT)) && --timeout);
-
-    if (timeout == 0 || (SDIO->STA & SDIO_STA_CTIMEOUT)) {
-        // Handle timeout error if necessary
-    }
-}
-
-// Read response from SDIO
-uint32_t SDIO_GetResponse(uint32_t responseReg) {
-    switch (responseReg) {
-        case 1: return SDIO->RESP1;
-        case 2: return SDIO->RESP2;
-        case 3: return SDIO->RESP3;
-        case 4: return SDIO->RESP4;
-        default: return 0;
-    }
-}
-
-// Initialize the SD card
-int SD_CardInit(void) {
-    // CMD0: Reset the card to idle state
-    SDIO_SendCommand(0, 0x00000000, SDIO_CMD_WAITRESP_NO);
-
-    // CMD8: Check voltage range and pattern
-    SDIO_SendCommand(8, 0x000001AA, SDIO_CMD_WAITRESP_SHORT);
-    if (SDIO->STA & SDIO_STA_CTIMEOUT) {
-        return -1; // Timeout: card may not support CMD8
-    }
-	if (SDIO->STA & (SDIO_STA_CTIMEOUT | SDIO_STA_CCRCFAIL)) {
-    	// Handle timeout or CRC failure
-    	SDIO->ICR = SDIO_ICR_CTIMEOUTC | SDIO_ICR_CCRCFAILC; // Clear error flags
-    	return -2; // Indicate an error
-	}
-    uint32_t response = SDIO_GetResponse(1);
-    if ((response & 0xFFF) != 0x1AA) {
-        return -3; // Invalid response
-    }
-    // ACMD41: Initialize card (must be preceded by CMD55)
-    uint32_t ocr;
-    do {
-        // CMD55: Indicate next command is application-specific
-        SDIO_SendCommand(55, 0x00000000, SDIO_CMD_WAITRESP_SHORT);
-
-        // ACMD41: Send operation condition register (HCS bit = 1 for SDHC/SDXC)
-        SDIO_SendCommand(41, 0x40300000, SDIO_CMD_WAITRESP_SHORT);
-
-        ocr = SDIO_GetResponse(1);
-    } while (!(ocr & 0x80000000)); // Wait until card is ready
-
-    // Set block length (CMD16, 512 bytes)
-    SDIO_SendCommand(16, 512, SDIO_CMD_WAITRESP_SHORT);
-    if (SDIO->STA & SDIO_STA_CTIMEOUT) {
-        return -4; // Timeout
-    }
-    return 0; // Initialization successful
-}
 
 int main(void) {
 	F446re mcu;
-	mcu.led.on();
-    // Configure GPIOs and SDIO peripheral
-    SD sd;
-    sd.init();
     // Initialize SD card
-	uint32_t res = SD_CardInit();
-	mcu.console.print("Response: %i\r\n", res);
+	uint32_t res = mcu.sd.initCard();
+	mcu.console.print("SD Initialization logs:\r\n%s", mcu.sd.logs.c_str());
+    mcu.sd.logs = "";
+    // Test Writes
+	mcu.console.print("SD Writes\r\n");
+    uint8_t tab_w[512] = {};
+    for(int i = 0; i < 512; i++) tab_w[i] = i;
+    mcu.sd.writeBlock(0,(uint32_t*)(tab_w),512);
+    // Test Reads
+	mcu.console.print("SD Reads\r\n");
+    uint8_t tab_r[512] = {};
+    mcu.sd.readBlock(0,(uint32_t*)(tab_r),512);
+    for(int i = 0; i < 512; i++) 
+        mcu.console.print("tab[%i]:%i\r\n",i,tab_r[i]);
     while (1) {
         mcu.console.processLine();
     }
