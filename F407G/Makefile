@@ -21,4 +21,4 @@ probe:
 	st-info --probe
 
 uart:
-	picocom --echo -b 115200 /dev/ttyACM1
+	picocom --echo -b 115200 /dev/ttyAMA0
