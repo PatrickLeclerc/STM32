@@ -1,8 +1,16 @@
 #include "console.hpp"
 
-#include <string>
 #include <cstring>
 #include <stdio.h>
+
+#define RST "\e[37m"
+#define RED "\e[31m"
+#define GRN "\e[32m"
+#define YEL "\e[33m"
+#define BLU "\e[34m"
+#define MAG "\e[35m"
+#define CYN "\e[36m"
+#define WHT "\e[37m"
 
 volatile int console_tx_busy = 0;
 volatile int console_line_rdy = 0;
@@ -86,13 +94,27 @@ void Console::assemble_commands(){
 }
 
 void Console::banner(){
-    print(" \033[30m       \\\\                          //          \r\n");
-    print(" \033[30m\\\\      (\033[33mo\033[30m>      \033[38;5;5mSTM32F407G\033[30m       <\033[33mo\033[30m)       // \r\n");
-    print(" \033[30m(\033[33mo\033[30m>     //\\                       /\\\\      <\033[33mo\033[30m)   \r\n");
-    print("\033[38;5;5m_\033[30m(()\033[38;5;5m_____\033[30mV_/\033[38;5;5m______________________ \033[30m\\_V\033[38;5;5m _____\033[30m())\033[38;5;5m_ \r\n");
-    print(" \033[30m||      ||                         ||       ||   \r\n");
-    print(" \033[30m        ||                         ||            \r\n");
-    print("\033[30m \r\n");
+    std::string text = "";
+    text += BLU;
+    text += "╔══════════════════════════════════════════╗\r\n";
+    text += "║███████╗██╗  ██╗ ██████╗ ███████╗ ██████╗ ║\r\n";text += CYN;
+    text += "║██╔════╝██║  ██║██╔═████╗╚════██║██╔════╝ ║\r\n";
+    text += "║█████╗  ███████║██║██╔██║    ██╔╝██║  ███╗║\r\n";text += GRN;
+    text += "║██╔══╝  ╚════██║████╔╝██║   ██╔╝ ██║   ██║║\r\n";
+    text += "║██║          ██║╚██████╔╝   ██║  ╚██████╔╝║\r\n";text += YEL;
+    text += "║╚═╝          ╚═╝ ╚═════╝    ╚═╝   ╚═════╝ ║\r\n";
+    text += "║                                          ║\r\n";text += RED;
+    // Text
+    text += "║        ";// adjust pos
+    text+= WHT;
+    text+="test mode / console mode";
+    text+= RED; 
+    text+= "          ║\r\n";// adjust pos
+    //
+    text += "║                                          ║\r\n"; 
+    text += "╚══════════════════════════════════════════╝\r\n";
+    text += RST;
+    print("%s", text.c_str());
 }
 
 void Console::processLine(){
@@ -129,7 +151,7 @@ void Console::print(const char *format, ...){
 	console_tx_busy = 1;
 
     // Format the thing
-    static char buffer[1024];
+    static char buffer[2048];
     va_list args;
     va_start(args, format);
     int len = vsnprintf(buffer, sizeof(buffer), format, args);
@@ -145,11 +167,9 @@ void Console::print(const char *format, ...){
 }
 void Console::help_command(){
     banner();
-    print("\033[38;5;5m-----------------------------------------\033[30m\r\n");
     for (auto& cmd : commands) {
-        print("%s\t- %s\r\n", cmd.name.c_str(), cmd.help.c_str());
+        print("%-16s - %s\r\n", cmd.name.c_str(), cmd.help.c_str());
     }
-    print("\033[38;5;5m-----------------------------------------\033[30m\r\n");
 }
 void Console::time_command(){
 	char time[9];
@@ -171,7 +191,6 @@ void DMA1_Stream6_IRQHandler(){
 		DMA1->HIFCR = DMA_HIFCR_CTCIF6;
 		console_tx_busy = 0;
 	}}
-
 void USART2_IRQHandler(){
     static int i = 0;
 	if(USART2->SR & USART_SR_RXNE){

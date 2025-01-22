@@ -32,9 +32,9 @@ private:
     std::vector<std::string> convert_args();
     void assemble_commands();
     void help_command();
+    void cls_command();
     void time_command();
     void echo_command();
-    void cls_command();
 
 public:
     Console() : Console(115200) {};

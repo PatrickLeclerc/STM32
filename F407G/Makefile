@@ -2,7 +2,6 @@ all:
 	make clean
 	make build
 	make flash
-	#make uart
 
 build:
 	cmake -S . -B build -DCMAKE_TOOLCHAIN_FILE=toolchain.cmake
