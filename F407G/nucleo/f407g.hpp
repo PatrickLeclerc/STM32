@@ -1,7 +1,6 @@
 #include "clock.hpp"
 #include "led.hpp"
-//#include "console.hpp"
-#include "comport.hpp"
+#include "console.hpp"
 
 class F407G
 {
@@ -13,6 +12,5 @@ public:
     ~F407G();
     // Apps
     LED led;
-    //Console console;
-    Comport comport;
+    Console console;
 };

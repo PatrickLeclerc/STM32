@@ -30,8 +30,8 @@ set(CXX_SOURCES
 
     # Apps
     apps/led/led.cpp
-    #apps/console/console.cpp
     apps/console/comport.cpp
+    apps/console/console.cpp
     nucleo/f407g.cpp
     main.cpp
 )

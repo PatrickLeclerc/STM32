@@ -87,28 +87,3 @@ void DMA1_Stream6_IRQHandler(){
 		DMA1->HIFCR = DMA_HIFCR_CTCIF6;
 		comport_tx_busy = 0;
 	}}
-
-// put this up
-void USART2_IRQHandler(){
-    static int i = 0;
-	if(USART2->SR & USART_SR_RXNE){
-        char new_char = (char)USART2->DR;
-        if((new_char == '\r') || (new_char == '\r')){
-            comport_rx_buff[i] = '\0';
-            i = 0;
-            comport_line_rdy = 1;
-        }
-        else if ((new_char == 0x8) || (new_char == 0x7F)) { // backspace or whatever picocom sends
-            if(--i < 0) i = 0;
-            comport_rx_buff[i] = '\0';
-        }
-        else {
-            comport_rx_buff[i] = new_char;
-            if(++i >= COMPORT_RX_BUFF_SIZE){
-                i = 0;
-                comport_line_rdy = -1;
-            }
-        }
-		USART2->SR &= ~USART_SR_RXNE;
-	}
-}

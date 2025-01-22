@@ -2,9 +2,8 @@
 
 int main(void) {
     F407G mcu;
-    mcu.comport.print("Hello World!\n");
     while (1) {
-       // mcu.console.processLine();
+       mcu.console.processLine();
     }
 
     return 0;
