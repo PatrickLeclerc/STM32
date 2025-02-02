@@ -30,7 +30,6 @@ Comport::Comport(uint32_t baud)
         .af = 0x7
     };
 	gpio = GPIO(u2_gpio);
-    
     DMA_CFG_t u2_dma_tx ={
         .regs       = 0,
 		.n			= 1,
@@ -52,7 +51,6 @@ Comport::Comport(uint32_t baud)
 		.htie		= 0,
 		.en			= 0};
     dma_tx = DMA(u2_dma_tx);
-    
 }
 
 void Comport::init(){

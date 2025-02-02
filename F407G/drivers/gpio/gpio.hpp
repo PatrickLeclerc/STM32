@@ -16,6 +16,7 @@ typedef enum GPIO_MODE{
 	GPIO_MODE_AF,
 	GPIO_MODE_AN
 }GPIO_MODE_t;
+
 /*Structs*/
 typedef struct __attribute__((__packed__)) {
 	GPIO_TypeDef* 		regs;

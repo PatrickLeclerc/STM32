@@ -58,9 +58,6 @@ include_directories(
     apps/console
     # Top
     nucleo
-
-#    drivers/tim
-
 )
 
 # Define the target and add sources

@@ -3,26 +3,15 @@
 #include <cstring>
 #include <stdio.h>
 
-#define RST "\e[37m"
-#define RED "\e[31m"
-#define GRN "\e[32m"
-#define YEL "\e[33m"
-#define BLU "\e[34m"
-#define MAG "\e[35m"
-#define CYN "\e[36m"
-#define WHT "\e[37m"
-
-Console::Console(uint32_t baud)
+Console::Console()
 {
-    com.init();
-    assemble_commands();
+    commands.push_back(Command("help"   , "Displays this message" , std::bind(&Console::help_command  , this)));
+    commands.push_back(Command("cls"    , "Clear the terminal"    , std::bind(&Console::cls_command   , this)));
+    commands.push_back(Command("echo"   , "Echo the inputs"       , std::bind(&Console::echo_command  , this), -1));
 }
 
 void Console::init(){
-    cls_command();
-    //com.print("[DEBUG] Everything starts here...\r\n");
-    help_command();
-    //com.print("[DEBUG] End of help command.\r\n");
+    com.init();
 }
 std::vector<std::string> Console::convert_args(){
     std::vector<std::string> args;
@@ -37,38 +26,24 @@ std::vector<std::string> Console::convert_args(){
     }while(rx[i++] != 0x0);
     return args;
 }
-void Console::assemble_commands(){
-	commands.push_back(Command("help"   , "Displays this message" , std::bind(&Console::help_command  , this)));
-	commands.push_back(Command("cls"    , "Clear the terminal"    , std::bind(&Console::cls_command   , this)));
-	commands.push_back(Command("time"   , "Display RTC time"      , std::bind(&Console::time_command  , this)));
-	commands.push_back(Command("echo"   , "Echo the inputs"       , std::bind(&Console::echo_command  , this), -1));
-}
+
 void Console::banner(){
     std::string text = "";
     text += BLU;
     text += "╔══════════════════════════════════════════╗\r\n";
-    text += "║███████╗██╗  ██╗ ██████╗ ███████╗ ██████╗ ║\r\n";text += CYN;
-    text += "║██╔════╝██║  ██║██╔═████╗╚════██║██╔════╝ ║\r\n";
-    text += "║█████╗  ███████║██║██╔██║    ██╔╝██║  ███╗║\r\n";text += GRN;
+    text += "║███████╗██╗  ██╗ ██████╗ ███████╗ ██████╗ ║\r\n";
+    text += "║██╔════╝██║  ██║██╔═████╗╚════██║██╔════╝ ║\r\n";text += CYN;
+    text += "║█████╗  ███████║██║██╔██║    ██╔╝██║  ███╗║\r\n";
     text += "║██╔══╝  ╚════██║████╔╝██║   ██╔╝ ██║   ██║║\r\n";
-    text += "║██║          ██║╚██████╔╝   ██║  ╚██████╔╝║\r\n";text += YEL;
+    text += "║██║          ██║╚██████╔╝   ██║  ╚██████╔╝║\r\n";text += GRN;
     text += "║╚═╝          ╚═╝ ╚═════╝    ╚═╝   ╚═════╝ ║\r\n";
-    text += "║                                          ║\r\n";text += RED;
-    // Text
-    text += "║        ";// adjust pos
-    text+= WHT;
-    text+="test mode / console mode";
-    text+= RED; 
-    text+= "          ║\r\n";// adjust pos
-    //
-    text += "║                                          ║\r\n"; 
     text += "╚══════════════════════════════════════════╝\r\n";
     text += RST;
     com.print("%s", text.c_str());
 }
 
 void Console::processLine(){
-    //com.print("processLine\r\n");
+    // Wait for interrupt
     while(0 == comport_line_rdy){}
     if(comport_line_rdy == -1){
         comport_line_rdy = 0;
@@ -76,7 +51,7 @@ void Console::processLine(){
         return;
     }
     comport_line_rdy = 0;
-    // Basic terminal commands
+    // Find commands
     bool found = 0;
     std::vector<std::string> args = convert_args();
     uint8_t string_n = args.size();
@@ -103,14 +78,8 @@ void Console::help_command(){
         com.print("%-16s - %s\r\n", cmd.name.c_str(), cmd.help.c_str());
     }
 }
-void Console::time_command(){
-	char time[9];
-    time[8] = '\0';
-	rtc.get_bcd(time);
-	com.print("%s\r\n",time);
-}
 void Console::cls_command(){
-	com.print("\033[2J");
+	com.print(CLS.c_str());
 }
 void Console::echo_command(){
 	std::vector<std::string> args = convert_args();
