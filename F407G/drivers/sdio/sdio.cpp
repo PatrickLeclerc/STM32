@@ -141,7 +141,7 @@ SD::SD(){
 	gpio.push_back(GPIO(d0_d1_d2_d3_clk));
 	// SDIO Specifics
 	cfg.regs = SDIO;
-    cfg.wid = SD_WIDBUS_1;
+    cfg.wid = SD_WIDBUS_1; // Doesn't work for 4B intf :(
     cfg.clk_div_slow = ((SystemCoreClock / 4U) / 400000  ) - 2; // 400KHz = FCLK45USB_CLK / [CLKDIV + 2].
     cfg.clk_div_fast = ((SystemCoreClock / 4U) / 10000000) - 2; // 10MHz = FCLK45USB_CLK / [CLKDIV + 2].
 }
@@ -581,9 +581,7 @@ SD_ERROR_t SD::initCard(void){
 	return SDR_Success;
 }
 
-SD_ERROR_t initCard(void){
 
-}
 // Parse information about specific card
 // note: CSD/CID register values already must be in the cardDef structure
 inline void SD::getCardInfo(void) {

@@ -27,6 +27,7 @@ set(CXX_SOURCES
     drivers/rtc/rtc.cpp
     drivers/dma/dma.cpp
     drivers/tim/tim.cpp
+    drivers/sdio/sdio.cpp
 
     # Apps
     apps/led/led.cpp
@@ -52,6 +53,7 @@ include_directories(
     drivers/rtc
     drivers/dma
     drivers/tim
+    drivers/sdio
     # Apps
     apps
     apps/led
