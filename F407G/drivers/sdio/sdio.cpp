@@ -729,7 +729,7 @@ inline SD_ERROR_t SD::getSCR(uint32_t *pSCR) {
 // input:
 //   addr - address of the block to be read
 //   pBuf - pointer to the buffer that will contain the received data
-//   length - buffer length (must be multiple of 512)
+//   length - buffer length (must be multiple of 512 bytes)
 // return: SDResult value
 SD_ERROR_t SD::readBlock(uint32_t addr, uint32_t *pBuf, uint32_t length) {
 	SD_ERROR_t cmd_res = SDR_Success;
