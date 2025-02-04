@@ -17,6 +17,11 @@ set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${BUILD_DIR})
 # Source files
 set(C_SOURCES
     ARM/Core/Src/system_stm32f4xx.c
+    #FFS
+    #ThirdParty/ff15a/source/diskio.c
+    ThirdParty/ff15a/source/ff.c
+    ThirdParty/ff15a/source/ffsystem.c
+    ThirdParty/ff15a/source/ffunicode.c
 )
 
 set(CXX_SOURCES
@@ -58,6 +63,8 @@ include_directories(
     apps
     apps/led
     apps/console
+    #FFS
+    ThirdParty/ff15a/source
     # Top
     nucleo
 )
