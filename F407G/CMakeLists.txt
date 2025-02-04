@@ -33,12 +33,16 @@ set(CXX_SOURCES
     drivers/dma/dma.cpp
     drivers/tim/tim.cpp
     drivers/sdio/sdio.cpp
-
+    
     # Apps
     apps/led/led.cpp
     apps/console/comport.cpp
     apps/console/console.cpp
     nucleo/f407g.cpp
+    
+    # FF
+    apps/fs/fs.cpp
+
     main.cpp
 )
 
@@ -65,6 +69,7 @@ include_directories(
     apps/console
     #FFS
     ThirdParty/ff15a/source
+    apps/fs
     # Top
     nucleo
 )

@@ -4,8 +4,10 @@ F407G::F407G(){
     console.commands.push_back(Command("time"   , "Display RTC time"        , std::bind(&F407G::time_command, this)));
     console.init();
     led.init();
+    fs.init();
 }
 F407G::~F407G(){}
+
 void F407G::time_command(){
 	char time[9];
     time[8] = '\0';

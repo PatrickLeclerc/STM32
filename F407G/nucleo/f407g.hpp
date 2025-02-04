@@ -4,6 +4,7 @@
 #include "clock.hpp"
 #include "led.hpp"
 #include "console.hpp"
+#include "fs.hpp"
 
 class F407G
 {
@@ -16,6 +17,7 @@ public:
     RTCLOCK rtc;
     LED led;
     Console console;
+    FS fs;
 };
 
 #endif
